@@ -1,0 +1,32 @@
+Ahora, me vas a ayudar en lo siguiente. Del tipo de prueba funcional, hay un tema en especial que se llama: 
+analítica de datos. 
+Por favor, investiga en Internet. Investiga en todo lo que tienes. Con información actualizada hasta hoy, septiembre del 2025, 
+todo lo que tenga que ver con este tema, 
+para yo poder prepararme de la mejor manera y afrontar las preguntas que hace la Comisión Nacional del Servicio Civil con respecto a mi cargo postulado, 
+Tengo el examen muy pronto y necesito un material muy completo. Me gusta leer mucho, que sea extenso, que sea bien detallado, 
+solo necesito el material de estudio hasta el momento preguntas o simulacros no, solo concentrate en material de estudio y algunos tips para este tipo de 
+pruebas con respecto a este tema.
+
+------------------------
+
+Ahora, del tema anterior llamado 
+Analítica de Datos
+me  vas a hacer un simulacro de 20 preguntas, las más difíciles que puedas conseguir, 
+con tres opciones de respuesta, que no se note una respuesta que es la correcta, sino que las tres respuestas sean casi parecidas, 
+para que el desafío de acertar sea más complicado. Pero estas 20 preguntas me las vas a dar en formato o código JSON, 
+que es lo que estamos manejando. Y vas a empezar en el ID 4, hasta el ID 24. Aquí te dejo un ejemplo de la estructura JSON.
+
+{
+    "id": 3,
+    "caso": "El área de planeación necesita conocer el impacto de las nuevas tecnologías en la entidad para proponer mejoras en la gestión de la información. Te han asignado la tarea de analizar y procesar grandes volúmenes de datos históricos para identificar patrones que ayuden en la toma de decisiones estratégicas.",
+    "enunciado": "De acuerdo con el propósito del cargo, ¿cómo se relaciona esta tarea con la función de 'Analítica de datos'?",
+    "opciones": [
+      "A. El propósito del cargo es exclusivamente el desarrollo de aplicaciones internas, no el análisis de datos.",
+      "B. La analítica de datos no es una función, sino un conocimiento básico y no se relaciona con la toma de decisiones.",
+      "C. El propósito del cargo es orientar la incorporación de nuevas tecnologías que aporten mejoras en el análisis y procesamiento de la información, lo que se logra a través de la analítica de datos."
+    ],
+    "respuesta_correcta": "C",
+    "explicacion": "El propósito del cargo, según el documento, es 'Orientar la incorporación de nuevas tecnologías, para la construcción de soluciones innovadoras, que aporten mejoras en el análisis y procesamiento de información'. La analítica de datos es la herramienta principal para lograr este objetivo, al procesar grandes volúmenes de datos para identificar patrones y aportar a la toma de decisiones."
+  }
+
+  pasame el codigo sin el corchete inicial ni el final porque ya tengo una estructura y preguntas previas pero eso si una coma despues de cada pregunta.

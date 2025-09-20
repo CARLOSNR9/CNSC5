@@ -1,0 +1,800 @@
+[
+  {
+    "id": 1,
+    "caso": "El departamento de la Dirección de Tecnologías de la Información y las Telecomunicaciones le ha solicitado un informe detallado sobre el rendimiento de los procesos de selección pasados, con el fin de identificar tendencias y tomar decisiones informadas. Para esto, necesita unificar datos de diferentes fuentes y formatos.",
+    "enunciado": "Para cumplir con esta solicitud, ¿qué función esencial del cargo debe ejecutar?",
+    "opciones": [
+      "A. Analizar los requerimientos para la estructuración de modelos de datos en la integración de los sistemas de información.",
+      "B. Construir procedimientos de transformación y extracción de datos para realizar análisis de información.",
+      "C. Promover la implementación y gestión de nuevas tecnologías para innovar en los proyectos."
+    ],
+    "respuesta_correcta": "B",
+    "explicacion": "Para realizar el análisis solicitado, es fundamental 'Construir procedimientos de transformación y extracción de datos', una de las funciones clave del cargo. Esto permitirá limpiar y preparar la información para el análisis posterior, permitiendo identificar las tendencias requeridas."
+  },
+  {
+    "id": 2,
+    "caso": "El jefe de la dirección te encarga implementar un sistema de monitoreo que cruce datos de la plataforma SIMO con los resultados de las pruebas de los aspirantes, para generar informes en tiempo real sobre la afluencia de participantes y los puntajes promedio.",
+    "enunciado": "¿Qué acción, según tus funciones, es la más relevante para esta tarea?",
+    "opciones": [
+      "A. Implementar y elaborar informes de analítica de datos, para cruce con bases de datos, dentro de los sistemas de información.",
+      "B. Diseñar y estructurar modelos de datos para los requerimientos de desarrollo e intervención de los sistemas de información.",
+      "C. Evaluar y valorar la implementación de herramientas de software libre, como primera opción de recursos técnicos."
+    ],
+    "respuesta_correcta": "A",
+    "explicacion": "La función 'Implementar y elaborar informes de analítica de datos, para cruce con bases de datos' se ajusta perfectamente al requerimiento del jefe, ya que implica la creación de reportes a partir de la unificación de información de diferentes fuentes, como la plataforma SIMO y los resultados de las pruebas."
+  },
+  {
+    "id": 3,
+    "caso": "El área de planeación necesita conocer el impacto de las nuevas tecnologías en la entidad para proponer mejoras en la gestión de la información. Te han asignado la tarea de analizar y procesar grandes volúmenes de datos históricos para identificar patrones que ayuden en la toma de decisiones estratégicas.",
+    "enunciado": "De acuerdo con el propósito del cargo, ¿cómo se relaciona esta tarea con la función de 'Analítica de datos'?",
+    "opciones": [
+      "A. El propósito del cargo es exclusivamente el desarrollo de aplicaciones internas, no el análisis de datos.",
+      "B. La analítica de datos no es una función, sino un conocimiento básico y no se relaciona con la toma de decisiones.",
+      "C. El propósito del cargo es orientar la incorporación de nuevas tecnologías que aporten mejoras en el análisis y procesamiento de la información, lo que se logra a través de la analítica de datos."
+    ],
+    "respuesta_correcta": "C",
+    "explicacion": "El propósito del cargo, según el documento, es 'Orientar la incorporación de nuevas tecnologías, para la construcción de soluciones innovadoras, que aporten mejoras en el análisis y procesamiento de información'. La analítica de datos es la herramienta principal para lograr este objetivo, al procesar grandes volúmenes de datos para identificar patrones y aportar a la toma de decisiones."
+  },
+
+{
+  "id": 4,
+  "caso": "Un equipo de la entidad recibe datos con errores tipográficos y valores faltantes en variables críticas para un reporte de política pública.",
+  "enunciado": "¿Qué técnica es más adecuada dentro de un proceso de analítica de datos para manejar este escenario?",
+  "opciones": [
+    "A. Aplicar modelos predictivos sin alterar los datos para evitar sesgos.",
+    "B. Implementar procesos de limpieza y transformación, incluyendo imputación y estandarización de valores.",
+    "C. Mantener los datos tal como están y delegar al área de políticas la interpretación de los vacíos."
+  ],
+  "respuesta_correcta": "B",
+  "explicacion": "El preprocesamiento y limpieza son pasos fundamentales en el ciclo de analítica de datos, garantizando consistencia y calidad antes de aplicar modelos o visualizaciones."
+},
+{
+  "id": 5,
+  "caso": "El área directiva solicita un tablero con información en tiempo real de la gestión de trámites ciudadanos.",
+  "enunciado": "Dentro del ciclo de analítica de datos, ¿qué componente es más crítico para este requerimiento?",
+  "opciones": [
+    "A. La fase de despliegue, que incluye la construcción de tableros dinámicos conectados a las fuentes.",
+    "B. La fase de entendimiento del negocio, porque se deben identificar las necesidades antes de mostrar datos.",
+    "C. La fase de evaluación, ya que en esta se generan los indicadores finales para la alta dirección."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "Aunque todas las fases son importantes, un tablero en tiempo real depende principalmente de un despliegue robusto que conecte modelos y fuentes de datos al entorno productivo."
+},
+{
+  "id": 6,
+  "caso": "Un analista debe decidir entre usar un modelo de regresión lineal o un modelo de bosque aleatorio para predecir la demanda de un servicio.",
+  "enunciado": "¿Cuál sería un criterio clave para escoger el modelo más apropiado?",
+  "opciones": [
+    "A. La disponibilidad de interfaces gráficas amigables para el usuario final.",
+    "B. La capacidad de generalizar con precisión y manejar relaciones no lineales en los datos.",
+    "C. El número de usuarios que participan en la recolección de datos de entrenamiento."
+  ],
+  "respuesta_correcta": "B",
+  "explicacion": "Los bosques aleatorios son más apropiados cuando los datos presentan relaciones no lineales y complejas, mientras que la regresión lineal es más limitada en este aspecto."
+},
+{
+  "id": 7,
+  "caso": "Durante la integración de bases de datos de diferentes dependencias, se detecta que cada una utiliza un formato distinto para los nombres de municipios.",
+  "enunciado": "¿Qué acción debería implementarse como parte de la analítica de datos?",
+  "opciones": [
+    "A. Realizar un mapeo de equivalencias y normalizar los valores a un estándar común.",
+    "B. Mantener los diferentes formatos para respetar la fuente original de cada dependencia.",
+    "C. Eliminar las filas que contengan municipios con formatos distintos para evitar confusión."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "La normalización de variables categóricas permite integrar datos de manera consistente, lo cual es esencial para análisis comparables y confiables."
+},
+{
+  "id": 8,
+  "caso": "La entidad planea publicar sus conjuntos de datos en el portal nacional de datos abiertos.",
+  "enunciado": "¿Qué aspecto es fundamental para garantizar la calidad de los datos publicados?",
+  "opciones": [
+    "A. Proporcionar metadatos estandarizados y documentación clara del contenido.",
+    "B. Mantener los datos en bruto sin cambios para que cada usuario los interprete libremente.",
+    "C. Subir los archivos en el formato interno de la entidad sin considerar estándares abiertos."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "Los metadatos y la estandarización aseguran interoperabilidad y reutilización, principios clave de los datos abiertos y la analítica confiable."
+},
+{
+  "id": 9,
+  "caso": "En un análisis de desempeño, el equipo obtiene un modelo con alta precisión en entrenamiento pero bajo rendimiento en validación.",
+  "enunciado": "¿Qué problema técnico es más probable?",
+  "opciones": [
+    "A. El modelo presenta sobreajuste al conjunto de entrenamiento.",
+    "B. El modelo está subajustado y no logra aprender patrones básicos.",
+    "C. El conjunto de validación no es representativo de ninguna manera de los datos."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "Cuando un modelo funciona bien en entrenamiento pero mal en validación, el síntoma más común es el sobreajuste (overfitting)."
+},
+{
+  "id": 10,
+  "caso": "Un ingeniero debe construir un proceso de extracción y transformación de datos que corra de forma automática cada madrugada.",
+  "enunciado": "¿Qué herramienta es más adecuada dentro de un flujo de analítica de datos?",
+  "opciones": [
+    "A. Un orquestador de flujos de trabajo como Apache Airflow para programar y monitorear tareas.",
+    "B. Un editor de texto para ejecutar manualmente las consultas SQL cada día.",
+    "C. Un generador de reportes estáticos que se ejecuta bajo demanda por el usuario."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "Los orquestadores permiten automatizar, programar y monitorear pipelines de datos de forma confiable."
+},
+{
+  "id": 11,
+  "caso": "El equipo debe decidir qué formato utilizar para almacenar grandes volúmenes de datos tabulares en un lago de datos.",
+  "enunciado": "¿Qué opción ofrece mejor compresión y consultas eficientes?",
+  "opciones": [
+    "A. CSV porque es ampliamente conocido y sencillo de manipular.",
+    "B. Parquet porque almacena datos en formato columna optimizado para análisis.",
+    "C. JSON porque facilita el intercambio de datos entre aplicaciones."
+  ],
+  "respuesta_correcta": "B",
+  "explicacion": "Parquet es un formato columna que reduce el tamaño y acelera las consultas analíticas mediante compresión y lectura selectiva."
+},
+{
+  "id": 12,
+  "caso": "La dirección solicita un informe con patrones de uso de servicios para los últimos 5 años.",
+  "enunciado": "¿Qué técnica de analítica es más pertinente?",
+  "opciones": [
+    "A. Analítica descriptiva, porque resume comportamientos históricos.",
+    "B. Analítica predictiva, porque anticipa posibles escenarios futuros.",
+    "C. Analítica prescriptiva, porque recomienda acciones a tomar."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "La solicitud se centra en describir y resumir datos históricos, lo cual corresponde a la analítica descriptiva."
+},
+{
+  "id": 13,
+  "caso": "Un sistema de bases de datos presenta consultas muy lentas al aumentar los volúmenes de información.",
+  "enunciado": "¿Cuál sería una medida adecuada para optimizar el rendimiento?",
+  "opciones": [
+    "A. Implementar índices adecuados en las columnas consultadas con frecuencia.",
+    "B. Evitar el uso de filtros en las consultas para reducir cálculos intermedios.",
+    "C. Duplicar las filas más usadas para que estén disponibles varias veces."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "Los índices permiten localizar registros de manera más rápida y eficiente, mejorando el rendimiento en bases de datos con grandes volúmenes."
+},
+{
+  "id": 14,
+  "caso": "En la etapa de entendimiento del negocio, un equipo quiere asegurar que el proyecto de analítica de datos aporte valor a la entidad.",
+  "enunciado": "¿Qué entregable es más esperado en esta fase?",
+  "opciones": [
+    "A. Los modelos de machine learning entrenados y listos para uso.",
+    "B. La definición clara de los objetivos y criterios de éxito del análisis.",
+    "C. Los tableros y reportes interactivos finales para la alta dirección."
+  ],
+  "respuesta_correcta": "B",
+  "explicacion": "En el entendimiento del negocio se identifican objetivos y criterios de éxito que guían todo el ciclo de la analítica."
+},
+{
+  "id": 15,
+  "caso": "Durante la integración de datos, se requiere asegurar que los mismos campos tengan la misma semántica en todas las bases.",
+  "enunciado": "¿Qué práctica de analítica es más importante?",
+  "opciones": [
+    "A. Mantener un diccionario de datos o glosario con definiciones claras y compartidas.",
+    "B. Dejar que cada dependencia defina los términos de acuerdo con sus necesidades locales.",
+    "C. Generar múltiples versiones de la base con significados distintos para cada contexto."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "Los diccionarios de datos aseguran consistencia semántica y evitan ambigüedades en la integración."
+},
+{
+  "id": 16,
+  "caso": "En un proceso de validación se necesita comprobar si los valores de una variable cumplen con un rango permitido.",
+  "enunciado": "¿Qué técnica corresponde aplicar?",
+  "opciones": [
+    "A. Prueba de consistencia de datos mediante reglas de validación.",
+    "B. Creación de modelos predictivos para estimar los valores faltantes.",
+    "C. Uso de algoritmos de clustering para agrupar registros por similitud."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "Las reglas de validación permiten verificar si los valores cumplen con los rangos o dominios definidos para la variable."
+},
+{
+  "id": 17,
+  "caso": "El área de control necesita garantizar la confidencialidad y disponibilidad de los conjuntos de datos analizados.",
+  "enunciado": "¿Qué marco es más aplicable?",
+  "opciones": [
+    "A. El Modelo de Seguridad y Privacidad de la Información (MSPI) adoptado en el sector público.",
+    "B. El marco de referencia para accesibilidad de portales web (WCAG).",
+    "C. El manual de diseño de bases de datos relacionales normalizadas."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "El MSPI de MinTIC define lineamientos para seguridad, privacidad y gestión de riesgos en la información del sector público."
+},
+{
+  "id": 18,
+  "caso": "La entidad desea estimar la probabilidad de que un ciudadano vuelva a realizar un trámite en los próximos 6 meses.",
+  "enunciado": "¿Qué tipo de analítica se aplica en este caso?",
+  "opciones": [
+    "A. Analítica descriptiva porque resume la frecuencia histórica de los trámites.",
+    "B. Analítica predictiva porque estima la ocurrencia de un evento futuro.",
+    "C. Analítica prescriptiva porque recomienda qué trámites debería realizar el ciudadano."
+  ],
+  "respuesta_correcta": "B",
+  "explicacion": "El caso describe una predicción de comportamiento futuro, lo que corresponde a la analítica predictiva."
+},
+{
+  "id": 19,
+  "caso": "Durante la construcción de un modelo se requiere dividir los datos en entrenamiento, validación y prueba.",
+  "enunciado": "¿Cuál es la finalidad principal de esta práctica?",
+  "opciones": [
+    "A. Evaluar el modelo en diferentes subconjuntos para evitar sobreajuste y medir generalización.",
+    "B. Reducir el tiempo de cómputo evitando trabajar con la base completa.",
+    "C. Mantener la confidencialidad separando los datos en varias versiones."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "La separación de conjuntos permite medir desempeño en datos no vistos, reduciendo el riesgo de sobreajuste y evaluando la capacidad de generalización."
+},
+{
+  "id": 20,
+  "caso": "Un tablero interactivo muestra variaciones diarias de un indicador que confunden a la alta dirección.",
+  "enunciado": "¿Qué estrategia de analítica es más útil para comunicar mejor los resultados?",
+  "opciones": [
+    "A. Aplicar técnicas de suavizamiento o agregación temporal para mostrar tendencias.",
+    "B. Presentar todos los valores crudos para preservar cada detalle de la serie.",
+    "C. Eliminar los días con valores atípicos para estabilizar la gráfica."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "El suavizamiento y la agregación permiten mostrar patrones más claros, evitando confusión por la variación diaria."
+},
+{
+  "id": 21,
+  "caso": "Un equipo de analítica quiere evaluar el efecto de una campaña en el uso de un servicio digital.",
+  "enunciado": "¿Qué técnica estadística es más adecuada?",
+  "opciones": [
+    "A. Prueba de hipótesis para comparar antes y después de la campaña.",
+    "B. Clustering para segmentar usuarios según variables demográficas.",
+    "C. Reducción de dimensionalidad para optimizar la visualización de variables."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "Las pruebas de hipótesis permiten contrastar si hay diferencias significativas entre periodos antes y después de la campaña."
+},
+{
+  "id": 22,
+  "caso": "El área de innovación evalúa el uso de software libre para sus proyectos de analítica.",
+  "enunciado": "¿Qué consideración es clave en este contexto?",
+  "opciones": [
+    "A. Analizar licencias, soporte comunitario y escalabilidad del software propuesto.",
+    "B. Solo verificar que la interfaz sea amigable y de fácil uso para todos.",
+    "C. Evitar el software libre porque no tiene aplicación en entornos institucionales."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "El software libre es viable, pero requiere analizar licencias, comunidad de soporte y capacidad de escalamiento."
+},
+{
+  "id": 23,
+  "caso": "Se deben identificar grupos de ciudadanos con patrones similares de uso de servicios.",
+  "enunciado": "¿Qué técnica de analítica es más apropiada?",
+  "opciones": [
+    "A. Algoritmos de clustering no supervisados como k-means o DBSCAN.",
+    "B. Modelos de regresión lineal para pronosticar variables continuas.",
+    "C. Series temporales para analizar tendencias de cada ciudadano."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "El clustering agrupa registros similares sin necesidad de etiquetas previas, lo que permite segmentar usuarios con características comunes."
+},
+{
+  "id": 24,
+  "caso": "La entidad debe priorizar qué indicadores incluir en un tablero de gestión para directivos.",
+  "enunciado": "¿Qué principio de visualización de datos es más relevante?",
+  "opciones": [
+    "A. Mostrar solo los indicadores clave de desempeño (KPIs) relevantes y comprensibles.",
+    "B. Incluir todos los datos disponibles para garantizar exhaustividad.",
+    "C. Usar gráficas complejas para demostrar sofisticación técnica al directivo."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "Los tableros ejecutivos deben enfocarse en KPIs claros, concisos y relevantes, evitando sobrecarga de información."
+},
+
+    {
+        "id": 25,
+        "caso": "En la Dirección de Tecnologías de la Información se requiere analizar grandes volúmenes de datos históricos de trámites ciudadanos para identificar patrones de demanda estacional y optimizar la asignación de recursos.",
+        "enunciado": "¿Cuál de estas técnicas de análisis predictivo sería MÁS apropiada para pronosticar la demanda de trámites para el próximo semestre?",
+        "opciones": [
+            "A. Análisis de componentes principales (PCA) para reducción dimensional.",
+            "B. Modelos ARIMA (AutoRegressive Integrated Moving Average) para series de tiempo.",
+            "C. Algoritmo de clustering K-means para segmentación no supervisada."
+        ],
+        "respuesta_correcta": "B",
+        "explicacion": "Los modelos ARIMA son específicamente diseñados para análisis de series temporales y predicción de valores futuros basados en patrones históricos, lo que los hace ideales para pronosticar demanda estacional de trámites."
+    },
+    {
+        "id": 26,
+        "caso": "La entidad ha detectado inconsistencia en los datos de identificación de usuarios entre diferentes sistemas, lo que afecta la calidad de los reportes analíticos.",
+        "enunciado": "¿Qué proceso de gobierno de datos debería implementarse PRIMERO para resolver este problema de manera estructural?",
+        "opciones": [
+            "A. Implementar un proceso de ETL para transformar los datos antes de cargarlos al data warehouse.",
+            "B. Establecer un diccionario de datos unificado con metadatos y estándares de calidad definidos.",
+            "C. Crear dashboards interactivos que muestren las inconsistencias en tiempo real."
+        ],
+        "respuesta_correcta": "B",
+        "explicacion": "Un diccionario de datos unificado con metadatos y estándares de calidad es la base del gobierno de datos y permite estandarizar definiciones, formatos y reglas de calidad antes de abordar procesos de transformación o visualización."
+    },
+    {
+        "id": 27,
+        "caso": "Se necesita analizar sentimientos y opiniones de ciudadanos a partir de comentarios en redes sociales sobre los servicios de la entidad.",
+        "enunciado": "¿Qué técnica de procesamiento de lenguaje natural (NLP) proporcionaría MEJORES resultados para este análisis de sentimientos?",
+        "opciones": [
+            "A. Análisis de frecuencia de términos (TF-IDF) con máquinas de soporte vectorial.",
+            "B. Modelos de embeddings de palabras con redes neuronales recurrentes (RNN).",
+            "C. Modelos transformers pre-entrenados como BERT especializados en español."
+        ],
+        "respuesta_correcta": "C",
+        "explicacion": "Los modelos transformers pre-entrenados como BERT, especialmente los fine-tuned para español, capturan mejor el contexto y matices del lenguaje, superando significativamente a técnicas tradicionales en análisis de sentimientos."
+    },
+    {
+        "id": 28,
+        "caso": "La entidad requiere implementar un sistema de detección de posibles casos de fraude en contratación, analizando patrones en bases de datos históricas.",
+        "enunciado": "¿Qué enfoque de machine learning sería MÁS efectivo para identificar transacciones fraudulentas no detectadas previamente?",
+        "opciones": [
+            "A. Algoritmos de clasificación supervisada como Random Forest con datos etiquetados.",
+            "B. Técnicas de aprendizaje no supervisado como detección de anomalías (anomaly detection).",
+            "C. Redes neuron convolucionales para procesamiento de imágenes de documentos."
+        ],
+        "respuesta_correcta": "B",
+        "explicacion": "Para fraudes no detectados previamente (sin datos etiquetados), las técnicas de detección de anomalías en aprendizaje no supervisado son más apropiadas, ya que identifican patrones atípicos sin necesidad de ejemplos previos de fraudes."
+    },
+    {
+        "id": 29,
+        "caso": "Debe diseñar un pipeline de datos para procesar información en tiempo real sobre solicitudes de trámites ciudadanos.",
+        "enunciado": "¿Qué arquitectura de procesamiento permitiría manejar MEJOR flujos de datos continuos con baja latencia?",
+        "opciones": [
+            "A. Arquitectura batch tradicional con procesamiento nocturno ETL.",
+            "B. Arquitectura lambda que combine batch y procesamiento en stream.",
+            "C. Arquitectura kappa basada entirely en stream processing."
+        ],
+        "respuesta_correcta": "C",
+        "explicacion": "La arquitectura Kappa, basada entirely en stream processing, es ideal para escenarios de tiempo real con baja latencia, donde todos los datos se procesan como flujos continuos, eliminando la complejidad de mantener dos sistemas (batch y stream)."
+    },
+    {
+        "id": 30,
+        "caso": "Al analizar datos de satisfacción ciudadana, encuentra que los resultados están sesgados porque solo responden usuarios muy satisfechos o muy insatisfechos.",
+        "enunciado": "¿Qué tipo de sesgo de datos está afectando el análisis y cómo podría mitigarse?",
+        "opciones": [
+            "A. Sesgo de muestreo: implementando muestreo estratificado que garantice representatividad.",
+            "B. Sesgo de medición: mejorando el instrumento de recolección de datos.",
+            "C. Sesgo de no respuesta: utilizando técnicas de imputación o ponderación para los no respondedores."
+        ],
+        "respuesta_correcta": "C",
+        "explicacion": "Este es un caso típico de sesgo de no respuesta, donde ciertos grupos (usuarios con satisfacción media) no responden. Las técnicas de imputación o ponderación estadística pueden ayudar a corregir este sesgo."
+    },
+    {
+        "id": 31,
+        "caso": "La entidad necesita cumplir con la Ley 1581 de 2012 de protección de datos personales en sus procesos analíticos.",
+        "enunciado": "¿Qué técnica de privacidad de datos sería MÁS apropiada para análisis que utilizan información personal?",
+        "opciones": [
+            "A. Enmascaramiento de datos (data masking) que preserve las características estadísticas.",
+            "B. Eliminación completa de todos los identificadores personales antes del análisis.",
+            "C. Anonimización irreversible mediante técnicas de k-anonymity o differential privacy."
+        ],
+        "respuesta_correcta": "C",
+        "explicacion": "Las técnicas de anonimización irreversible como k-anonymity o differential privacy permiten realizar análisis preservando la utilidad estadística de los datos mientras garantizan que no sea posible re-identificar individuos, cumpliendo con los estándares más rigurosos de protección."
+    },
+    {
+        "id": 32,
+        "caso": "Al implementar un modelo predictivo para priorizar trámites urgentes, se detecta que el sistema está asignando menores prioridades a ciertos grupos demográficos.",
+        "enunciado": "¿Qué principio de ethical AI debería aplicarse para abordar este problema?",
+        "opciones": [
+            "A. Transparencia: documentar exhaustivamente el proceso de desarrollo del modelo.",
+            "B. Equidad: auditar y mitigar sesgos algorítmicos en el modelo predictivo.",
+            "C. Responsabilidad: establecer protocolos claros de supervisión humana."
+        ],
+        "respuesta_correcta": "B",
+        "explicacion": "El principio de equidad (fairness) en ethical AI specifically aborda la detección y mitigación de sesgos algorítmicos que afectan desproporcionadamente a grupos específicos, mediante técnicas como fairness auditing y bias mitigation."
+    },
+    {
+        "id": 33,
+        "caso": "Debe elegir una métrica para evaluar un modelo de clasificación que detecta casos prioritarios en trámites ciudadanos, donde los falsos negativos son más críticos que los falsos positivos.",
+        "enunciado": "¿Qué métrica sería MÁS importante optimizar en este escenario?",
+        "opciones": [
+            "A. Precisión (accuracy) general del modelo.",
+            "B. Sensibilidad (recall) para identificar correctamente los casos positivos.",
+            "C. Especificidad para identificar correctamente los casos negativos."
+        ],
+        "respuesta_correcta": "B",
+        "explicacion": "La sensibilidad (recall) mide la capacidad del modelo para identificar correctamente los casos positivos reales, minimizando así los falsos negativos, que en este escenario son más críticos."
+    },
+    {
+        "id": 34,
+        "caso": "La entidad requiere analizar relaciones complejas entre entidades, personas y procedimientos en grandes volúmenes de datos.",
+        "enunciado": "¿Qué tipo de base de datos sería MÁS adecuada para modelar y consultar estas relaciones complejas?",
+        "opciones": [
+            "A. Base de datos relacional SQL con múltiples tablas normalizadas.",
+            "B. Base de datos orientada a documentos como MongoDB.",
+            "C. Base de datos de grafos como Neo4j para representar relaciones como entidades de primera clase."
+        ],
+        "respuesta_correcta": "C",
+        "explicacion": "Las bases de datos de grafos están específicamente diseñadas para representar y consultar relaciones complejas entre entidades, donde las conexiones son tan importantes como los datos mismos, permitiendo análisis de relaciones que serían muy complejos en otros modelos."
+    },
+    {
+        "id": 35,
+        "caso": "Se necesita implementar un proceso de ETL que transforme datos de múltiples fuentes heterogéneas hacia un data warehouse.",
+        "enunciado": "¿Qué práctica de ingeniería de datos garantizaría MAYOR confiabilidad en el proceso?",
+        "opciones": [
+            "A. Implementar pruebas unitarias y de integración para todas las transformaciones.",
+            "B. Documentar exhaustivamente cada paso del proceso de transformación.",
+            "C. Ejecutar el proceso en entornos de staging antes de producción."
+        ],
+        "respuesta_correcta": "A",
+        "explicacion": "Las pruebas unitarias y de integración automatizadas garantizan que las transformaciones de datos funcionen correctamente y produzcan resultados consistentes, detectando errores early en el proceso de desarrollo y proporcionando la mayor confiabilidad."
+    },
+    {
+        "id": 36,
+        "caso": "Al analizar datos de desempeño de procedimientos, se identifica una correlación fuerte entre el tiempo de trámite y la satisfacción ciudadana.",
+        "enunciado": "¿Qué análisis adicional sería NECESARIO para establecer una relación causal?",
+        "opciones": [
+            "A. Análisis de regresión múltiple controlando por variables adicionales.",
+            "B. Pruebas A/B asignando aleatoriamente diferentes tiempos de procesamiento.",
+            "C. Análisis de segmentación para identificar patrones por tipo de trámite."
+        ],
+        "respuesta_correcta": "B",
+        "explicacion": "Para establecer causalidad (no solo correlación), se necesitan diseños experimentales como pruebas A/B con asignación aleatoria, que permiten aislar el efecto del tiempo de procesamiento sobre la satisfacción, controlando otras variables."
+    },
+    {
+        "id": 37,
+        "caso": "La entidad planea implementar un sistema de recomendación para sugerir trámites relacionados a ciudadanos basado en sus perfiles.",
+        "enunciado": "¿Qué enfoque de sistemas de recomendación funcionaría MEJOR para usuarios nuevos sin historial previo?",
+        "opciones": [
+            "A Filtrado colaborativo basado en usuarios con comportamientos similares.",
+            "B. Filtrado colaborativo basado en ítems con trámites similares.",
+            "C. Filtrado basado en contenido que utilice características demográficas y de perfil."
+        ],
+        "respuesta_correcta": "C",
+        "explicacion": "Para el problema de arranque en frío (cold start) con usuarios nuevos, el filtrado basado en contenido que utiliza características demográficas y de perfil es más efectivo, ya que no depende de historial previo de interacciones."
+    },
+    {
+        "id": 38,
+        "caso": "Debe diseñar un dashboard ejecutivo para monitorear indicadores de gestión de la entidad.",
+        "enunciado": "¿Qué principio de visualización de datos debería aplicar para MAXIMIZAR la utilidad del dashboard?",
+        "opciones": [
+            "A. Principio de jerarquía visual que guíe la atención a los indicadores más importantes.",
+            "B. Principio de exhaustividad mostrando todos los datos disponibles.",
+            "C. Principio de estética maximizando el atractivo visual del dashboard."
+        ],
+        "respuesta_correcta": "A",
+        "explicacion": "El principio de jerarquía visual asegura que los usuarios dirijan su atención a los indicadores más importantes primero, facilitando la rápida comprensión de la información crítica y la toma de decisiones efectiva."
+    },
+    {
+        "id": 39,
+        "caso": "Al implementar un modelo de machine learning, se observa sobreajuste (overfitting) con alto desempeño en entrenamiento pero bajo en testing.",
+        "enunciado": "¿Qué técnica sería MÁS efectiva para reducir el sobreajuste?",
+        "opciones": [
+            "A. Aumentar la complejidad del modelo para capturar mejor los patrones.",
+            "B. Regularización (L1/L2) que penalice la complejidad del modelo.",
+            "C. Ingeniería de características para crear variables más predictivas."
+        ],
+        "respuesta_correcta": "B",
+        "explicacion": "Las técnicas de regularización (Lasso L1, Ridge L2) specifically address overfitting penalizando la complejidad del modelo, evitando que se ajuste demasiado al ruido en los datos de entrenamiento."
+    },
+    {
+        "id": 40,
+        "caso": "La entidad necesita procesar grandes volúmenes de datos no estructurados (documentos, imágenes) para extraer información relevante.",
+        "enunciado": "¿Qué arquitectura de big data sería MÁS adecuada para este tipo de procesamiento?",
+        "opciones": [
+            "A. Arquitectura Hadoop con HDFS para almacenamiento y MapReduce para procesamiento.",
+            "B. Arquitectura Spark con capacidades de procesamiento en memoria para mayor velocidad.",
+            "C. Arquitectura de data lake que almacene datos en su formato raw y permita múltiples tipos de procesamiento."
+        ],
+        "respuesta_correcta": "C",
+        "explicacion": "Un data lake está específicamente diseñado para almacenar grandes volúmenes de datos estructurados y no estructurados en su formato original, permitiendo flexibilidad en el procesamiento posterior según las necesidades analíticas."
+    },
+    {
+        "id": 41,
+        "caso": "Se detecta que los resultados de un análisis varían significativamente dependiendo del método de imputación usado para valores faltantes.",
+        "enunciado": "¿Qué práctica de análisis robusto debería implementarse?",
+        "opciones": [
+            "A. Utilizar exclusively datos completos sin valores faltantes.",
+            "B. Realizar múltiples imputaciones y analizar la estabilidad de los resultados.",
+            "C. Aplicar transformaciones que minimicen el impacto de valores faltantes."
+        ],
+        "respuesta_correcta": "B",
+        "explicacion": "El análisis de múltiples imputaciones (multiple imputation) permite evaluar cómo varían los resultados bajo diferentes métodos de imputación, proporcionando una medida de la incertidumbre y robustez de las conclusiones."
+    },
+    {
+        "id": 42,
+        "caso": "Debe implementar un sistema que detecte automáticamente drift de concepto en modelos de machine learning desplegados en producción.",
+        "enunciado": "¿Qué enfoque de MLOps permitiría una detección TEMPRANA de este problema?",
+        "opciones": [
+            "A. Monitoreo continuo de la distribución de datos de entrada versus datos de entrenamiento.",
+            "B. Re-entrenamiento automático periódico del modelo con datos recientes.",
+            "C. Implementación de canary deployments para comparar versiones del modelo."
+        ],
+        "respuesta_correcta": "A",
+        "explicacion": "El monitoreo de la distribución de datos de entrada (data drift detection) permite identificar early cuando los datos en producción comienzan a diferir significativamente de los datos de entrenamiento, señalando potential concept drift antes de que afecte el desempeño."
+    },
+    {
+        "id": 43,
+        "caso": "La entidad requiere analizar la eficiencia de diferentes unidades administrativas usando múltiples metricas de desempeño.",
+        "enunciado": "¿Qué técnica de análisis multivariado permitiría comparar COMPREHENSIVAMENTE el desempeño relativo?",
+        "opciones": [
+            "A. Análisis de varianza (ANOVA) para comparar medias entre grupos.",
+            "B. Análisis de componentes principales (PCA) para reducción dimensional y visualización.",
+            "C. Análisis envolvente de datos (DEA) para medir eficiencia relativa con múltiples inputs/outputs."
+        ],
+        "respuesta_correcta": "C",
+        "explicacion": "El análisis envolvente de datos (DEA) es un método no paramétrico específicamente diseñado para medir eficiencia relativa de unidades tomando en cuenta múltiples inputs y outputs simultáneamente, ideal para comparar desempeño organizacional."
+    },
+    {
+        "id": 44,
+        "caso": "Al implementar un proceso de analítica, se identifica que el tiempo de procesamiento es prohibitivo para la toma de decisiones oportuna.",
+        "enunciado": "¿Qué estrategia de optimización computacional proporcionaría MAYOR mejora de performance?",
+        "opciones": [
+            "A. Paralelización del procesamiento distribuido en múltiples nodos.",
+            "B. Optimización de consultas SQL con índices apropiados.",
+            "C. Implementación de algoritmos aproximados (approximate algorithms) que sacrifican precisión por velocidad."
+        ],
+        "respuesta_correcta": "A",
+        "explicacion": "La paralelización y procesamiento distribuido (usando frameworks como Spark) proporciona las mejoras de escalabilidad más significativas para procesos analíticos intensivos, permitiendo manejar grandes volúmenes de datos en tiempos razonables."
+    },
+    {
+        "id": 45,
+        "caso": "La alta dirección solicita explicaciones interpretables de las predicciones generadas por modelos de machine learning complejos.",
+        "enunciado": "¿Qué técnica de explainable AI (XAI) proporcionaría explicaciones MÁS comprensibles para no expertos?",
+        "opciones": [
+            "A. SHAP (SHapley Additive exPlanations) values que cuantifiquen la contribución de cada feature.",
+            "B. LIME (Local Interpretable Model-agnostic Explanations) para explicaciones locales.",
+            "C. Counterfactual explanations que muestren cambios mínimos para alterar la predicción."
+        ],
+        "respuesta_correcta": "C",
+        "explicacion": "Las explicaciones contrafactuales ('¿qué necesitaría cambiar para obtener un resultado diferente?') son intuitivamente comprensibles para no expertos, ya que se expresan en términos de escenarios alternativos concretos en lugar de valores numéricos abstractos."
+    },
+
+    {
+  "id": 46,
+  "caso": "Un informe administrativo requiere comparar tendencias de datos de varios departamentos usando distintas fuentes con estructuras disímiles.",
+  "enunciado": "¿Cuál estrategia garantiza mayor coherencia en el análisis de estos datos?",
+  "opciones": [
+    "A. Unir los datos directamente como están para evitar pérdida de información original.",
+    "B. Estandarizar, limpiar e integrar los datos antes de cruzarlos en el análisis.",
+    "C. Analizar cada fuente por separado y comparar los resultados finales de manera independiente."
+  ],
+  "respuesta_correcta": "B",
+  "explicacion": "La estandarización, limpieza y posterior integración son esenciales para asegurar comparabilidad y calidad en los análisis de datos heterogéneos."
+},
+{
+  "id": 47,
+  "caso": "Frente al aumento de volumen en los registros ciudadanos, surge la necesidad de identificar patrones que optimicen nuevos servicios digitales.",
+  "enunciado": "¿Qué técnica debe priorizarse para este análisis?",
+  "opciones": [
+    "A. Análisis de clustering no supervisado para segmentar perfiles similares.",
+    "B. Aplicación de muestreo aleatorio simple para reducir la base de datos.",
+    "C. Tabulación cruzada y elaboración de tablas dinámicas para buscar correlaciones visibles."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "El clustering es óptimo para descubrir agrupaciones naturales en datos masivos sin etiqueta predefinida."
+},
+{
+  "id": 48,
+  "caso": "Un modelo predictivo de abandono de trámites sugiere 92% precisión en pruebas, pero en producción la cifra baja a 60%.",
+  "enunciado": "¿Cuál explicación es la más acertada?",
+  "opciones": [
+    "A. El modelo sobreajustó los datos de entrenamiento y no generaliza sobre datos nuevos.",
+    "B. El modelo usó demasiadas variables y los resultados varían demasiado aleatoriamente.",
+    "C. El modelo fue probado exclusivamente con variables irrelevantes que no existen en la base real."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "El sobreajuste produce gran rendimiento en el entrenamiento pero poco poder predictivo en datos reales."
+},
+{
+  "id": 49,
+  "caso": "Hay inconsistencias entre dos bases de datos institucionales en campos con nombres iguales pero formatos distintos.",
+  "enunciado": "¿Qué acción es fundamental para un análisis válido y eficiente?",
+  "opciones": [
+    "A. Procesar ambos conjuntos con sus formatos nativos para mantener fidelidad a cada fuente.",
+    "B. Realizar un proceso de normalización para convertir ambos campos al mismo formato.",
+    "C. Tomar solo los registros que sean idénticos en ambos formatos para evitar errores."
+  ],
+  "respuesta_correcta": "B",
+  "explicacion": "La normalización asegura correspondencia semántica y sintáctica entre variables, clave para análisis robustos."
+},
+{
+  "id": 50,
+  "caso": "Un cuadro de mando muestra una caída repentina en el indicador de trámites resueltos durante dos días consecutivos.",
+  "enunciado": "¿Qué paso inicial es indispensable antes de plantear hipótesis sobre el fenómeno?",
+  "opciones": [
+    "A. Revisar la fuente de los datos y buscar registros atípicos o errores de sistema.",
+    "B. Consultar a los responsables del indicador para obtener su opinión previa.",
+    "C. Realizar pruebas estadísticas de significancia sobre la caída reportada."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "La validación de la calidad y procedencia de los datos es previa a cualquier análisis o hipótesis elaborada."
+},
+{
+  "id": 51,
+  "caso": "Una entidad municipal implementa dashboards interactivos para monitorear solicitudes ciudadanas.",
+  "enunciado": "¿Cuál ventaja directa ofrece este enfoque en la gestión pública?",
+  "opciones": [
+    "A. Permite desarrollar reportes periódicos impresos con datos agregados.",
+    "B. Proporciona visualizaciones dinámicas que facilitan la toma de decisiones rápida y colaborativa.",
+    "C. Garantiza que todos los análisis sean ejecutados únicamente por personal técnico especializado."
+  ],
+  "respuesta_correcta": "B",
+  "explicacion": "La visualización interactiva apunta a una toma de decisión y colaboración ágil, no solo a la elaboración de reportes impresos o exclusivos para expertos."
+},
+{
+  "id": 52,
+  "caso": "Un líder propone migrar parte de la analítica desde informes estáticos hacia plataformas de big data.",
+  "enunciado": "¿Qué impacto inmediato puede esperarse de este cambio?",
+  "opciones": [
+    "A. Mejora la gestión y análisis de grandes volúmenes de datos en tiempo real.",
+    "B. Reduce totalmente el tiempo de extracción y limpieza de cualquier dato.",
+    "C. Limita las posibilidades de integración con otras plataformas y fuentes externas."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "La plataforma big data permite trabajar con grandes volúmenes, variedad y velocidad de datos, optimizando el análisis real-time."
+},
+{
+  "id": 53,
+  "caso": "Una prueba de analítica de datos requiere determinar la relación entre satisfacción ciudadana y tiempos de respuesta.",
+  "enunciado": "¿Qué técnica es más apropiada para analizar dicha relación?",
+  "opciones": [
+    "A. Aplicar análisis de regresión estadística entre las dos variables relevantes.",
+    "B. Utilizar histogramas para visualizar la frecuencia de cada variable.",
+    "C. Implementar diagramas de dispersión sin cuantificar la fuerza de relación."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "La regresión cuantifica la relación entre variables, proporcionando indicadores precisos sobre su dependencia."
+},
+{
+  "id": 54,
+  "caso": "El equipo técnico detecta valores extremos en el conteo de solicitudes, alejados del rango usual.",
+  "enunciado": "¿Cómo deberían ser tratados esos valores para un análisis confiable?",
+  "opciones": [
+    "A. Eliminarlos sin revisarlos para facilitar los cálculos estadísticos.",
+    "B. Analizar el contexto y decidir si corresponden a eventos legítimos o a errores.",
+    "C. Sustituir todos los valores atípicos por la mediana de cada variable."
+  ],
+  "respuesta_correcta": "B",
+  "explicacion": "El análisis contextual permite diferenciar entre datos genuinos, errores o eventos extraordinarios antes de su tratamiento."
+},
+{
+  "id": 55,
+  "caso": "Se emplea un dashboard de Power BI para comparar el rendimiento de distintas campañas de atención ciudadana.",
+  "enunciado": "¿Qué métrica es crítica para evaluar objetivamente los resultados?",
+  "opciones": [
+    "A. Solo considerar el número total de interacciones obtenidas en cada canal.",
+    "B. Contrastar tasas de conversión u objetivo cumplido respecto al total de ciudadanos atendidos.",
+    "C. Medir la cantidad de datos almacenados en las bases de datos institucionales."
+  ],
+  "respuesta_correcta": "B",
+  "explicacion": "La tasa de conversión o cumplimiento de objetivos ofrece una medida proporcional y efectiva para evaluar gestión."
+},
+{
+  "id": 56,
+  "caso": "Al explorar el histórico, se detecta una tendencia creciente en las solicitudes ciudadanas online.",
+  "enunciado": "¿Qué acción maximiza el valor del hallazgo?",
+  "opciones": [
+    "A. Analizar la tendencia en segmentos y proponer estrategias de mejora focalizada.",
+    "B. Comunicar el resultado solo al área de estadísticas para almacenamiento.",
+    "C. Suspender la recolección de nuevas solicitudes hasta entender el fenómeno."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "El análisis detallado por segmentos permite personalizar acciones y maximizar la utilidad estratégica del hallazgo."
+},
+{
+  "id": 57,
+  "caso": "En un análisis de satisfacción, se utilizan modelos de sentimiento para clasificar comentarios ciudadanos.",
+  "enunciado": "¿Cuál es una limitación común de esta técnica?",
+  "opciones": [
+    "A. Puede no captar ironías, ambigüedad y matices culturales en el texto analizado.",
+    "B. Siempre determina el sentimiento con un 100% de precisión.",
+    "C. No requiere ajuste ni personalización para el dominio público."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "Las limitaciones semánticas y contextuales afectan la precisión de los modelos de análisis de sentimiento, especialmente en lenguaje natural complejo."
+},
+{
+  "id": 58,
+  "caso": "Ante la integración de fuentes abiertas con sistemas internos para enriquecer el análisis de datos.",
+  "enunciado": "¿Cuál es la consideración clave para la gestión pública?",
+  "opciones": [
+    "A. Garantizar la confidencialidad y el cumplimiento normativo de protección de datos.",
+    "B. Evitar todo uso de fuentes externas para proteger la privacidad.",
+    "C. Omitir la integración para reducir la complejidad del proceso."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "El uso de fuentes abiertas debe respetar la normativa de protección de datos y los acuerdos de confidencialidad de la administración pública."
+},
+{
+  "id": 59,
+  "caso": "Un analista debe elegir entre utilizar Python o R para procesamiento avanzado de datos.",
+  "enunciado": "¿Cuál es una diferencia clave entre ambas herramientas?",
+  "opciones": [
+    "A. Python es preferido para desarrollo de aplicaciones y flujo de trabajo integrado, mientras R destaca en análisis estadístico puro.",
+    "B. R es la única opción para análisis automatizado en empresas públicas.",
+    "C. Python no permite visualización de datos mientras que R sí."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "Python ofrece un ecosistema integral y facilidad de integración, mientras que R es potente para análisis estadístico y exploratorio."
+},
+{
+  "id": 60,
+  "caso": "Hay irregularidades en el almacenamiento de datos personales de los usuarios.",
+  "enunciado": "¿Qué principio ético es imprescindible para la analítica moderna?",
+  "opciones": [
+    "A. Protección de datos personales y consentimiento informado.",
+    "B. Recopilar y analizar todo dato disponible sin restricciones.",
+    "C. Aplicar transparencia solo si existe una orden judicial."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "La protección de datos y el respeto al consentimiento son fundamentales según la legislación y la ética profesional."
+},
+{
+  "id": 61,
+  "caso": "Al automatizar la generación de reportes en tiempo real, surge un desbalance de carga en los servidores.",
+  "enunciado": "¿Cuál sería una estrategia adecuada para mitigar este problema?",
+  "opciones": [
+    "A. Escalar horizontalmente los servidores y programar actualizaciones por lotes.",
+    "B. Detener la generación de reportes automáticamente cada vez que suben las consultas.",
+    "C. Limitar la visualización solo al personal de TI."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "La escalabilidad y la programación por lotes ayudan a equilibrar la carga, evitando caídas de servicio."
+},
+{
+  "id": 62,
+  "caso": "Un área busca predecir el flujo de trámites a partir de series temporales.",
+  "enunciado": "¿Qué requisito técnico es central para la calidad del modelo predictivo?",
+  "opciones": [
+    "A. Contar con datos históricos completos y de calidad para alimentar el modelo.",
+    "B. Eliminación de toda variabilidad en los datos.",
+    "C. Aplicar únicamente modelos de texto en lugar de análisis numérico."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "La calidad y extensión del histórico determinan directamente el poder predictivo del modelo para series temporales."
+},
+{
+  "id": 63,
+  "caso": "La dirección solicita priorizad indicadores ‘actionables’ para los dashboards institucionales.",
+  "enunciado": "¿Qué característica define un indicador accionable?",
+  "opciones": [
+    "A. Permite tomar decisiones concretas y proporciona señales claras de actuación.",
+    "B. Recopila la mayor cantidad de información posible, aunque no sea relevante.",
+    "C. Genera reportes extensos pero difíciles de interpretar."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "Un indicador accionable presenta información útil, clara y directamente vinculada a decisiones reales."
+},
+{
+  "id": 64,
+  "caso": "En la etapa de verificación, se requiere asegurar la reproducibilidad del análisis realizado.",
+  "enunciado": "¿Qué práctica es esencial para lograrlo?",
+  "opciones": [
+    "A. Documentar paso a paso los procesos, scripts y transformaciones de los datos.",
+    "B. Mantener todos los procesos en la memoria del analista responsable.",
+    "C. Eliminar registros y scripts después de finalizar el análisis."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "La documentación exhaustiva asegura la trazabilidad y permite la reproducibilidad por parte de otros analistas."
+},
+{
+  "id": 65,
+  "caso": "Se plantea utilizar inteligencia artificial generativa para la elaboración de reportes ejecutivos.",
+  "enunciado": "¿Cuál es una ventaja importante de esta tecnología frente a reportes convencionales?",
+  "opciones": [
+    "A. Facilita la personalización y actualización rápida de los reportes según las necesidades del momento.",
+    "B. Limita la integración de varias fuentes de datos a la vez.",
+    "C. Garantiza siempre la máxima exactitud sin supervisión humana."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "La IA generativa agiliza la personalización y automatización, integrando fuentes y adaptándose dinámicamente a necesidades cambiantes."
+},
+{
+  "id": 66,
+  "caso": "Un proyecto de analítica avanza y debe escalar el procesamiento de datos según crecen los volúmenes.",
+  "enunciado": "¿Cuál solución técnica responde mejor a este reto?",
+  "opciones": [
+    "A. Implementar arquitecturas de procesamiento distribuido tipo Hadoop o Spark.",
+    "B. Limitar los análisis solo a submuestras pequeñas de datos.",
+    "C. Usar exclusivamente hojas de cálculo para no modificar los sistemas actuales."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "Las arquitecturas distribuidas están diseñadas para manejar procesamiento y análisis de datos a gran escala, algo imposible en soluciones tradicionales."
+}
+
+
+
+]

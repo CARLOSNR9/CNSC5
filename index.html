@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CNSC | Simulacro de Pruebas</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header class="header">
+        <h1 class="header-title">Simulacro de Pruebas CNSC</h1>
+        <p class="header-subtitle">Profesional Especializado - Código 2028</p>
+    </header>
+
+    <main class="main-content">
+        <section class="section">
+            <h2 class="section-title">Ejes Evaluativos</h2>
+            <p class="section-description">Selecciona un tipo de prueba para empezar a estudiar.</p>
+            
+            <div class="card-container">
+                <div class="card">
+                    <h3 class="card-title">Funcional</h3>
+                    <ul class="subtema-list" id="funcional-list">
+                        <li><a href="html/analitica_de_datos.html">ANALÍTICA DE DATOS</a><span id="analitica-de-datos-resultado" class="resultado-simulacro"></span></li>
+                        <li><a href="html/bases_de_datos.html">BASES DE DATOS</a></li>
+                        <li><a href="html/desarrollo_de_aplicativos.html">DESARROLLO DE APLICATIVOS</a></li>
+                        <li><a href="html/estructura_organica.html">ESTRUCTURA ORGÁNICA DE LA CNSC</a></li>
+                        <li><a href="html/gobierno_de_datos.html">GOBIERNO DE DATOS</a></li>
+                        <li><a href="html/herramientas_de_software.html">HERRAMIENTAS DE SOFTWARE</a></li>
+                        <li><a href="html/normatividad_carrera.html">NORMATIVIDAD EN CARRERA ADMINISTRATIVA</a></li>
+                        <li><a href="html/sistemas_de_informacion.html">SISTEMAS DE INFORMACIÓN</a></li>
+                        <li><a href="html/validacion_de_datos.html">VALIDACIÓN DE DATOS</a></li>
+                        <li><a href="html/razonamiento_analitico.html">RAZONAMIENTO ANALÍTICO</a></li>
+                        <li><a href="html/tics.html">TECNOLOGÍAS DE LA INFORMACIÓN Y COMUNICACIONES (TICS)</a></li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <h3 class="card-title">Comportamental</h3>
+                    <ul class="subtema-list" id="comportamental-list">
+                        <li><a href="html/adaptacion_al_cambio.html">ADAPTACIÓN AL CAMBIO</a></li>
+                        <li><a href="html/aporte_tecnico.html">APORTE TÉCNICO - PROFESIONAL</a></li>
+                        <li><a href="html/aprendizaje_continuo.html">APRENDIZAJE CONTINUO</a></li>
+                        <li><a href="html/compromiso_organizacion.html">COMPROMISO CON LA ORGANIZACIÓN</a></li>
+                        <li><a href="html/comunicacion_efectiva.html">COMUNICACIÓN EFECTIVA</a></li>
+                        <li><a href="html/gestion_de_procedimientos.html">GESTIÓN DE PROCEDIMIENTOS</a></li>
+                        <li><a href="html/instrumentacion_decisiones.html">INSTRUMENTACIÓN DE DECISIONES</a></li>
+                        <li><a href="html/orientacion_usuario.html">ORIENTACIÓN AL USUARIO Y AL CIUDADANO</a></li>
+                        <li><a href="html/orientacion_resultados.html">ORIENTACIÓN A RESULTADOS</a></li>
+                        <li><a href="html/trabajo_en_equipo.html">TRABAJO EN EQUIPO</a></li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <h3 class="card-title">Integridad</h3>
+                    <ul class="subtema-list" id="integridad-list">
+                        <li><a href="html/compromiso.html">COMPROMISO</a></li>
+                        <li><a href="html/diligencia.html">DILIGENCIA</a></li>
+                        <li><a href="html/empatia.html">EMPATÍA</a></li>
+                        <li><a href="html/honestidad.html">HONESTIDAD</a></li>
+                        <li><a href="html/justicia.html">JUSTICIA</a></li>
+                        <li><a href="html/respeto.html">RESPETO</a></li>
+                        <li><a href="html/tolerancia.html">TOLERANCIA</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>Aplicativo de estudio para el Concurso de Méritos CNSC.</p>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const resultadosRaw = localStorage.getItem('analitica_de_datos_resultados');
+            const resultados = resultadosRaw ? JSON.parse(resultadosRaw) : [];
+
+            if (resultados.length > 0) {
+                const ultimoResultado = resultados[resultados.length - 1];
+                const spanResultado = document.getElementById('analitica-de-datos-resultado');
+
+                if (spanResultado) {
+                    spanResultado.innerHTML = `Intento ${resultados.length}: ${ultimoResultado.puntaje} de 100`;
+                }
+            }
+        });
+    </script>
+</body>
+</html>

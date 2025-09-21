@@ -1,0 +1,654 @@
+[
+  {
+    "id": 1,
+    "caso": "El manual de funciones del empleo de Profesional Especializado, código 2028, describe varias responsabilidades relacionadas con los sistemas de información. Una de ellas es la construcción de soluciones innovadoras que mejoren el procesamiento de la información. Un sistema de información existente requiere que se analicen los datos de diversas fuentes de manera integral.",
+    "enunciado": "¿Qué función esencial del cargo se alinea con la tarea de integrar datos de múltiples fuentes en los sistemas de información?",
+    "opciones": [
+      "A. Analizar los requerimientos para la estructuración de modelos de datos en la integración de los sistemas de información.",
+      "B. Promover la implementación de nuevas tecnologías para innovar y proporcionar nuevas ideas de proyectos.",
+      "C. Realizar propuestas que permitan la optimización de los modelos de base de datos."
+    ],
+    "respuesta_correcta": "A",
+    "explicacion": "Una de las funciones esenciales del cargo es 'Analizar los requerimientos para la estructuración de modelos de datos en la integración de los sistemas de información'. Esta es la acción que inicia el proceso de integración para poder analizar la información de manera integral."
+  },
+  {
+    "id": 2,
+    "caso": "El departamento de la Dirección de Tecnologías de la Información y las Telecomunicaciones necesita intervenir un sistema de información para añadir una nueva funcionalidad. Antes de iniciar el desarrollo, es crucial definir cómo se organizarán los datos para este nuevo requerimiento.",
+    "enunciado": "Según el manual de funciones, ¿qué acción debe llevar a cabo el Profesional Especializado en esta fase de diseño?",
+    "opciones": [
+      "A. Construir procedimientos de transformación y extracción de datos para realizar análisis.",
+      "B. Evaluar la implementación de herramientas de software libre como primera opción.",
+      "C. Diseñar y estructurar modelos de datos para los requerimientos de desarrollo e intervención de los sistemas de información."
+    ],
+    "respuesta_correcta": "C",
+    "explicacion": "El cargo tiene como función específica 'Diseñar y estructurar modelos de datos para los requerimientos de desarrollo e intervención de los sistemas de información', lo cual es un paso fundamental antes de iniciar la construcción de una nueva funcionalidad."
+  },
+  {
+    "id": 3,
+    "caso": "El Sistema de Información para la Meritocracia y la Oportunidad (SIMO), plataforma principal de la CNSC, está experimentando un bajo rendimiento en la carga de algunas funcionalidades. Su jefe le pide investigar el origen del problema y proponer una solución técnica.",
+    "enunciado": "De acuerdo con sus funciones, ¿qué acción tomaría para abordar la optimización del rendimiento en los sistemas de información?",
+    "opciones": [
+      "A. Implementar y elaborar informes de analítica de datos para cruce con bases de datos.",
+      "B. Realizar propuestas que permitan la optimización de los modelos de base de datos, código de consultas y de aquellas funcionalidades que muestren un bajo rendimiento en los sistemas de información.",
+      "C. Gestionar los modelos de datos y sus estructuras, acordes al gobierno de datos."
+    ],
+    "respuesta_correcta": "B",
+    "explicacion": "La función del cargo es 'Realizar propuestas que permitan la optimización de los modelos de base de datos, código de consultas y de aquellas funcionalidades que muestren un bajo rendimiento en los sistemas de información', lo cual aborda directamente el problema de bajo rendimiento en los sistemas."
+  },
+
+  {
+  "id": 4,
+  "caso": "La entidad planea rediseñar su sistema de información para alinearlo con las políticas de Gobierno Digital.",
+  "enunciado": "¿Cuál debe ser el principio rector de este rediseño?",
+  "opciones": [
+    "A. Garantizar la interoperabilidad y el enfoque en el ciudadano.",
+    "B. Priorizar la autonomía tecnológica sobre los estándares comunes.",
+    "C. Favorecer la discrecionalidad de cada área para definir sus procesos."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "Las políticas de Gobierno Digital exigen interoperabilidad, accesibilidad y servicios centrados en el ciudadano como principios de los sistemas de información."
+},
+{
+  "id": 5,
+  "caso": "Un sistema de información en producción presenta frecuentes caídas.",
+  "enunciado": "Según las buenas prácticas de gestión de servicios TI, ¿qué acción corresponde?",
+  "opciones": [
+    "A. Implementar gestión de incidentes para restaurar rápidamente el servicio.",
+    "B. Evitar registrar los incidentes para no sobrecargar el sistema de reportes.",
+    "C. Realizar únicamente mantenimiento correctivo sin seguimiento de causas."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "ITIL 4 establece que la gestión de incidentes busca restaurar el servicio lo antes posible y registrar las fallas para análisis posterior."
+},
+{
+  "id": 6,
+  "caso": "Se evalúa la calidad de un sistema de información institucional.",
+  "enunciado": "¿Qué marco internacional establece las características de calidad del software?",
+  "opciones": [
+    "A. ISO/IEC 25010:2023, con atributos como mantenibilidad y seguridad.",
+    "B. PMBOK, con lineamientos de gestión de proyectos de software.",
+    "C. PRINCE2, con principios para la dirección de programas."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "La norma ISO/IEC 25010:2023 define nueve características de calidad de producto software, clave en la evaluación de sistemas de información."
+},
+{
+  "id": 7,
+  "caso": "Un sistema de información requiere trazabilidad de logs y métricas de desempeño.",
+  "enunciado": "¿Qué estándar o práctica se recomienda?",
+  "opciones": [
+    "A. OpenTelemetry para trazas, métricas y logs.",
+    "B. UML para modelar casos de uso y diagramas.",
+    "C. BPMN para flujos de procesos."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "OpenTelemetry se ha consolidado como estándar abierto para observabilidad, permitiendo trazas y métricas consistentes en sistemas distribuidos."
+},
+{
+  "id": 8,
+  "caso": "La interoperabilidad entre entidades públicas es obligatoria.",
+  "enunciado": "¿Qué instrumento internacional facilita la descripción de catálogos de datos abiertos?",
+  "opciones": [
+    "A. DCAT v3, vocabulario del W3C para metadatos de catálogos.",
+    "B. UML, lenguaje para modelado de software.",
+    "C. ITIL, marco de gestión de servicios."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "DCAT v3 es el estándar del W3C para describir catálogos de datos y metadatos, facilitando interoperabilidad y reutilización."
+},
+{
+  "id": 9,
+  "caso": "Un área de TI implementa microservicios en lugar de un monolito.",
+  "enunciado": "¿Cuál es la principal ventaja de esta decisión?",
+  "opciones": [
+    "A. Escalabilidad y despliegue independiente de componentes.",
+    "B. Mayor rigidez y dependencia entre módulos.",
+    "C. Reducción de interoperabilidad y flexibilidad."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "Los microservicios permiten desplegar y escalar módulos de manera independiente, lo cual facilita la evolución del sistema."
+},
+{
+  "id": 10,
+  "caso": "Se requiere garantizar que un sistema soporte un número creciente de usuarios sin degradación.",
+  "enunciado": "¿Qué atributo de calidad se está priorizando?",
+  "opciones": [
+    "A. Eficiencia de desempeño dentro de ISO/IEC 25010.",
+    "B. Compatibilidad con sistemas heredados.",
+    "C. Usabilidad en interfaces."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "La eficiencia de desempeño se refiere a tiempos de respuesta y capacidad de soportar cargas crecientes de usuarios y transacciones."
+},
+{
+  "id": 11,
+  "caso": "Un sistema de información requiere asegurar integridad, disponibilidad y confidencialidad.",
+  "enunciado": "¿Qué norma internacional debe aplicarse?",
+  "opciones": [
+    "A. ISO/IEC 27001:2022, sistema de gestión de seguridad de la información.",
+    "B. ISO 9001, sistema de gestión de calidad general.",
+    "C. CMMI, modelo de madurez de procesos."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "ISO/IEC 27001:2022 establece requisitos para implementar y mantener un sistema de gestión de seguridad de la información."
+},
+{
+  "id": 12,
+  "caso": "La entidad requiere que su sistema de información esté alineado a la estrategia institucional.",
+  "enunciado": "¿Qué marco facilita esta alineación?",
+  "opciones": [
+    "A. TOGAF, como estándar de Arquitectura Empresarial.",
+    "B. UML, para modelado de software.",
+    "C. SCRUM, para desarrollo ágil de proyectos."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "TOGAF es el estándar de Arquitectura Empresarial que permite alinear procesos, datos y aplicaciones con la estrategia organizacional."
+},
+{
+  "id": 13,
+  "caso": "Se implementa un sistema de gestión documental en la administración pública.",
+  "enunciado": "¿Qué objetivo cumple principalmente?",
+  "opciones": [
+    "A. Garantizar la gestión y preservación de información institucional.",
+    "B. Favorecer la discrecionalidad en la eliminación de documentos.",
+    "C. Permitir únicamente el acceso restringido a funcionarios de TI."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "Un sistema de gestión documental asegura la preservación, organización y acceso a la información institucional como soporte a la transparencia."
+},
+{
+  "id": 14,
+  "caso": "La CNSC requiere un sistema de información que mida indicadores de gestión y desempeño.",
+  "enunciado": "¿Qué tipo de sistema es más adecuado?",
+  "opciones": [
+    "A. MIS (Management Information System).",
+    "B. TPS (Transaction Processing System).",
+    "C. ERP (Enterprise Resource Planning)."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "Un MIS permite generar reportes e indicadores a partir de los datos de sistemas transaccionales para apoyar la gestión."
+},
+{
+  "id": 15,
+  "caso": "En un proceso de transformación digital se prioriza el uso de datos abiertos.",
+  "enunciado": "¿Qué principio se busca reforzar?",
+  "opciones": [
+    "A. Transparencia y participación ciudadana.",
+    "B. Seguridad y reserva total de información.",
+    "C. Exclusividad de acceso para altos directivos."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "El uso de datos abiertos fomenta transparencia, innovación y control social al permitir acceso libre a la información pública."
+},
+{
+  "id": 16,
+  "caso": "Un sistema de información falla en comunicar con otro sistema de la entidad.",
+  "enunciado": "¿Qué factor es clave para resolver este problema?",
+  "opciones": [
+    "A. Establecer estándares de interoperabilidad.",
+    "B. Ampliar la capacidad de almacenamiento local.",
+    "C. Aumentar el número de usuarios concurrentes."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "La interoperabilidad se logra mediante estándares y protocolos que permiten la comunicación entre sistemas distintos."
+},
+{
+  "id": 17,
+  "caso": "La alta dirección solicita que el sistema de información soporte indicadores de resultados.",
+  "enunciado": "¿Qué marco administrativo en Colombia exige esta articulación?",
+  "opciones": [
+    "A. MIPG, Modelo Integrado de Planeación y Gestión.",
+    "B. Estatuto Tributario.",
+    "C. Ley General de Archivo."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "El MIPG exige que los sistemas de información apoyen el seguimiento a resultados institucionales y a la gestión pública."
+},
+{
+  "id": 18,
+  "caso": "El sistema de información de una entidad maneja datos sensibles de ciudadanos.",
+  "enunciado": "¿Qué debe garantizar legalmente?",
+  "opciones": [
+    "A. Cumplir la Ley de Protección de Datos Personales (Ley 1581/2012).",
+    "B. Permitir el libre acceso sin restricciones a todos los datos.",
+    "C. Mantener la información solo en formato físico."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "En Colombia, la Ley 1581 de 2012 protege los datos personales y exige medidas para garantizar su confidencialidad y tratamiento adecuado."
+},
+{
+  "id": 19,
+  "caso": "Un sistema de información público presenta lentitud en tiempos de respuesta.",
+  "enunciado": "¿Qué práctica de gestión aplica?",
+  "opciones": [
+    "A. Gestión de capacidad y desempeño de TI.",
+    "B. Gestión de seguridad de activos.",
+    "C. Gestión de portafolio de proyectos."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "La gestión de capacidad y desempeño permite prever y controlar el rendimiento de los sistemas de información."
+},
+{
+  "id": 20,
+  "caso": "Se evalúa un sistema para identificar su facilidad de uso por los ciudadanos.",
+  "enunciado": "¿Qué atributo de calidad se analiza?",
+  "opciones": [
+    "A. Usabilidad, según ISO/IEC 25010.",
+    "B. Compatibilidad con hardware específico.",
+    "C. Portabilidad entre sistemas operativos."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "La usabilidad mide la facilidad con que los usuarios interactúan con el sistema para lograr sus objetivos de manera eficaz."
+},
+{
+  "id": 21,
+  "caso": "Se adopta un ERP en la entidad.",
+  "enunciado": "¿Qué característica principal tienen estos sistemas?",
+  "opciones": [
+    "A. Integrar procesos internos en módulos como finanzas, talento humano y logística.",
+    "B. Limitar el acceso a un único proceso misional.",
+    "C. Enfocarse solo en transacciones financieras."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "Un ERP integra los procesos internos de la organización en diferentes módulos bajo una misma plataforma."
+},
+{
+  "id": 22,
+  "caso": "Se implementa un CRM en una entidad estatal.",
+  "enunciado": "¿Cuál es su propósito principal?",
+  "opciones": [
+    "A. Gestionar la relación con los usuarios y ciudadanos.",
+    "B. Automatizar exclusivamente los procesos de contabilidad.",
+    "C. Centralizar el almacenamiento físico de documentos."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "Un CRM busca fortalecer la gestión de relaciones con ciudadanos y usuarios, mejorando la atención y el seguimiento."
+},
+{
+  "id": 23,
+  "caso": "El área de TI evalúa si su sistema es capaz de adaptarse a diferentes plataformas tecnológicas.",
+  "enunciado": "¿Qué atributo de calidad se considera?",
+  "opciones": [
+    "A. Portabilidad, según ISO/IEC 25010.",
+    "B. Fiabilidad en el tiempo.",
+    "C. Seguridad en comunicaciones."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "La portabilidad se refiere a la capacidad del sistema de funcionar en diversos entornos tecnológicos sin grandes ajustes."
+},
+{
+  "id": 24,
+  "caso": "Una entidad busca alinear sus sistemas de información con la arquitectura del Estado.",
+  "enunciado": "¿Qué marco debe aplicar en Colombia?",
+  "opciones": [
+    "A. MRAE, Marco de Referencia de Arquitectura Empresarial.",
+    "B. COBIT 2019, centrado en control y auditoría.",
+    "C. Ley 909 de 2004, que regula empleo público."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "El MRAE, definido por MinTIC, establece lineamientos para alinear los sistemas de información de las entidades públicas con la arquitectura del Estado."
+},
+
+    {
+        "id": 25,
+        "caso": "En el diseño de un sistema de información para la gestión de trámites ciudadanos, se debe garantizar alta disponibilidad y escalabilidad para picos de demanda.",
+        "enunciado": "¿Qué arquitectura de sistemas proporcionaría el MEJOR balance entre performance y complejidad de implementación?",
+        "opciones": [
+            "A. Arquitectura monolítica con escalamiento vertical y replicación de base de datos.",
+            "B. Arquitectura de microservicios con API gateway y balanceo de carga dinámico.",
+            "C. Arquitectura basada en eventos con message broker y procesamiento asíncrono."
+        ],
+        "respuesta_correcta": "B",
+        "explicacion": "La arquitectura de microservicios con API gateway permite escalamiento horizontal independiente de componentes, balanceo de carga eficiente y mayor resiliencia, proporcionando el mejor balance para sistemas con picos de demanda como trámites ciudadanos."
+    },
+    {
+        "id": 26,
+        "caso": "Para un sistema que procesa datos sensibles de ciudadanos, se requiere implementar medidas de seguridad avanzadas.",
+        "enunciado": "¿Qué estrategia de seguridad proporcionaría MAYOR protección contra accesos no autorizados?",
+        "opciones": [
+            "A. Cifrado de datos en reposo y en tránsito con algoritmos AES-256 y TLS 1.3.",
+            "B. Implementación de Zero Trust Architecture con verificación continua de identidad.",
+            "C. Seguridad por capas con firewalls, IDS/IPS y segmentación de red."
+        ],
+        "respuesta_correcta": "B",
+        "explicacion": "Zero Trust Architecture con verificación continua proporciona mayor seguridad al asumir que ninguna entidad es confiable por defecto y requiere autenticación constante, superando enfoques tradicionales basados en perímetro."
+    },
+    {
+        "id": 27,
+        "caso": "Al migrar un sistema legacy a la nube, se debe seleccionar una estrategia de migración.",
+        "enunciado": "¿Qué enfoque de los 6 R's de migración cloud sería MÁS apropiado para aplicaciones críticas con mínimo downtime?",
+        "opciones": [
+            "A. Replatforming (lift-tinker-and-shift) con optimizaciones mínimas para cloud.",
+            "B. Refactoring (re-architect) para aprovechar nativamente servicios cloud.",
+            "C. Rehosting (lift-and-shift) con migración directa sin modificaciones."
+        ],
+        "respuesta_correcta": "A",
+        "explicacion": "Replatforming ofrece el mejor balance para aplicaciones críticas, permitiendo optimizaciones cloud mínimas mientras se mantiene compatibilidad y se minimiza downtime durante la migración."
+    },
+    {
+        "id": 28,
+        "caso": "Para garantizar la consistencia de datos en un sistema distribuido geográficamente.",
+        "enunciado": "¿Qué patrón de consistencia proporcionaría el MEJOR balance entre disponibilidad y exactitud?",
+        "opciones": [
+            "A. Consistencia fuerte con protocolo de consenso distribuido y replicación síncrona.",
+            "B. Consistencia eventual con mecanismos de reconciliación y conflict resolution.",
+            "C. Consistencia acotada porstalidad con límites temporales predefinidos."
+        ],
+        "respuesta_correcta": "C",
+        "explicacion": "La consistencia acotada porstalidad proporciona el mejor balance al garantizar que todos los nodos se sincronicen dentro de un límite temporal predefinido, manteniendo alta disponibilidad con consistencia controlada."
+    },
+    {
+        "id": 29,
+        "caso": "En la implementación de un data warehouse para analytics gubernamental.",
+        "enunciado": "¿Qué modelo de datos facilitaría MEJOR el gobierno de datos y la escalabilidad?",
+        "opciones": [
+            "A. Modelo estrella con dimensiones conformadas y hechos desnormalizados.",
+            "B. Modelo copo de nieve con normalización completa para minimizar redundancia.",
+            "C. Data Vault 2.0 con hubs, links y satellites para trazabilidad histórica."
+        ],
+        "respuesta_correcta": "C",
+        "explicacion": "Data Vault 2.0 proporciona mejor gobierno de datos y escalabilidad al separar estructura business (hubs), relationships (links) y datos históricos/descriptivos (satellites), permitiendo evolución flexible del schema."
+    },
+    {
+        "id": 30,
+        "caso": "Para un sistema que requiere procesamiento de transacciones en tiempo real.",
+        "enunciado": "¿Qué tecnología de base de datos proporcionaría MAYOR throughput para OLTP?",
+        "opciones": [
+            "A. Base de datos relacional con ACID compliance y optimización para writes.",
+            "B. Base de datos NewSQL con distribución horizontal y consistencia fuerte.",
+            "C. Base de datos NoSQL con modelo documental y consistencia eventual."
+        ],
+        "respuesta_correcta": "B",
+        "explicacion": "Las bases de datos NewSQL proporcionan mayor throughput para OLTP al combinar distribución horizontal y escalabilidad de NoSQL con consistencia fuerte ACID de sistemas relacionales."
+    },
+    {
+        "id": 31,
+        "caso": "En el diseño de un sistema con requisitos de auditoría y cumplimiento normativo.",
+        "enunciado": "¿Qué patrón arquitectural garantizaría MEJOR la inmutabilidad de registros?",
+        "opciones": [
+            "A. Event Sourcing con almacenamiento de eventos como source of truth.",
+            "B. CQRS con separación de modelos de escritura y lectura.",
+            "C. Audit logging extensivo con triggers en base de datos."
+        ],
+        "respuesta_correcta": "A",
+        "explicacion": "Event Sourcing garantiza mejor inmutabilidad al almacenar todos los cambios como eventos secuenciales inmutables, proporcionando trazabilidad completa y auditoría confiable."
+    },
+    {
+        "id": 32,
+        "caso": "Para un sistema de recomendaciones en tiempo real para trámites ciudadanos.",
+        "enunciado": "¿Qué arquitectura de machine learning proporcionaría MENOR latencia?",
+        "opciones": [
+            "A. Modelos batch precomputados con actualización periódica y caching agresivo.",
+            "B. Modelos online learning con actualización continua y inferencia en tiempo real.",
+            "C. Modelos híbridos con precomputación batch y fine-tuning online."
+        ],
+        "respuesta_correcta": "B",
+        "explicacion": "Los modelos online learning con actualización continua proporcionan menor latencia al realizar inferencia directamente en tiempo real sin necesidad de precomputación batch."
+    },
+    {
+        "id": 33,
+        "caso": "En la implementación de un sistema multi-tenant para entidades gubernamentales.",
+        "enunciado": "¿Qué estrategia de aislamiento proporcionaría MEJOR balance entre costo y seguridad?",
+        "opciones": [
+            "A. Tenant por base de datos con schemas separados y recursos dedicados.",
+            "B. Tenant por schema con base de datos compartida pero separación lógica.",
+            "C. Tenant por tabla con todos los datos en mismo schema pero filtrados."
+        ],
+        "respuesta_correcta": "B",
+        "explicacion": "La estrategia tenant por schema proporciona el mejor balance, ofreciendo buen aislamiento lógico con menor costo que bases de datos separadas, pero mayor seguridad que separación por tabla."
+    },
+    {
+        "id": 34,
+        "caso": "Para garantizar la resiliencia en un sistema distribuido con dependencias externas.",
+        "enunciado": "¿Qué patrón de resiliencia sería MÁS efectivo para fallos en servicios externos?",
+        "opciones": [
+            "A. Circuit Breaker con estados abierto/cerrado/semiabierto para evitar cascadas.",
+            "B. Retry con backoff exponencial y jitter para reintentos inteligentes.",
+            "C. Bulkhead isolation con pools de recursos separados por dependencia."
+        ],
+        "respuesta_correcta": "A",
+        "explicacion": "El patrón Circuit Breaker es más efectivo para fallos en servicios externos al prevenir cascadas de fallos y dar tiempo a la recuperación del servicio afectado."
+    },
+    {
+        "id": 35,
+        "caso": "En el diseño de un sistema de procesamiento de imágenes para documentos oficiales.",
+        "enunciado": "¿Qué arquitectura de almacenamiento proporcionaría MEJOR performance para grandes volúmenes?",
+        "opciones": [
+            "A. Object storage con metadata extensiva y acceso via API REST.",
+            "B. Block storage de alto performance con filesystem distribuido.",
+            "C. Base de datos NoSQL con almacenamiento de binaries en documentos."
+        ],
+        "respuesta_correcta": "A",
+        "explicacion": "Object storage proporciona mejor performance para grandes volúmenes de imágenes al optimizar almacenamiento y recuperación mediante metadata y APIs RESTful escalables."
+    },
+    {
+        "id": 36,
+        "caso": "Para un sistema que requiere búsqueda full-text sobre documentos legales.",
+        "enunciado": "¿Qué tecnología de indexación proporcionaría RESULTADOS MÁS precisos?",
+        "opciones": [
+            "A. Motor de búsqueda con inverted indexes y análisis semántico avanzado.",
+            "B. Base de datos relacional con índices full-text y stemming básico.",
+            "C. Vector database con embeddings y búsqueda por similitud semántica."
+        ],
+        "respuesta_correcta": "C",
+        "explicacion": "Los vector databases con embeddings proporcionan resultados más precisos para búsqueda en documentos legales al capturar similitud semántica y contexto, superando enfoques keyword-based."
+    },
+    {
+        "id": 37,
+        "caso": "En la implementación de un sistema con requisitos de compliance PCI DSS.",
+        "enunciado": "¿Qué estrategia de protección de datos sería MÁS efectiva?",
+        "opciones": [
+            "A. Tokenización con almacenamiento externo de datos sensibles.",
+            "B. Cifrado end-to-end con gestión centralizada de keys.",
+            "C. Enmascaramiento dinámico basado en roles de usuario."
+        ],
+        "respuesta_correcta": "A",
+        "explicacion": "La tokenización es más efectiva para compliance PCI DSS al remover completamente datos sensibles del sistema, almacenándolos externamente y reduciendo el ámbito de aplicación del estándar."
+    },
+    {
+        "id": 38,
+        "caso": "Para un sistema de procesamiento de stream de datos de sensores IoT.",
+        "enunciado": "¿Qué arquitectura de procesamiento proporcionaría MENOR latencia?",
+        "opciones": [
+            "A. Micro-batching con ventanas de procesamiento cortas y optimizadas.",
+            "B. Stream processing nativo con procesamiento evento por evento.",
+            "C. Lambda architecture combinando batch y stream processing."
+        ],
+        "respuesta_correcta": "B",
+        "explicacion": "El stream processing nativo proporciona menor latencia al procesar eventos individualmente en tiempo real, sin esperar ventanas de micro-batching."
+    },
+    {
+        "id": 39,
+        "caso": "En el diseño de un sistema con alta criticidad y requisitos de disaster recovery.",
+        "enunciado": "¿Qué estrategia de replicación garantizaría MEJOR RPO y RTO?",
+        "opciones": [
+            "A. Replicación síncrona cross-region con failover automático.",
+            "B. Replicación asíncrona con snapshotting frecuente y recovery manual.",
+            "C. Backup incremental continuo con replicación log-based."
+        ],
+        "respuesta_correcta": "A",
+        "explicacion": "La replicación síncrona cross-region con failover automático proporciona el mejor RPO (cerca de cero) y RTO (minutos), garantizando máxima disponibilidad y mínima pérdida de datos."
+    },
+    {
+        "id": 40,
+        "caso": "Para un sistema que requiere escalar automáticamente con carga variable.",
+        "enunciado": "¿Qué estrategia de auto-scaling sería MÁS efectiva?",
+        "opciones": [
+            "A. Scaling basado en métricas de CPU/memory con thresholds predefinidos.",
+            "B. Scaling predictivo con machine learning forecasting de carga.",
+            "C. Scaling basado en métricas de negocio como requests por segundo."
+        ],
+        "respuesta_correcta": "B",
+        "explicacion": "El scaling predictivo con machine learning forecasting es más efectivo al anticipar necesidades de capacidad antes de que ocurran picos de carga, providing mejor performance y eficiencia de costos."
+    },
+    {
+        "id": 41,
+        "caso": "En la implementación de un sistema multi-idoma para atención ciudadana.",
+        "enunciado": "¿Qué estrategia de internacionalización proporcionaría MEJOR mantenibilidad?",
+        "opciones": [
+            "A. Externalización de strings en resource bundles con fallback jerárquico.",
+            "B. Base de datos de traducciones con caching agresivo y actualización en caliente.",
+            "C. Servicio de traducción externo con API-based localization."
+        ],
+        "respuesta_correcta": "A",
+        "explicacion": "La externalización en resource bundles proporciona mejor mantenibilidad al separar completamente el código de las traducciones y permitir actualizaciones sin redeploy."
+    },
+    {
+        "id": 42,
+        "caso": "Para un sistema con requisitos de processing de pagos en tiempo real.",
+        "enunciado": "¿Qué patrón de transacciones distribuidas sería MÁS apropiado?",
+        "opciones": [
+            "A. Saga pattern con compensación para mantener consistencia eventual.",
+            "B. Two-phase commit (2PC) con coordinador central para consistencia fuerte.",
+            "C. Eventual consistency con reconciliation asíncrona y idempotencia."
+        ],
+        "respuesta_correcta": "A",
+        "explicacion": "El patrón Saga es más apropiado para transacciones distribuidas en processing de pagos, permitiendo compensación en caso de fallos y evitando bloqueos distribuidos de 2PC."
+    },
+    {
+        "id": 43,
+        "caso": "En el diseño de un sistema de caching para datos frecuentemente accedidos.",
+        "enunciado": "¿Qué estrategia de invalidación proporcionaría MEJOR consistencia?",
+        "opciones": [
+            "A. Time-to-live (TTL) fijo con expiración automática periódica.",
+            "B. Invalidación explícita mediante eventos de actualización.",
+            "C. Write-through caching con actualización sincrónica en cache y storage."
+        ],
+        "respuesta_correcta": "C",
+        "explicacion": "La estrategia write-through caching proporciona mejor consistencia al actualizar cache y storage sincrónicamente, garantizando que los datos siempre estén actualizados."
+    },
+    {
+        "id": 44,
+        "caso": "Para un sistema que procesa datos personales bajo GDPR/Ley 1581.",
+        "enunciado": "¿Qué técnica de anonymización preservaría MEJOR la utilidad analítica?",
+        "opciones": [
+            "A. K-anonymity con generalización y supresión controlada.",
+            "B. Differential privacy con noise injection calibrated.",
+            "C. Data masking deterministic con preservación de formatos."
+        ],
+        "respuesta_correcta": "B",
+        "explicacion": "Differential privacy preserva mejor la utilidad analítica mientras garantiza privacidad, permitiendo análisis estadísticos válidos sin revelar información individual."
+    },
+    {
+        "id": 45,
+        "caso": "En la implementación de un sistema de monitoreo para aplicaciones cloud-native.",
+        "enunciado": "¿Qué arquitectura de observabilidad proporcionaría MEJOR visibilidad?",
+        "opciones": [
+            "A. Logs centralized con análisis y correlación manual.",
+            "B. Metrics timeseries con dashboards y alertas estáticas.",
+            "C. Distributed tracing con context propagation y dependency mapping."
+        ],
+        "respuesta_correcta": "C",
+        "explicacion": "Distributed tracing proporciona mejor visibilidad en entornos cloud-native al permitir seguir el flujo completo de requests través de múltiples servicios y identificar bottlenecks."
+    },
+
+    {
+"id": 46,
+"caso": "El área administrativa de una entidad pública debe implementar un sistema de información para mejorar la toma de decisiones basada en datos precisos y actualizados.",
+"enunciado": "¿Qué componente del sistema de información es fundamental para garantizar la integridad y actualidad de los datos?",
+"opciones": [
+"A. El software de gestión que procese y almacene la información.",
+"B. Las personas responsables de la captura y revisión de datos.",
+"C. Los procesos y procedimientos que regulan el acceso y actualización de la información."
+],
+"respuesta_correcta": "C",
+"explicacion": "Aunque el software y el personal son importantes, los procesos y procedimientos aseguran que los datos se mantengan íntegros y actualizados."
+},
+{
+"id": 47,
+"caso": "Se evalúa la incorporación de inteligencia artificial en sistemas de información para análisis predictivo en una entidad pública.",
+"enunciado": "¿Cuál es el mayor beneficio de integrar IA en estos sistemas?",
+"opciones": [
+"A. Automatizar la recopilación y almacenamiento de datos.",
+"B. Mejorar la capacidad de anticipar tendencias y tomar decisiones informadas.",
+"C. Simplificar la interfaz de usuario para facilitar el acceso a la información."
+],
+"respuesta_correcta": "B",
+"explicacion": "La IA permite analizar grandes volúmenes de datos para prever escenarios y apoyar decisiones estratégicas."
+},
+{
+"id": 48,
+"caso": "Una entidad adopta un sistema basado en la nube para gestionar su información institucional.",
+"enunciado": "¿Qué ventaja principal ofrece el uso de la nube en los sistemas de información públicos?",
+"opciones": [
+"A. Acceso remoto y escalabilidad según las necesidades de la entidad.",
+"B. Reducción total de costos operativos sin necesidad de mantenimiento.",
+"C. Eliminación de la necesidad de protocolos de seguridad."
+],
+"respuesta_correcta": "A",
+"explicacion": "La nube facilita el acceso desde múltiples dispositivos y permite adaptar los recursos según demanda, aunque el mantenimiento y seguridad siguen siendo necesarios."
+},
+{
+"id": 49,
+"caso": "El gobierno busca implementar sistemas de información que permitan la interoperabilidad entre diferentes entidades públicas.",
+"enunciado": "¿Qué elemento es clave para lograr esta interoperabilidad?",
+"opciones": [
+"A. Uso de estándares abiertos y protocolos comunes de comunicación.",
+"B. Uso exclusivo de sistemas propietarios para cada entidad.",
+"C. Centralización total de los datos en un único sistema."
+],
+"respuesta_correcta": "A",
+"explicacion": "Los estándares abiertos facilitan que sistemas diversos puedan comunicarse y compartir información eficazmente."
+},
+{
+"id": 50,
+"caso": "Una entidad enfrenta problemas de seguridad en sus sistemas debido a accesos no autorizados.",
+"enunciado": "¿Cuál sería la medida más efectiva para mejorar la seguridad del sistema de información?",
+"opciones": [
+"A. Implementar autenticación multifactor y controles estrictos de acceso.",
+"B. Bloquear el acceso total a los usuarios externos.",
+"C. Reducir la cantidad de usuarios autorizados sin importar función."
+],
+"respuesta_correcta": "A",
+"explicacion": "La autenticación multifactor y controles adecuados permiten asegurar el acceso legítimo sin afectar la operatividad."
+},
+{
+"id": 51,
+"caso": "Una entidad debe mantener un sistema de información que asegure la continuidad del servicio incluso en casos de fallas técnicas.",
+"enunciado": "¿Qué característica del sistema es obligatoria para garantizar esta continuidad?",
+"opciones": [
+"A. Redundancia y recuperación automática ante fallos.",
+"B. Uso exclusivo durante horario laboral para evitar errores.",
+"C. Disponibilidad limitada a ciertos departamentos."
+],
+"respuesta_correcta": "A",
+"explicacion": "La redundancia y mecanismos de recuperación son esenciales para mantener la disponibilidad y confiabilidad del sistema."
+},
+{
+"id": 52,
+"caso": "El proceso de desarrollo de un nuevo sistema incluye pruebas para asegurar su calidad y funcionalidad.",
+"enunciado": "¿Qué tipo de prueba es fundamental para validar que el sistema cumple con los requerimientos del usuario?",
+"opciones": [
+"A. Pruebas de aceptación realizadas por usuarios finales.",
+"B. Pruebas unitarias realizadas por desarrolladores.",
+"C. Pruebas de carga para evaluar rendimiento."
+],
+"respuesta_correcta": "A",
+"explicacion": "Las pruebas de aceptación verifican que el sistema responde a las necesidades y expectativas del usuario."
+},
+{
+"id": 53,
+"caso": "Se planea la implementación de un sistema que permita gestionar el flujo documental y las gestiones internas.",
+"enunciado": "¿Qué tipo de sistema de información se debe implementar?",
+"opciones": [
+"A. Sistema de Gestión Documental (SGD).",
+"B. Sistema de Información Geográfica (SIG).",
+"C. Sistema de Planificación de Recursos Empresariales (ERP)."
+],
+"respuesta_correcta": "A",
+"explicacion": "El SGD está diseñado para la gestión, almacenamiento y seguimiento de documentos y procedimientos."
+},
+{
+"id": 54,
+"caso": "Una organización pública quiere tomar decisiones basada en informes integrados y analíticos generados por sistemas de información.",
+"enunciado": "¿Qué componente de los sistemas es clave para este objetivo?",
+"opciones": [
+"A. Sistemas de soporte a la decisión (DSS).",
+"B. Sistemas transaccionales básicos.",
+"C. Sistemas operativos de bajo nivel."
+],
+"respuesta_correcta": "A",
+"explicacion": "Los DSS ayudan a recopilar, analizar y presentar información que apoya la toma de decisiones."
+}
+
+]

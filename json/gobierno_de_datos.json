@@ -1,0 +1,845 @@
+[
+  {
+    "id": 1,
+    "caso": "En la Dirección de Tecnologías de la Información y las Telecomunicaciones se ha detectado que los modelos de datos de un sistema clave no están documentados ni estandarizados, lo que genera inconsistencias y dificulta la integración con otras bases de datos.",
+    "enunciado": "Como Profesional Especializado, ¿qué acción priorizaría para abordar esta problemática?",
+    "opciones": [
+      "A. Recomendar la adquisición de un nuevo software que automatice la documentación de los modelos de datos existentes.",
+      "B. Gestionar los modelos de datos y sus estructuras, acordes al gobierno de datos y a las necesidades de los usuarios, de forma integral.",
+      "C. Iniciar la transformación y extracción de datos para corregir las inconsistencias directamente."
+    ],
+    "respuesta_correcta": "B",
+    "explicacion": "La función 'Gestionar los modelos de datos y sus estructuras, acordes al gobierno de datos y a las necesidades de los usuarios de forma integral' es central para este cargo. Abordar el problema de la falta de estandarización requiere una gestión integral que se alinee con las políticas de gobierno de datos."
+  },
+  {
+    "id": 2,
+    "caso": "En un proyecto de analítica de datos, el equipo de trabajo necesita utilizar información de diferentes fuentes que no tienen reglas de calidad ni metadatos consistentes.",
+    "enunciado": "¿Qué función del cargo es clave para garantizar la fiabilidad de los datos en este escenario?",
+    "opciones": [
+      "A. Promover la implementación y gestión de nuevas tecnologías para innovar en el proyecto.",
+      "B. Diseñar y estructurar modelos de datos para los requerimientos de desarrollo.",
+      "C. Gestionar los modelos de datos y sus estructuras, acordes al gobierno de datos."
+    ],
+    "respuesta_correcta": "C",
+    "explicacion": "La gestión de modelos de datos, en el marco del gobierno de datos, asegura que las estructuras sean coherentes con la calidad y las necesidades de los usuarios. Esto es fundamental para que el análisis de datos sea fiable."
+  },
+  {
+    "id": 3,
+    "caso": "El propósito del cargo de Profesional Especializado es orientar la incorporación de nuevas tecnologías para la construcción de soluciones innovadoras, que aporten mejoras en el análisis y procesamiento de información. Su jefe le solicita una propuesta para un proyecto que busca mejorar la calidad y el acceso a los datos de la entidad.",
+    "enunciado": "¿Cuál de las siguientes propuestas se alinea mejor con el propósito del cargo y el eje de 'Gobierno de Datos'?",
+    "opciones": [
+      "A. La construcción de un sistema para monitorear el desempeño de los empleados.",
+      "B. Un proyecto para optimizar las bases de datos de bajo rendimiento.",
+      "C. La implementación de un marco de gobierno de datos para gestionar la integridad y disponibilidad de la información."
+    ],
+    "respuesta_correcta": "C",
+    "explicacion": "El gobierno de datos se enfoca en gestionar la disponibilidad, usabilidad, integridad y seguridad de la información. La implementación de un marco de gobierno de datos está directamente alineada con el propósito del cargo de mejorar el análisis y procesamiento de la información."
+  },
+
+  {
+  "id": 4,
+  "caso": "La entidad busca implementar un marco de referencia para estructurar todas las funciones de gestión de datos.",
+  "enunciado": "¿Cuál es el marco más reconocido a nivel internacional para este propósito?",
+  "opciones": [
+    "A. DAMA-DMBOK, que organiza las áreas de conocimiento en gestión y gobierno de datos.",
+    "B. ISO 9001, que define sistemas de gestión de calidad en general.",
+    "C. COBIT, que establece lineamientos de gobierno de TI sin especificidad en datos."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "DAMA-DMBOK es el marco más utilizado a nivel global para organizar y estandarizar funciones de gestión y gobierno de datos."
+},
+{
+  "id": 5,
+  "caso": "Se requiere evaluar la madurez en el gobierno de datos de una entidad pública.",
+  "enunciado": "¿Qué modelo proporciona un esquema de evaluación basado en capacidades y evidencias?",
+  "opciones": [
+    "A. DCAM, que establece capacidades, métricas y evidencias para madurez en gobierno de datos.",
+    "B. ITIL, que describe buenas prácticas para gestión de servicios de TI.",
+    "C. PMI-PMBOK, que establece guías para gestión de proyectos en general."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "DCAM (Data Management Capability Assessment Model) del EDM Council es el marco más usado para evaluar madurez en gobierno de datos."
+},
+{
+  "id": 6,
+  "caso": "El área de datos debe definir responsabilidades claras para los roles involucrados en la gestión de información.",
+  "enunciado": "¿Cuál de las siguientes corresponde a la función de un Data Steward?",
+  "opciones": [
+    "A. Custodiar la calidad, metadatos y linaje de los datos en su dominio.",
+    "B. Tomar decisiones de negocio sobre prioridades de explotación de datos.",
+    "C. Administrar la infraestructura tecnológica para almacenamiento y seguridad."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "El Data Steward se encarga de custodiar la calidad y metadatos de los datos, asegurando su correcto uso y linaje."
+},
+{
+  "id": 7,
+  "caso": "Una entidad busca asegurar que los datos puedan ser encontrados, accedidos, interoperables y reutilizados.",
+  "enunciado": "¿Qué principios debe aplicar?",
+  "opciones": [
+    "A. FAIR, que define Findable, Accessible, Interoperable, Reusable.",
+    "B. ITIL, que regula el ciclo de vida de servicios de TI.",
+    "C. OWASP, que se enfoca en vulnerabilidades de aplicaciones."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "Los principios FAIR son el estándar para garantizar reutilización e interoperabilidad de datos en entornos científicos y gubernamentales."
+},
+{
+  "id": 8,
+  "caso": "El comité de datos debe establecer una política para clasificar información como pública, reservada o personal.",
+  "enunciado": "¿Qué norma en Colombia regula específicamente los datos personales?",
+  "opciones": [
+    "A. Ley 1581 de 2012, que establece el régimen general de protección de datos personales.",
+    "B. Ley 1712 de 2014, que regula el acceso a la información pública.",
+    "C. Resolución 1519 de 2020, que fija lineamientos de datos abiertos."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "La Ley 1581 de 2012 establece el régimen general para la protección de datos personales en Colombia."
+},
+{
+  "id": 9,
+  "caso": "Un auditor solicita medir características como exactitud, completitud y consistencia de los datos.",
+  "enunciado": "¿Qué estándar internacional se aplica a la calidad de datos?",
+  "opciones": [
+    "A. ISO/IEC 25012, que define un modelo de calidad de datos.",
+    "B. ISO/IEC 27001, que regula seguridad de la información.",
+    "C. ISO 9001, que establece requisitos para sistemas de gestión de calidad."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "ISO/IEC 25012 es la norma que define características de calidad de datos, tanto inherentes como dependientes del sistema."
+},
+{
+  "id": 10,
+  "caso": "El área de TI necesita estandarizar los metadatos para describir datasets en un portal de datos abiertos.",
+  "enunciado": "¿Qué vocabulario internacional debe usarse?",
+  "opciones": [
+    "A. DCAT v3, estándar W3C para descripción de catálogos de datos.",
+    "B. UML, usado para modelado de sistemas y software.",
+    "C. BPMN, que modela procesos de negocio."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "DCAT v3 es el vocabulario estándar del W3C para describir datasets y catálogos interoperables de datos abiertos."
+},
+{
+  "id": 11,
+  "caso": "La entidad debe garantizar confidencialidad, integridad y disponibilidad de los datos.",
+  "enunciado": "¿Qué modelo nacional debe aplicar una entidad pública colombiana?",
+  "opciones": [
+    "A. MSPI, Modelo de Seguridad y Privacidad de la Información del MinTIC.",
+    "B. Ley 909 de 2004, que regula el empleo público.",
+    "C. Decreto 1078 de 2015, que compila normatividad de TIC."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "El MSPI es el marco oficial en Colombia para seguridad y privacidad de la información en entidades públicas."
+},
+{
+  "id": 12,
+  "caso": "Una entidad debe evaluar cómo compartir datos con terceros garantizando confianza y salvaguardas.",
+  "enunciado": "¿Qué referencia internacional es más pertinente?",
+  "opciones": [
+    "A. OECD EASD, principios para acceso y compartición de datos.",
+    "B. OWASP Top 10, que clasifica riesgos en aplicaciones web.",
+    "C. ITIL v4, que gestiona servicios de TI."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "La OECD EASD establece principios para acceso y compartición de datos de forma segura y confiable."
+},
+{
+  "id": 13,
+  "caso": "El área de datos busca justificar inversión en madurez de gobierno de datos ante la alta dirección.",
+  "enunciado": "¿Qué marco usaría para evidenciar brechas y capacidades?",
+  "opciones": [
+    "A. DCAM, para medir madurez con capacidades y métricas.",
+    "B. ISO 27001, para seguridad de la información.",
+    "C. PMBOK, para gestión de proyectos."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "DCAM es utilizado para demostrar brechas de madurez en gobierno de datos y justificar planes de inversión."
+},
+{
+  "id": 14,
+  "caso": "Un organismo debe publicar datasets reutilizables en su portal de transparencia activa.",
+  "enunciado": "¿Qué norma nacional lo obliga?",
+  "opciones": [
+    "A. Resolución MinTIC 1519 de 2020 sobre estándares de datos abiertos.",
+    "B. Ley 909 de 2004 sobre carrera administrativa.",
+    "C. Decreto 430 de 2016 sobre estructura del MinTIC."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "La Resolución 1519 de 2020 establece lineamientos de datos abiertos y publicación en portales públicos."
+},
+{
+  "id": 15,
+  "caso": "La entidad debe garantizar trazabilidad de los datos desde su origen hasta el consumo.",
+  "enunciado": "¿Qué concepto aplica?",
+  "opciones": [
+    "A. Linaje de datos (data lineage).",
+    "B. Minería de procesos.",
+    "C. Integración continua."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "El linaje de datos permite rastrear orígenes, transformaciones y destinos, garantizando trazabilidad."
+},
+{
+  "id": 16,
+  "caso": "Una entidad debe definir métricas concretas para evaluar atributos de calidad de datos.",
+  "enunciado": "¿Qué norma internacional se debe aplicar?",
+  "opciones": [
+    "A. ISO/IEC 25024, que establece métricas para evaluar calidad de datos.",
+    "B. ISO/IEC 12207, que regula ciclo de vida del software.",
+    "C. ISO 14001, que establece gestión ambiental."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "ISO/IEC 25024 proporciona métricas específicas para medir atributos definidos en ISO/IEC 25012."
+},
+{
+  "id": 17,
+  "caso": "Una organización busca habilitar espacios sectoriales de intercambio de datos con intermediarios confiables.",
+  "enunciado": "¿Qué normativa europea regula este modelo?",
+  "opciones": [
+    "A. Data Governance Act (DGA) de la Unión Europea.",
+    "B. GDPR, que regula protección de datos personales.",
+    "C. ITIL, que regula servicios de TI."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "El DGA de la UE regula la compartición segura de datos mediante intermediarios confiables y espacios europeos de datos."
+},
+{
+  "id": 18,
+  "caso": "El comité de datos debe definir acuerdos de calidad con umbrales de completitud y exactitud.",
+  "enunciado": "¿Cómo se denominan estos acuerdos?",
+  "opciones": [
+    "A. Data Quality Level Agreements (DQLAs).",
+    "B. Service Level Agreements (SLAs).",
+    "C. Data Use Agreements (DUAs)."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "Los DQLAs definen umbrales y compromisos específicos de calidad de datos acordados entre partes."
+},
+{
+  "id": 19,
+  "caso": "En un portal de datos abiertos se debe garantizar la interoperabilidad semántica y técnica.",
+  "enunciado": "¿Qué combinación de principios y estándares es más adecuada?",
+  "opciones": [
+    "A. FAIR + DCAT v3.",
+    "B. ISO 27001 + ITIL.",
+    "C. PMBOK + COBIT."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "La interoperabilidad en portales de datos se logra aplicando principios FAIR y el estándar DCAT v3 para metadatos."
+},
+{
+  "id": 20,
+  "caso": "La entidad necesita garantizar que los datos abiertos no expongan información sensible.",
+  "enunciado": "¿Qué principio debe aplicarse?",
+  "opciones": [
+    "A. Anonimización y minimización de datos antes de su publicación.",
+    "B. Ampliación de todos los campos disponibles sin restricción.",
+    "C. Replicación íntegra de bases sin controles."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "Los datos abiertos deben publicarse aplicando anonimización y minimización para proteger información sensible."
+},
+{
+  "id": 21,
+  "caso": "El área de analítica quiere reutilizar datos de sensores IoT garantizando su calidad.",
+  "enunciado": "¿Qué estándar internacional es aplicable?",
+  "opciones": [
+    "A. ISO 8000-220:2025, que establece requisitos de calidad para datos de sensores.",
+    "B. ISO 14064, que regula inventarios de gases de efecto invernadero.",
+    "C. ISO 31000, que establece gestión de riesgos."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "ISO 8000-220:2025 regula calidad de datos provenientes de sensores, clave en contextos IoT."
+},
+{
+  "id": 22,
+  "caso": "El comité de datos discute sobre la definición oficial de conceptos de negocio.",
+  "enunciado": "¿Qué artefacto se utiliza para consolidarlos?",
+  "opciones": [
+    "A. Diccionario o glosario de datos institucional.",
+    "B. Manual de funciones de la entidad.",
+    "C. Acuerdo de nivel de servicio."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "El glosario o diccionario de datos formaliza definiciones de negocio y asegura un lenguaje común."
+},
+{
+  "id": 23,
+  "caso": "Una organización busca un marco internacional para identificar, clasificar y gestionar activos de datos.",
+  "enunciado": "¿Qué estándar de gestión de activos de información se puede aplicar?",
+  "opciones": [
+    "A. ISO 55000 adaptado para activos de información.",
+    "B. ISO 31000, enfocado en riesgos.",
+    "C. ISO 45001, enfocado en seguridad y salud laboral."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "ISO 55000 define lineamientos para gestión de activos y puede aplicarse al inventario de datos como activos organizacionales."
+},
+{
+  "id": 24,
+  "caso": "El área de datos debe justificar la adopción de un modelo de gobierno como parte de la Política de Gobierno Digital.",
+  "enunciado": "¿Qué documento nacional debe tenerse en cuenta?",
+  "opciones": [
+    "A. Política de Gobierno Digital del MinTIC y sus lineamientos de gestión de datos.",
+    "B. Ley 909 de 2004 sobre empleo público.",
+    "C. Manual de Contratación Estatal."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "La Política de Gobierno Digital establece lineamientos de gobierno de datos en entidades públicas en Colombia."
+},
+
+    {
+        "id": 25,
+        "caso": "En una entidad pública colombiana, se está implementando un framework de gobierno de datos siguiendo el DAMA-DMBOK 2.0. Se requiere establecer los mecanismos de toma de decisiones sobre los activos de datos.",
+        "enunciado": "¿Qué componente del framework de gobierno de datos es PRIMORDIAL para garantizar que las decisiones sobre datos estén alineadas con los objetivos estratégicos de la entidad?",
+        "opciones": [
+            "A. La definición de un comité de gobierno de datos con representación de todas las áreas misionales.",
+            "B. La implementación de un catálogo de datos centralizado con metadatos técnicos y de negocio.",
+            "C. La establecimiento de políticas de calidad de datos con indicadores de medición continuos."
+        ],
+        "respuesta_correcta": "A",
+        "explicacion": "El comité de gobierno de datos, con representación cross-functional, es esencial para asegurar que las decisiones sobre datos estén alineadas con los objetivos estratégicos de la entidad, según el framework DAMA-DMBOK 2.0 y el Decreto 1008 de 2018."
+    },
+    {
+        "id": 26,
+        "caso": "Una entidad del sector público debe clasificar sus datos según el nivel de sensibilidad para cumplir con la Ley 1581 de 2012.",
+        "enunciado": "¿Qué criterio de clasificación sería MÁS apropiado para determinar el nivel de protección requerido por los datos personales?",
+        "opciones": [
+            "A. Clasificación basada en el volumen de datos almacenados y su frecuencia de acceso.",
+            "B. Categorización según el impacto potencial por pérdida de confidencialidad, integridad o disponibilidad.",
+            "C. Organización por antigüedad de los datos y su relevancia para procesos operativos actuales."
+        ],
+        "respuesta_correcta": "B",
+        "explicacion": "La clasificación por impacto potencial en confidencialidad, integridad y disponibilidad es el criterio adecuado según la Ley 1581 y el Decreto 1377 de 2013, ya que determina las medidas de protección específicas requeridas."
+    },
+    {
+        "id": 27,
+        "caso": "Al implementar un programa de gobierno de datos, se debe establecer la estructura de roles y responsabilidades.",
+        "enunciado": "¿Qué rol tiene la responsabilidad PRIMARIA de definir los requisitos de calidad de datos para un dominio específico?",
+        "opciones": [
+            "A. El Data Steward como conocedor experto del dominio de datos.",
+            "B. El Data Owner como responsable del negocio de los datos.",
+            "C. El Data Custodian como encargado de la implementación técnica."
+        ],
+        "respuesta_correcta": "B",
+        "explicacion": "El Data Owner, como responsable del negocio, tiene la responsabilidad primaria de definir los requisitos de calidad de datos para su dominio, según el framework DAMA-DMBOK y las mejores prácticas de gobierno de datos."
+    },
+    {
+        "id": 28,
+        "caso": "Para cumplir con el principio de transparencia en el gobierno de datos, se deben implementar mecanismos de trazabilidad.",
+        "enunciado": "¿Qué técnica proporciona la MEJOR trazabilidad del ciclo de vida completo de los datos?",
+        "opciones": [
+            "A. Implementación de logs detallados de auditoría para todas las operaciones de datos.",
+            "B. Diseño de un data lineage completo que capture el origen, transformación y consumo.",
+            "C. Establecimiento de metadatos de procedencia para cada conjunto de datos."
+        ],
+        "respuesta_correcta": "B",
+        "explicacion": "El data lineage proporciona trazabilidad completa al capturar el origen, transformaciones y consumo de los datos a lo largo de todo su ciclo de vida, superando a otras técnicas en comprehensividad."
+    },
+    {
+        "id": 29,
+        "caso": "En el contexto de la Resolución 1464 de 2023, una entidad debe establecer su política de retención de datos.",
+        "enunciado": "¿Qué factor es MÁS crítico para determinar los períodos de retención de datos personales?",
+        "opciones": [
+            "A. La capacidad de almacenamiento disponible en los sistemas de la entidad.",
+            "B. Los requisitos legales y regulatorios específicos para cada tipo de dato.",
+            "C. La frecuencia de acceso y uso operativo de los datos por parte de las áreas."
+        ],
+        "respuesta_correcta": "B",
+        "explicacion": "Los requisitos legales y regulatorios, especialmente los establecidos en la Ley 1581 y normativa complementaria, son el factor crítico para determinar períodos de retención de datos personales."
+    },
+    {
+        "id": 30,
+        "caso": "Se debe implementar un sistema de calidad de datos para mejorar la confiabilidad de la información.",
+        "enunciado": "¿Qué dimensión de calidad de datos es MÁS importante para garantizar la correcta toma de decisiones estratégicas?",
+        "opciones": [
+            "A. Exactitud (accuracy) que asegure que los datos representan correctamente la realidad.",
+            "B. Oportunidad (timeliness) que garantice que los datos están disponibles cuando se necesitan.",
+            "C. Consistencia (consistency) que asegure uniformidad across diferentes sistemas."
+        ],
+        "respuesta_correcta": "A",
+        "explicacion": "La exactitud (accuracy) es la dimensión más crítica para la toma de decisiones estratégicas, ya que decisiones basadas en datos incorrectos pueden tener impactos severos en la entidad."
+    },
+    {
+        "id": 31,
+        "caso": "Para implementar controles de seguridad efectivos, se debe clasificar los datos según su sensibilidad.",
+        "enunciado": "¿Qué metodología de clasificación proporciona el MEJOR balance entre usabilidad y seguridad?",
+        "opciones": [
+            "A. Clasificación binaria (pública/confidencial) con controles estandarizados.",
+            "B. Categorización multi-nivel con controles granulares basados en impacto.",
+            "C. Etiquetado continuo con scores de riesgo dinámicos y ajustables."
+        ],
+        "respuesta_correcta": "B",
+        "explicacion": "La categorización multi-nivel con controles granulares permite implementar medidas de seguridad proporcionales al nivel de sensibilidad, optimizando el balance entre usabilidad y protección."
+    },
+    {
+        "id": 32,
+        "caso": "Al diseñar un catálogo de datos, se debe garantizar su adopción por los usuarios de negocio.",
+        "enunciado": "¿Qué característica es MÁS importante para asegurar la utilidad del catálogo para usuarios no técnicos?",
+        "opciones": [
+            "A. Integración completa con todos los sistemas transaccionales de la entidad.",
+            "B. Business glossary con definiciones de negocio y contextos de uso.",
+            "C. Lineage técnico detallado con transformaciones ETL documentadas."
+        ],
+        "respuesta_correcta": "B",
+        "explicacion": "El business glossary con definiciones de negocio comprensibles para usuarios no técnicos es crucial para la adopción del catálogo de datos across la organización."
+    },
+    {
+        "id": 33,
+        "caso": "En el marco del Decreto 1008 de 2018, se deben establecer mecanismos de monitoreo del gobierno de datos.",
+        "enunciado": "¿Qué KPI es MÁS efectivo para medir el éxito del programa de gobierno de datos?",
+        "opciones": [
+            "A. Porcentaje de datos con metadatos completos y actualizados.",
+            "B. Número de incidencias de calidad de datos resueltas mensualmente.",
+            "C. Grado de alineamiento entre objetivos de negocio y capacidades de datos."
+        ],
+        "respuesta_correcta": "C",
+        "explicacion": "El alineamiento entre objetivos de negocio y capacidades de datos es el KPI más significativo para medir el éxito del gobierno de datos, según las mejores prácticas del DAMA-DMBOK."
+    },
+    {
+        "id": 34,
+        "caso": "Para implementar privacy by design, se deben incorporar controles de protección desde el diseño de sistemas.",
+        "enunciado": "¿Qué principio de privacy by design es MÁS crítico para cumplir con la Ley 1581?",
+        "opciones": [
+            "A. Protección de datos por defecto (default privacy) sin requerir acción del usuario.",
+            "B. Transparencia y visibilidad en el procesamiento de datos personales.",
+            "C. Minimización de datos colectando solo lo estrictamente necesario."
+        ],
+        "respuesta_correcta": "C",
+        "explicacion": "La minimización de datos es el principio más crítico, ya que la Ley 1581 establece específicamente que solo se pueden recolectar datos estrictamente necesarios para la finalidad declarada."
+    },
+    {
+        "id": 35,
+        "caso": "Al establecer un framework de ethics para analytics, se deben prevenir sesgos algorítmicos.",
+        "enunciado": "¿Qué práctica es MÁS efectiva para detectar y mitigar sesgos en modelos de machine learning?",
+        "opciones": [
+            "A. Implementación de pruebas de stress con datos extremos y edge cases.",
+            "B. Análisis continuo de fairness across diferentes grupos demográficos.",
+            "C. Validación exhaustiva de la calidad de los datos de entrenamiento."
+        ],
+        "respuesta_correcta": "B",
+        "explicacion": "El análisis continuo de fairness across grupos demográficos es la práctica más efectiva para detectar y mitigar sesgos algorítmicos, ensuring equidad en los resultados."
+    },
+    {
+        "id": 36,
+        "caso": "En la implementación de data mesh, se debe definir la estructura de data products.",
+        "enunciado": "¿Qué característica define MEJOR un data product según la arquitectura data mesh?",
+        "opciones": [
+            "A. Conjunto de datos con documentación técnica completa y metadatos estandarizados.",
+            "B. Datos tratados como productos con ownership claro y SLAs definidos.",
+            "C. Grupo de datasets relacionados semánticamente con governance compartida."
+        ],
+        "respuesta_correcta": "B",
+        "explicacion": "En data mesh, los data products se definen por tener ownership claro, SLAs definidos y ser tratados como productos, con responsabilidad end-to-end por el dominio dueño."
+    },
+    {
+        "id": 37,
+        "caso": "Para garantizar el cumplimiento del derecho de habeas data, se deben implementar procesos específicos.",
+        "enunciado": "¿Qué mecanismo es MÁS efectivo para gestionar las solicitudes de acceso, rectificación y supresión?",
+        "opciones": [
+            "A. Plataforma self-service para que los ciudadanos gestionen sus datos directamente.",
+            "B. Proceso manual revisado por abogados para cada solicitud individual.",
+            "C. Sistema automatizado con flujos de trabajo y tiempos de respuesta controlados."
+        ],
+        "respuesta_correcta": "C",
+        "explicacion": "Un sistema automatizado con flujos de trabajo controlados asegura el cumplimiento de los tiempos legales de respuesta establecidos en la Ley 1581, proporcionando eficiencia y auditabilidad."
+    },
+    {
+        "id": 38,
+        "caso": "Al diseñar una estrategia de data literacy, se debe asegurar la capacitación efectiva de los usuarios.",
+        "enunciado": "¿Qué enfoque de capacitación tiene MAYOR impacto en la adopción de prácticas de gobierno de datos?",
+        "opciones": [
+            "A. Programas generales de capacitación en concepts básicos de datos para todos los empleados.",
+            "B. Training específico por roles con casos de uso relevantes para cada área funcional.",
+            "C. Certificaciones técnicas avanzadas para los roles especializados en datos."
+        ],
+        "respuesta_correcta": "B",
+        "explicacion": "El training específico por roles con casos de uso relevantes tiene mayor impacto en la adopción, ya que conecta directamente las prácticas de gobierno con el trabajo diario de cada usuario."
+    },
+    {
+        "id": 39,
+        "caso": "En la evaluación de herramientas de gobierno de datos, se deben considerar múltiples criterios.",
+        "enunciado": "¿Qué criterio de selección es MÁS importante para asegurar la sostenibilidad a largo plazo?",
+        "opciones": [
+            "A. Compatibilidad técnica con la arquitectura existente de sistemas y plataformas.",
+            "B. Capacidad de integración con estándares abiertos y APIs públicas.",
+            "C. Flexibilidad para adaptarse a cambios en procesos de negocio y normativa."
+        ],
+        "respuesta_correcta": "C",
+        "explicacion": "La flexibilidad para adaptarse a cambios futuros es el criterio más importante para la sostenibilidad a largo plazo, considerando la evolución normativa y de negocio."
+    },
+    {
+        "id": 40,
+        "caso": "Para implementar data masking efectivo, se deben seleccionar las técnicas apropiadas.",
+        "enunciado": "¿Qué técnica de enmascaramiento preserva MEJOR la utilidad analítica de los datos?",
+        "opciones": [
+            "A. Enmascaramiento determinístico que mantiene consistencia referencial.",
+            "B. Tokenización reversible con gestión centralizada de keys.",
+            "C. Generación de datos sintéticos que preservan distribuciones estadísticas."
+        ],
+        "respuesta_correcta": "C",
+        "explicacion": "La generación de datos sintéticos que preservan distribuciones estadísticas mantiene la utilidad analítica mientras protege la información sensible, ideal para entornos de testing y analytics."
+    },
+    {
+        "id": 41,
+        "caso": "En el contexto de cloud governance, se deben establecer controles para datos en la nube.",
+        "enunciado": "¿Qué aspecto es MÁS crítico para el gobierno de datos en entornos multi-cloud?",
+        "opciones": [
+            "A. Estándares uniformes de clasificación y protección across todas las plataformas.",
+            "B. Herramientas centralizadas de monitoreo y gestión de seguridad.",
+            "C. Contratos de servicio con SLAs específicos para protección de datos."
+        ],
+        "respuesta_correcta": "A",
+        "explicacion": "Estándares uniformes de clasificación y protección across todas las plataformas cloud son críticos para mantener consistencia en el gobierno de datos en entornos multi-cloud."
+    },
+    {
+        "id": 42,
+        "caso": "Al implementar un data warehouse, se debe diseñar el modelo de datos para gobierno efectivo.",
+        "enunciado": "¿Qué patrón de modelado facilita MEJOR la gestión de metadatos y lineage?",
+        "opciones": [
+            "A. Esquema estrella con dimensiones conformadas y hechos centralizados.",
+            "B. Esquema copo de nieve con normalización completa para minimizar redundancia.",
+            "C. Data vault 2.0 con hubs, links y satellites para trazabilidad completa."
+        ],
+        "respuesta_correcta": "C",
+        "explicacion": "Data Vault 2.0, con su estructura de hubs, links y satellites, proporciona trazabilidad completa y facilita la gestión de metadatos, ideal para entornos con fuertes requisitos de gobierno."
+    },
+    {
+        "id": 43,
+        "caso": "Para medir la madurez del gobierno de datos, se debe utilizar un framework de assessment.",
+        "enunciado": "¿Qué dimensión del modelo DCAM es MÁS relevante para evaluar capacidades de gobierno?",
+        "opciones": [
+            "A. Gestión de arquitectura de datos y plataformas tecnológicas.",
+            "B. Definición de roles, responsabilidades y accountabilities.",
+            "C. Implementación de controles de calidad y procesos de remediación."
+        ],
+        "respuesta_correcta": "B",
+        "explicacion": "La definición de roles, responsabilidades y accountabilities es la dimensión más relevante en DCAM para evaluar capacidades de gobierno, ya que establece el foundation organizacional."
+    },
+    {
+        "id": 44,
+        "caso": "En la implementación de IA ética, se deben establecer mecanismos de explicabilidad.",
+        "enunciado": "¿Qué técnica proporciona MAYOR transparencia en modelos de machine learning complejos?",
+        "opciones": [
+            "A. Feature importance analysis para identificar variables predictoras clave.",
+            "B. Model distillation hacia architectures más simples y interpretables.",
+            "C. Local interpretable model-agnostic explanations (LIME) para casos individuales."
+        ],
+        "respuesta_correcta": "C",
+        "explicacion": "LIME proporciona explicaciones locales para predicciones individuales en modelos complejos, ofreciendo mayor transparencia y cumpliendo con requisitos de explicabilidad en IA ética."
+    },
+    {
+        "id": 45,
+        "caso": "Para asegurar el cumplimiento continuo de normativa de datos, se deben implementar controles automatizados.",
+        "enunciado": "¿Qué enfoque de compliance automation es MÁS efectivo para regulaciones dinámicas?",
+        "opciones": [
+            "A. Implementación de checks estáticos basados en reglas codificadas manualmente.",
+            "B. Sistema de monitoreo continuo con detección de desviaciones en tiempo real.",
+            "C. Auditorías automatizadas periódicas con reporting de cumplimiento."
+        ],
+        "respuesta_correcta": "B",
+        "explicacion": "El monitoreo continuo con detección de desviaciones en tiempo real es más efectivo para regulaciones dinámicas, permitiendo identificación y corrección inmediata de incumplimientos."
+    },
+    {
+"id": 46,
+"caso": "Tu entidad recibe una solicitud para centralizar el manejo de calidad, seguridad y acceso a los datos institucionales.",
+"enunciado": "¿Cuál es el propósito fundamental del gobierno de datos?",
+"opciones": [
+"A. Mejorar el desempeño tecnológico mediante la automatización masiva de procesos.",
+"B. Garantizar la calidad, integridad, seguridad y uso ético de los datos en toda la organización.",
+"C. Brindar autonomía absoluta a los usuarios finales en el manejo de información sensible."
+],
+"respuesta_correcta": "B",
+"explicacion": "El gobierno de datos busca asegurar calidad, integridad, seguridad y uso ético para decisiones confiables a nivel institucional."
+},
+{
+"id": 47,
+"caso": "Se detectan inconsistencias y duplicidades constantes en informes provenientes de distintas áreas.",
+"enunciado": "¿Qué componente del gobierno de datos debe reforzarse?",
+"opciones": [
+"A. Gestión de metadatos para identificar origen y estructura.",
+"B. Implementación de auditoría automatizada sobre registros.",
+"C. Política exclusiva de anonimización sin control de calidad."
+],
+"respuesta_correcta": "A",
+"explicacion": "La gestión de metadatos facilita identificar fuentes, relaciones y formatos para depurar duplicidades e inconsistencias."
+},
+{
+"id": 48,
+"caso": "La entidad debe cumplir nuevas exigencias de protección de datos personales, ley 1581 de 2012.",
+"enunciado": "¿Qué dimensión del gobierno de datos se prioriza?",
+"opciones": [
+"A. Seguridad y privacidad en el ciclo de vida del dato.",
+"B. Monitoreo de software sin evaluación legal.",
+"C. Optimización del acceso público sin restricción."
+],
+"respuesta_correcta": "A",
+"explicacion": "La seguridad y protección legal es un eje del gobierno de datos exigido por ley para el tratamiento de datos personales."
+},
+{
+"id": 49,
+"caso": "El equipo directivo requiere conocer los activos de información institucional con detalle y trazabilidad.",
+"enunciado": "¿Qué herramienta facilita esta gestión?",
+"opciones": [
+"A. Catálogo de datos con inventario de fuentes, responsables y registros.",
+"B. Listado mínimo solo de hojas de cálculo usadas en la gestión diaria.",
+"C. Resúmenes trimestrales de indicadores sin documentación técnica."
+],
+"respuesta_correcta": "A",
+"explicacion": "Un catálogo centralizado es pilar del gobierno de datos para inventariar fuentes, responsables y trazabilidad."
+},
+{
+"id": 50,
+"caso": "Se presenta una fuga de datos confidenciales por una mala gestión de accesos.",
+"enunciado": "¿Qué medida preventiva refuerza el gobierno de datos?",
+"opciones": [
+"A. Definición de roles, permisos y monitoreo de acceso.",
+"B. Aumento de almacenamiento en la nube sin restricciones.",
+"C. Disponibilidad total de repositorios hacia la ciudadanía."
+],
+"respuesta_correcta": "A",
+"explicacion": "El gobierno de datos define roles y restricciones de acceso para evitar incidentes y garantizar protección."
+},
+{
+"id": 51,
+"caso": "En una auditoría interna, se solicita demostrar cómo se controlan los cambios en fuentes de datos clave.",
+"enunciado": "¿Qué dimensión debe documentarse?",
+"opciones": [
+"A. Trazabilidad y registro histórico de modificaciones.",
+"B. Eliminación periódica de respaldos automático.",
+"C. Descentralización individual sin protocologización."
+],
+"respuesta_correcta": "A",
+"explicacion": "La trazabilidad permite supervisar cambios, detectar errores y responder ante auditorías de control."
+},
+{
+"id": 52,
+"caso": "Surgen discrepancias entre datos reportados por áreas diferentes, con impactos en decisiones estratégicas.",
+"enunciado": "¿Cuál buena práctica reduce este riesgo?",
+"opciones": [
+"A. Inventario y estandarización de activos y fuentes.",
+"B. Permitir formatos abiertos y variables sin restricción.",
+"C. Eliminar registros históricos cada año por seguridad."
+],
+"respuesta_correcta": "A",
+"explicacion": "La estandarización y catalogación evitan duplicidad, errores y facilitan decisiones basadas en datos únicos y seguros."
+},
+{
+"id": 53,
+"caso": "El área TIC solicita consejo sobre la adopción de un marco internacional para gobierno de datos.",
+"enunciado": "¿Cuál referencia es reconocida en el sector?",
+"opciones": [
+"A. DAMA-DMBOK (Data Management Body of Knowledge).",
+"B. Proyecto privado sin validación técnica.",
+"C. Reglas internas sin documentación formal."
+],
+"respuesta_correcta": "A",
+"explicacion": "DAMA-DMBOK es un marco internacionalmente validado para gobierno y gestión profesional del dato."
+},
+{
+"id": 54,
+"caso": "Se busca asegurar la vigencia y utilidad de los datos analizados en informes institucionales.",
+"enunciado": "¿Qué indicador de calidad debe priorizarse?",
+"opciones": [
+"A. Oportunidad, validez y actualidad de los registros.",
+"B. Uso de formatos propietarios de solo lectura.",
+"C. Exclusividad de acceso para perfiles técnicos."
+],
+"respuesta_correcta": "A",
+"explicacion": "La oportunidad y validez aseguran informes útiles y confiables para la gestión pública."
+},
+{
+"id": 55,
+"caso": "La entidad debe facilitar el acceso responsable a datos abiertos, sin comprometer privacidad.",
+"enunciado": "¿Qué proceso lo garantiza?",
+"opciones": [
+"A. Anonimización y control normativo antes de publicar.",
+"B. Publicación masiva sin filtrado ni restricción.",
+"C. Acceso exclusivo a usuarios internos sin catalogación."
+],
+"respuesta_correcta": "A",
+"explicacion": "Anonimizar y controlar legalmente protege derechos y facilita publicación responsable de datos abiertos."
+},
+{
+"id": 56,
+"caso": "El Comité de Gobierno de Datos decide mejorar la interoperabilidad municipal y estatal.",
+"enunciado": "¿Qué acción facilita ese objetivo?",
+"opciones": [
+"A. Implementar estándares y formatos abiertos de intercambio.",
+"B. Mantener sistemas aislados y propietarios.",
+"C. Adopción exclusiva de repositorios locales."
+],
+"respuesta_correcta": "A",
+"explicacion": "La interoperabilidad se basa en estándares abiertos para fluidez y seguridad entre municipios y Estado."
+},
+{
+"id": 57,
+"caso": "Se identifica que los responsables de calidad de datos no cumplen sus funciones asignadas.",
+"enunciado": "¿Cuál medida refuerza la efectividad de roles en el gobierno de datos?",
+"opciones": [
+"A. Capacitación, definición clara y monitoreo de roles y responsabilidades.",
+"B. Rotación anual de responsables sin seguimiento.",
+"C. Eliminación definitiva de manuales técnicos y protocolos."
+],
+"respuesta_correcta": "A",
+"explicacion": "El gobierno de datos requiere capacitación, roles claros y monitoreo para alcanzar sus objetivos."
+},
+{
+"id": 58,
+"caso": "Durante una crisis, se requiere un reporte inmediato de fuentes de datos críticas para la toma de decisiones.",
+"enunciado": "¿Qué elemento organizacional agiliza la respuesta?",
+"opciones": [
+"A. Inventario actualizado y accesible de activos de información.",
+"B. Respaldo periódico manual y descentralizado.",
+"C. Documentación dispersa sin control de versiones."
+],
+"respuesta_correcta": "A",
+"explicacion": "Un inventario actualizado agiliza la reacción ante emergencias y mejora la gestión informativa."
+},
+{
+"id": 59,
+"caso": "Una nueva ley exige mayor trazabilidad y explicabilidad en sistemas de IA que usan datos institucionales.",
+"enunciado": "¿Qué enfoque de gobierno de datos responde a esta exigencia?",
+"opciones": [
+"A. Documentar procesos, modelos y decisiones para auditoría.",
+"B. Automatizar solo los procesos sin registro documental.",
+"C. Eliminar informes explicativos por política de seguridad."
+],
+"respuesta_correcta": "A",
+"explicacion": "La trazabilidad y explicabilidad se logran con documentación detallada y auditoría constante."
+},
+{
+"id": 60,
+"caso": "El proceso de intercambio de información con externos está generando brechas de seguridad.",
+"enunciado": "¿Cómo debe abordarse este reto desde el gobierno de datos?",
+"opciones": [
+"A. Ejecución de controles de acceso, acuerdos normativos y monitoreo.",
+"B. Permisos genéricos sin registro de actividades.",
+"C. Exportación automática de todos los registros sin restricción."
+],
+"respuesta_correcta": "A",
+"explicacion": "El gobierno de datos exige controles, acuerdos y monitoreo para manejo responsable en intercambio externo."
+},
+{
+"id": 61,
+"caso": "Se pretende fomentar la innovación usando datos abiertos institucionales.",
+"enunciado": "¿Qué factor es clave en ese contexto?",
+"opciones": [
+"A. Calidad, actualidad y interoperabilidad de los datos publicados.",
+"B. Restricción total a usuarios internos y privados.",
+"C. Exclusiva exportación en formatos cerrados."
+],
+"respuesta_correcta": "A",
+"explicacion": "Solo datos abiertos, actualizados y interoperables potencian innovación y valor público."
+},
+{
+"id": 62,
+"caso": "Surgen problemas por falta de definición en el ciclo de vida de los datos institucionales.",
+"enunciado": "¿Qué práctica fundamental debe adoptarse?",
+"opciones": [
+"A. Gestión integral desde la adquisición hasta la disposición segura del dato.",
+"B. Administración exclusiva de la fase de almacenamiento.",
+"C. Ignorar las recomendaciones internacionales por austeridad."
+],
+"respuesta_correcta": "A",
+"explicacion": "El ciclo de vida definido asegura manejo eficiente, seguro y conforme a estándares y ley."
+},
+{
+"id": 63,
+"caso": "La entidad busca implantar una política de ética en el uso de datos e inteligencia artificial.",
+"enunciado": "¿Qué elemento debe priorizar ese gobierno?",
+"opciones": [
+"A. Principios de transparencia, responsabilidad y protección de derechos.",
+"B. Exclusividad en el uso de datos para algoritmos privados.",
+"C. Automatización sin control ni supervisión de impactos."
+],
+"respuesta_correcta": "A",
+"explicacion": "El uso ético requiere transparencia, responsabilidad y protección frente a afectación de derechos."
+},
+{
+"id": 64,
+"caso": "En la revisión anual, se observa baja calidad en registros institucionales provenientes de varias áreas.",
+"enunciado": "¿Qué acción prioritiza el gobierno de datos?",
+"opciones": [
+"A. Monitoreo, verificación, retroalimentación y mejora continua.",
+"B. Eliminación masiva de registros sin revisión.",
+"C. Mantener registros desactualizados para referencia histórica."
+],
+"respuesta_correcta": "A",
+"explicacion": "La mejora continua eleva calidad y utilidad de los datos administrados institucionalmente."
+},
+{
+"id": 65,
+"caso": "Por recomendación internacional, la entidad debe coordinar el uso de datos abiertos entre distintas dependencias.",
+"enunciado": "¿Qué órgano institucional es clave para esta tarea?",
+"opciones": [
+"A. Comité de Gobierno de Datos y responsables de datos abiertos.",
+"B. Administración exclusiva solo por la alta dirección.",
+"C. Designación rotativa entre personal operativo."
+],
+"respuesta_correcta": "A",
+"explicacion": "El Comité especializado define, coordina y supervisa políticas transversales de datos abiertos."
+},
+{
+"id": 66,
+"caso": "Se requiere actualizar y difundir protocolos institucionales para el manejo responsable de datos.",
+"enunciado": "¿Qué principio orienta esa actualización?",
+"opciones": [
+"A. Adaptación permanente a la regulación, tecnología y mejores prácticas.",
+"B. Exclusividad de procesos estáticos y restrictivos.",
+"C. Omisión de revisión documental por criterios de urgencia."
+],
+"respuesta_correcta": "A",
+"explicacion": "El gobierno de datos exige protocolos actualizados y adaptados para mantener vigencia y eficiencia."
+},
+{
+"id": 67,
+"caso": "Un error en catalogación causa pérdida de datos críticos en la operación institucional.",
+"enunciado": "¿Cuál práctica del gobierno de datos ayuda a prevenir este tipo de incidentes?",
+"opciones": [
+"A. Revisión periódica del catálogo de fuentes y control de versiones.",
+"B. Eliminación automática de registros obsoletos.",
+"C. Mantenimiento de sistemas aislados sin actualización."
+],
+"respuesta_correcta": "A",
+"explicacion": "El control y revisión periódica de catálogos evita pérdidas y facilita recuperación efectiva."
+},
+{
+"id": 68,
+"caso": "La entidad implementa un sistema automatizado de monitoreo e informes sobre calidad de datos.",
+"enunciado": "¿Qué ventaja aporta este desarrollo?",
+"opciones": [
+"A. Detección temprana, eficiencia y mejora continua en la administración.",
+"B. Facilita exclusividad de uso para perfiles técnicos.",
+"C. Limita el acceso a registros sólo en horario laboral."
+],
+"respuesta_correcta": "A",
+"explicacion": "La automatización en monitoreo y reporting eleva eficiencia y facilita decisiones oportunas."
+},
+{
+"id": 69,
+"caso": "Se propone publicar nueva serie de datos abiertos para innovar en la gestión pública.",
+"enunciado": "¿Qué cuidado debe observarse?",
+"opciones": [
+"A. Cumplimiento de normativas de anonimización, calidad y acceso transparente.",
+"B. Difusión directa sin verificación ni documentación.",
+"C. Exclusión de metadatos por simplicidad técnica."
+],
+"respuesta_correcta": "A",
+"explicacion": "El gobierno de datos exige publicar solo información verificada, documentada y protegida."
+},
+{
+"id": 70,
+"caso": "En un contexto de crisis, los directivos deben acceder y analizar datos críticos en minutos.",
+"enunciado": "¿Qué elemento institucional lo hace posible desde el gobierno de datos?",
+"opciones": [
+"A. Política de inventario, acceso y catalogación permanente.",
+"B. Procesamiento manual de registros solo cuando hay tiempo.",
+"C. Reunión eventual para buscar datos relevantes."
+],
+"respuesta_correcta": "A",
+"explicacion": "El acceso rápido depende de inventario permanente y catalogación eficiente de datos institucionales."
+}
+
+]

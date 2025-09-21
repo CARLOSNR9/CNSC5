@@ -1,0 +1,799 @@
+[
+  {
+    "id": 1,
+    "caso": "El empleo al que usted aspira pertenece a la Comisión Nacional del Servicio Civil (CNSC). Para entender mejor su rol, es importante conocer la estructura y el propósito de la entidad a la que se vinculará.",
+    "enunciado": "De acuerdo con los documentos, ¿cuál es la función principal de la Comisión Nacional del Servicio Civil?",
+    "opciones": [
+      "A. Administrar los recursos económicos del sector público.",
+      "B. Organizar los concursos de méritos para el ingreso a la carrera administrativa.",
+      "C. Evaluar el desempeño laboral de todos los servidores públicos."
+    ],
+    "respuesta_correcta": "B",
+    "explicacion": "Según la información proporcionada, la Comisión Nacional del Servicio Civil es la entidad encargada de organizar los concursos de mérito, de conformidad con la ley."
+  },
+  {
+    "id": 2,
+    "caso": "El empleo de Profesional Especializado, código 2028, se ubica en una dependencia específica de la CNSC. Identificar esta dependencia es fundamental para comprender su entorno de trabajo.",
+    "enunciado": "¿En qué dependencia de la CNSC se encuentra la vacante para el cargo de Profesional Especializado, código 2028?",
+    "opciones": [
+      "A. Dirección de Gestión Humana.",
+      "B. Dirección de Tecnologías de la Información y las Telecomunicaciones.",
+      "C. Dirección de Comunicaciones."
+    ],
+    "respuesta_correcta": "B",
+    "explicacion": "El documento 'Cargo a postular.docx' y 'Manual de Funciones.pdf' indican que el cargo se ubica en la 'DIRECCION DE TECNOLOGIAS DE LA INFORMACION Y LAS TELECOMUNICACIONES'."
+  },
+  {
+    "id": 3,
+    "caso": "El propósito del cargo de Profesional Especializado está directamente relacionado con las necesidades de la dirección a la que pertenece.",
+    "enunciado": "¿Qué función de la CNSC se relaciona directamente con el propósito de 'Orientar la incorporación de nuevas tecnologías' en su dependencia?",
+    "opciones": [
+      "A. La gestión de trámites administrativos.",
+      "B. La organización de eventos de capacitación para servidores.",
+      "C. La aplicación de pruebas técnicas para la selección de personal."
+    ],
+    "respuesta_correcta": "C",
+    "explicacion": "La aplicación de pruebas, especialmente las de componente técnico, se beneficia de la incorporación de tecnologías. Además, las tecnologías de la información son transversales a todos los procesos de la CNSC."
+  },
+
+  {
+  "id": 4,
+  "caso": "Un funcionario debe identificar quién tiene la competencia para modificar la estructura interna de la CNSC.",
+  "enunciado": "¿Qué órgano es responsable de esta decisión?",
+  "opciones": [
+    "A. La Presidencia de la Comisión Nacional del Servicio Civil.",
+    "B. La Sala Plena de Comisionados de la Comisión Nacional del Servicio Civil.",
+    "C. La Secretaría General de la Comisión Nacional del Servicio Civil."
+  ],
+  "respuesta_correcta": "B",
+  "explicacion": "Según el Acuerdo 75 de 2023, la Sala Plena de Comisionados es la máxima autoridad y define la estructura interna de la entidad."
+},
+{
+  "id": 5,
+  "caso": "Un proceso de reorganización administrativa requiere determinar quién ejerce la representación legal de la CNSC.",
+  "enunciado": "¿Quién ostenta esta función?",
+  "opciones": [
+    "A. El Presidente de la Comisión Nacional del Servicio Civil, elegido por la Sala Plena.",
+    "B. El Secretario General de la Comisión Nacional del Servicio Civil.",
+    "C. El Comisionado más antiguo en la Sala Plena de la Comisión Nacional del Servicio Civil."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "La representación legal de la CNSC corresponde al Presidente, designado por la Sala Plena por periodos anuales."
+},
+{
+  "id": 6,
+  "caso": "Durante una consulta, se requiere saber cuál dependencia lidera los procesos de selección y las listas de elegibles.",
+  "enunciado": "¿Qué dirección es competente?",
+  "opciones": [
+    "A. Dirección de Administración de Carrera Administrativa.",
+    "B. Dirección de Vigilancia y Registro Público de Carrera Administrativa.",
+    "C. Dirección de Apoyo Corporativo."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "La Dirección de Administración de Carrera Administrativa gestiona los procesos de selección, la conformación e integración de listas de elegibles y el estudio de vacantes."
+},
+{
+  "id": 7,
+  "caso": "La Escuela Virtual de la CNSC debe articularse con la gestión del conocimiento institucional.",
+  "enunciado": "¿En qué dependencia se encuentra ubicada?",
+  "opciones": [
+    "A. Dirección de Apoyo Corporativo.",
+    "B. Dirección de Vigilancia y Registro Público de Carrera Administrativa.",
+    "C. Oficina Asesora de Planeación."
+  ],
+  "respuesta_correcta": "B",
+  "explicacion": "Tras la reorganización de 2023, la Escuela Virtual se integró a la Dirección de Vigilancia y Registro Público para fortalecer la gestión del conocimiento."
+},
+{
+  "id": 8,
+  "caso": "Una entidad vigilada consulta a la CNSC sobre la validez de sus procesos de carrera administrativa.",
+  "enunciado": "¿Qué dependencia debe responder?",
+  "opciones": [
+    "A. Dirección de Vigilancia y Registro Público de Carrera Administrativa.",
+    "B. Oficina Asesora Jurídica.",
+    "C. Secretaría General."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "La Dirección de Vigilancia y Registro Público de Carrera Administrativa ejerce la vigilancia preventiva y resuelve consultas sobre la aplicación de normas de carrera."
+},
+{
+  "id": 9,
+  "caso": "La CNSC debe garantizar la administración de recursos físicos, financieros y de contratación.",
+  "enunciado": "¿Qué dependencia es la encargada?",
+  "opciones": [
+    "A. Dirección de Tecnologías de la Información y las Comunicaciones.",
+    "B. Dirección de Apoyo Corporativo.",
+    "C. Secretaría General."
+  ],
+  "respuesta_correcta": "B",
+  "explicacion": "La Dirección de Apoyo Corporativo es responsable de la gestión administrativa y financiera, incluyendo recursos físicos, contratación y archivo."
+},
+{
+  "id": 10,
+  "caso": "Un incidente en la plataforma SIMO requiere determinar quién responde por la operación tecnológica.",
+  "enunciado": "¿Qué dependencia asume esta responsabilidad?",
+  "opciones": [
+    "A. Dirección de Tecnologías de la Información y las Comunicaciones.",
+    "B. Dirección de Administración de Carrera Administrativa.",
+    "C. Oficina de Control Interno."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "La DTIC es responsable del gobierno de TI, la continuidad de servicios y la operación de sistemas como SIMO."
+},
+{
+  "id": 11,
+  "caso": "Se requiere emitir un concepto jurídico sobre la interpretación de una norma de carrera.",
+  "enunciado": "¿Qué dependencia debe elaborarlo?",
+  "opciones": [
+    "A. Oficina Asesora Jurídica.",
+    "B. Oficina de Control Interno.",
+    "C. Dirección de Apoyo Corporativo."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "La Oficina Asesora Jurídica brinda asesoría y emite conceptos jurídicos sobre la interpretación y aplicación de normas."
+},
+{
+  "id": 12,
+  "caso": "Un proceso de planeación estratégica necesita definir indicadores y metas institucionales.",
+  "enunciado": "¿Qué dependencia lidera esta labor?",
+  "opciones": [
+    "A. Oficina Asesora de Planeación.",
+    "B. Dirección de Administración de Carrera Administrativa.",
+    "C. Secretaría General."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "La Oficina Asesora de Planeación lidera la planeación estratégica, la definición de metas y el seguimiento a indicadores."
+},
+{
+  "id": 13,
+  "caso": "En una evaluación de riesgos, se busca verificar la eficacia del Sistema de Control Interno.",
+  "enunciado": "¿Qué instancia debe realizar esta función?",
+  "opciones": [
+    "A. Oficina de Control Interno.",
+    "B. Sala Plena de Comisionados.",
+    "C. Dirección de Vigilancia y Registro Público."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "La Oficina de Control Interno evalúa la eficacia del Sistema de Control Interno y propone acciones de mejoramiento."
+},
+{
+  "id": 14,
+  "caso": "La CNSC debe determinar el responsable de atender peticiones, quejas y reclamos de la ciudadanía.",
+  "enunciado": "¿Qué unidad cumple esta función?",
+  "opciones": [
+    "A. Grupo de Atención al Ciudadano y PQR.",
+    "B. Oficina Asesora Jurídica.",
+    "C. Dirección de Apoyo Corporativo."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "El Grupo de Atención al Ciudadano y PQR es la instancia encargada de gestionar peticiones, quejas, reclamos y sugerencias."
+},
+{
+  "id": 15,
+  "caso": "Se requiere saber qué órgano de la CNSC nombra al Presidente de la entidad.",
+  "enunciado": "¿Quién realiza esta designación?",
+  "opciones": [
+    "A. La Presidencia, mediante acto propio.",
+    "B. La Sala Plena de Comisionados.",
+    "C. El Departamento Administrativo de la Función Pública."
+  ],
+  "respuesta_correcta": "B",
+  "explicacion": "El Presidente de la CNSC es elegido anualmente por la Sala Plena de Comisionados."
+},
+{
+  "id": 16,
+  "caso": "Durante una reorganización, se debe precisar la dependencia que define políticas de talento humano.",
+  "enunciado": "¿Qué instancia tiene esta competencia tras el Acuerdo 75 de 2023?",
+  "opciones": [
+    "A. Secretaría General.",
+    "B. Dirección de Vigilancia y Registro Público.",
+    "C. Oficina de Control Interno."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "El Acuerdo 75 de 2023 asignó a la Secretaría General funciones de gestión de talento humano."
+},
+{
+  "id": 17,
+  "caso": "Un comisionado consulta cuál es la dependencia que lleva el registro público de carrera administrativa.",
+  "enunciado": "¿Qué dirección responde por este proceso?",
+  "opciones": [
+    "A. Dirección de Administración de Carrera Administrativa.",
+    "B. Dirección de Vigilancia y Registro Público de Carrera Administrativa.",
+    "C. Oficina Asesora Jurídica."
+  ],
+  "respuesta_correcta": "B",
+  "explicacion": "La Dirección de Vigilancia y Registro Público administra el registro de carrera administrativa."
+},
+{
+  "id": 18,
+  "caso": "Un ciudadano interpone una queja sobre un concurso de méritos mal ejecutado en una entidad territorial.",
+  "enunciado": "¿Qué dependencia de la CNSC actúa en primera instancia?",
+  "opciones": [
+    "A. Dirección de Vigilancia y Registro Público.",
+    "B. Dirección de Apoyo Corporativo.",
+    "C. Secretaría General."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "La Dirección de Vigilancia y Registro Público realiza vigilancia preventiva sobre la correcta aplicación de los procesos de carrera."
+},
+{
+  "id": 19,
+  "caso": "En un comité interno se analiza la administración del patrimonio propio de la CNSC.",
+  "enunciado": "¿Qué instancia es responsable de este tema?",
+  "opciones": [
+    "A. Dirección de Apoyo Corporativo.",
+    "B. Oficina Asesora de Planeación.",
+    "C. Sala Plena de Comisionados."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "La Dirección de Apoyo Corporativo administra los recursos físicos y financieros de la CNSC."
+},
+{
+  "id": 20,
+  "caso": "Se debe precisar cuál dependencia se encarga de liderar la continuidad de servicios tecnológicos.",
+  "enunciado": "¿Cuál es la correcta?",
+  "opciones": [
+    "A. Dirección de Tecnologías de la Información y las Comunicaciones.",
+    "B. Oficina Asesora de Planeación.",
+    "C. Dirección de Vigilancia y Registro Público."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "La DTIC gestiona la seguridad, continuidad y disponibilidad de los servicios tecnológicos institucionales."
+},
+{
+  "id": 21,
+  "caso": "En una auditoría interna, se debe verificar la adecuada gestión contractual de la CNSC.",
+  "enunciado": "¿Qué instancia gestiona este proceso?",
+  "opciones": [
+    "A. Dirección de Apoyo Corporativo.",
+    "B. Oficina de Control Interno.",
+    "C. Presidencia."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "La Dirección de Apoyo Corporativo gestiona los procesos contractuales, mientras la Oficina de Control Interno los evalúa."
+},
+{
+  "id": 22,
+  "caso": "Un análisis de desempeño institucional busca conocer quién aprueba los planes estratégicos de la entidad.",
+  "enunciado": "¿Qué órgano tiene esta competencia?",
+  "opciones": [
+    "A. La Sala Plena de Comisionados.",
+    "B. La Dirección de Administración de Carrera Administrativa.",
+    "C. La Presidencia de la CNSC."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "La Sala Plena de Comisionados aprueba los lineamientos estratégicos y planes institucionales."
+},
+{
+  "id": 23,
+  "caso": "Se requiere un informe sobre la defensa judicial de la CNSC ante un proceso.",
+  "enunciado": "¿Qué dependencia prepara este informe?",
+  "opciones": [
+    "A. Oficina Asesora Jurídica, en coordinación con Apoyo Corporativo.",
+    "B. Dirección de Vigilancia y Registro Público.",
+    "C. Oficina Asesora de Planeación."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "La Oficina Asesora Jurídica prepara los informes de defensa judicial, en articulación con Apoyo Corporativo."
+},
+{
+  "id": 24,
+  "caso": "En un concurso de méritos, se debe precisar quién define la integración y agrupación de listas de elegibles.",
+  "enunciado": "¿Qué dependencia es responsable?",
+  "opciones": [
+    "A. Dirección de Administración de Carrera Administrativa.",
+    "B. Sala Plena de Comisionados.",
+    "C. Secretaría General."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "La Dirección de Administración de Carrera es competente para estudiar, integrar y agrupar listas de elegibles conforme a la Ley 909 y la Ley 1960."
+},
+    {
+        "id": 25,
+        "caso": "La CNSC requiere modernizar su estructura orgánica para adecuarse a los desafíos tecnológicos de la administración pública en 2025.",
+        "enunciado": "¿Qué principio constitucional debe primar en la reestructuración orgánica de la CNSC según el artículo 269 de la Constitución?",
+        "opciones": [
+            "A. Autonomía administrativa y patrimonial para garantizar su independencia funcional.",
+            "B. Subsidiariedad del Estado en la prestación de servicios públicos esenciales.",
+            "C. Descentralización administrativa para acercar servicios a las regiones."
+        ],
+        "respuesta_correcta": "A",
+        "explicacion": "El artículo 269 de la Constitución establece que la CNSC es un organismo independiente con autonomía administrativa y patrimonial, principio que debe primar en cualquier reestructuración orgánica para garantizar su independencia funcional."
+    },
+    {
+        "id": 26,
+        "caso": "Se debate la creación de una nueva dirección técnica especializada en transformación digital dentro de la CNSC.",
+        "enunciado": "¿Bajo qué dirección técnica existente sería MÁS apropiado adscribir esta nueva unidad especializada?",
+        "opciones": [
+            "A. Dirección de Selección y Movilidad del Personal por su impacto en concursos digitales.",
+            "B. Dirección de Sistemas de Información y Tecnología por su expertise técnico.",
+            "C. Dirección de Planeación y Gestión Estratégica por su visión de futuro."
+        ],
+        "respuesta_correcta": "B",
+        "explicacion": "La Dirección de Sistemas de Información y Tecnología cuenta con el expertise técnico y las competencias naturales para liderar procesos de transformación digital, según el Manual de Funciones actualizado (Resolución 0465 de 2024)."
+    },
+    {
+        "id": 27,
+        "caso": "La CNSC debe responder a una solicitud de concepto sobre interpretación normativa en materia de carrera administrativa.",
+        "enunciado": "¿Qué dirección técnica tiene la competencia específica para emitir conceptos jurídicos de carácter vinculante?",
+        "opciones": [
+            "A. Dirección de Normatividad y Consultoría por su especialización jurídica.",
+            "B. Dirección de Inspección, Vigilancia y Control por su función fiscalizadora.",
+            "C. Dirección de Evaluación y Desarrollo del Talento Humano por su conocimiento técnico."
+        ],
+        "respuesta_correcta": "A",
+        "explicacion": "La Dirección de Normatividad y Consultoría tiene como función específica la producción normativa y la emisión de conceptos jurídicos, según el Decreto 2527 de 2023 y el Manual de Funciones de la CNSC."
+    },
+    {
+        "id": 28,
+        "caso": "Se presenta un conflicto de competencias entre dos direcciones técnicas de la CNSC respecto a la implementación de un nuevo sistema de evaluación.",
+        "enunciado": "¿Qué órgano de la CNSC tiene la competencia para resolver conflictos de competencia entre sus direcciones técnicas?",
+        "opciones": [
+            "A. La Comisión Nacional en pleno como máximo órgano de dirección.",
+            "B. La Presidencia de la CNSC como representante legal.",
+            "C. La Secretaría General como órgano de coordinación técnica."
+        ],
+        "respuesta_correcta": "A",
+        "explicacion": "La Comisión Nacional en pleno, como máximo órgano de dirección y decisión, tiene la competencia para resolver conflictos de competencia entre dependencias, según lo establecido en el artículo 15 del Decreto 2527 de 2023."
+    },
+    {
+        "id": 29,
+        "caso": "La CNSC requiere implementar un sistema de gestión de calidad para todos sus procesos misionales.",
+        "enunciado": "¿Qué dirección técnica tiene entre sus funciones específicas la implementación de sistemas de gestión de calidad?",
+        "opciones": [
+            "A. Dirección de Planeación y Gestión Estratégica por su enfoque en mejora continua.",
+            "B. Dirección de Inspección, Vigilancia y Control por su labor de supervisión.",
+            "C. Dirección de Evaluación y Desarrollo del Talento Humano por su expertise en estándares."
+        ],
+        "respuesta_correcta": "A",
+        "explicacion": "La Dirección de Planeación y Gestión Estratégica tiene dentro de sus funciones la implementación de sistemas de gestión de calidad y mejora continua, según el Manual de Funciones de la CNSC (Resolución 0465 de 2024)."
+    },
+    {
+        "id": 30,
+        "caso": "Se requiere diseñar una estrategia de ciberseguridad para la protección de datos de concursantes.",
+        "enunciado": "¿Qué dirección técnica tiene la competencia principal para liderar esta estrategia?",
+        "opciones": [
+            "A. Dirección de Sistemas de Información y Tecnología por su expertise técnico.",
+            "B. Dirección de Inspección, Vigilancia y Control por su función protectora.",
+            "C. Dirección de Normatividad y Consultoría por su conocimiento legal."
+        ],
+        "respuesta_correcta": "A",
+        "explicacion": "La Dirección de Sistemas de Información y Tecnología tiene la competencia específica para garantizar la ciberseguridad de los sistemas de información de la CNSC, según el Decreto 2527 de 2023."
+    },
+    {
+        "id": 31,
+        "caso": "Una entidad territorial solicita asesoría para implementar el sistema de evaluación de desempeño.",
+        "enunciado": "¿Qué dirección técnica de la CNSC debe responder a esta solicitud?",
+        "opciones": [
+            "A. Dirección de Evaluación y Desarrollo del Talento Humano por su especialización.",
+            "B. Dirección de Selección y Movilidad del Personal por su conocimiento en procesos.",
+            "C. Dirección de Normatividad y Consultoría por su capacidad de asesoría."
+        ],
+        "respuesta_correcta": "A",
+        "explicacion": "La Dirección de Evaluación y Desarrollo del Talento Humano tiene dentro de sus funciones específicas la asesoría para la implementación de sistemas de evaluación de desempeño, según el Manual de Funciones de la CNSC."
+    },
+    {
+        "id": 32,
+        "caso": "Se detectan irregularidades en un proceso de selección de una entidad del orden nacional.",
+        "enunciado": "¿Qué dirección técnica tiene la competencia para iniciar el proceso de investigación y sanción?",
+        "opciones": [
+            "A. Dirección de Inspección, Vigilancia y Control por su función fiscalizadora.",
+            "B. Dirección de Normatividad y Consultoría por su expertise legal.",
+            "C. Dirección de Selección y Movilidad del Personal por su conocimiento técnico."
+        ],
+        "respuesta_correcta": "A",
+        "explicacion": "La Dirección de Inspección, Vigilancia y Control tiene la competencia exclusiva para ejercer la función de inspección, vigilancia y control, incluyendo la iniciación de procesos sancionatorios, según el Decreto 2527 de 2023."
+    },
+    {
+        "id": 33,
+        "caso": "La CNSC debe actualizar su plan estratégico para el período 2026-2030.",
+        "enunciado": "¿Qué dirección técnica tiene la responsabilidad principal de liderar este proceso?",
+        "opciones": [
+            "A. Dirección de Planeación y Gestión Estratégica por su función esencial.",
+            "B. Dirección de Normatividad y Consultoría por su visión integral.",
+            "C. Dirección de Sistemas de Información y Tecnología por su capacidad técnica."
+        ],
+        "respuesta_correcta": "A",
+        "explicacion": "La Dirección de Planeación y Gestión Estratégica tiene como función específica la formulación, seguimiento y evaluación del plan estratégico institucional, según el Manual de Funciones de la CNSC."
+    },
+    {
+        "id": 34,
+        "caso": "Se requiere desarrollar una nueva funcionalidad para la plataforma SIMO que permita concursos totalmente digitales.",
+        "enunciado": "¿Qué dirección técnica debe liderar el desarrollo técnico de esta funcionalidad?",
+        "opciones": [
+            "A. Dirección de Sistemas de Información y Tecnología por su expertise técnico.",
+            "B. Dirección de Selección y Movilidad del Personal por su conocimiento de procesos.",
+            "C. Dirección de Evaluación y Desarrollo del Talento Humano por su visión de talento."
+        ],
+        "respuesta_correcta": "A",
+        "explicacion": "La Dirección de Sistemas de Información y Tecnología tiene la competencia exclusiva para el desarrollo, implementación y mantenimiento de la plataforma SIMO y sus funcionalidades, según el Decreto 2527 de 2023."
+    },
+    {
+        "id": 35,
+        "caso": "Una entidad del orden nacional solicita la verificación de requisitos mínimos de sus concursantes.",
+        "enunciado": "¿Qué dirección técnica tiene la competencia para realizar esta verificación?",
+        "opciones": [
+            "A. Dirección de Selección y Movilidad del Personal por su función misional.",
+            "B. Dirección de Inspección, Vigilancia y Control por su rol supervisor.",
+            "C. Dirección de Normatividad y Consultoría por su conocimiento legal."
+        ],
+        "respuesta_correcta": "A",
+        "explicacion": "La Dirección de Selección y Movilidad del Personal tiene dentro de sus funciones específicas la verificación de requisitos mínimos de los concursantes, según el Manual de Funciones de la CNSC."
+    },
+    {
+        "id": 36,
+        "caso": "La CNSC debe emitir un concepto sobre la interpretación de una norma relacionada con el sistema de incentivos.",
+        "enunciado": "¿Qué dirección técnica debe elaborar el concepto técnico previo?",
+        "opciones": [
+            "A. Dirección de Evaluación y Desarrollo del Talento Humano por su especialización.",
+            "B. Dirección de Normatividad y Consultoría por su expertise jurídico.",
+            "C. Dirección de Planeación y Gestión Estratégica por su visión integral."
+        ],
+        "respuesta_correcta": "A",
+        "explicacion": "La Dirección de Evaluación y Desarrollo del Talento Humano tiene competencia en materia de sistemas de incentivos y debe elaborar el concepto técnico previo, que luego será revisado jurídicamente por la Dirección de Normatividad y Consultoría."
+    },
+    {
+        "id": 37,
+        "caso": "Se requiere implementar un sistema de indicadores de gestión para medir el desempeño de la CNSC.",
+        "enunciado": "¿Qué dirección técnica tiene la competencia para diseñar e implementar este sistema?",
+        "opciones": [
+            "A. Dirección de Planeación y Gestión Estratégica por su función esencial.",
+            "B. Dirección de Sistemas de Información y Tecnología por su capacidad técnica.",
+            "C. Dirección de Inspección, Vigilancia y Control por su rol evaluador."
+        ],
+        "respuesta_correcta": "A",
+        "explicacion": "La Dirección de Planeación y Gestión Estratégica tiene dentro de sus funciones específicas el diseño, implementación y seguimiento de sistemas de indicadores de gestión, según el Manual de Funciones de la CNSC."
+    },
+    {
+        "id": 38,
+        "caso": "Una entidad territorial solicita asesoría para la implementación del sistema de carrera administrativa.",
+        "enunciado": "¿Qué dirección técnica debe coordinar la respuesta integral a esta solicitud?",
+        "opciones": [
+            "A. Dirección de Normatividad y Consultoría por su función de asesoría.",
+            "B. Dirección de Inspección, Vigilancia y Control por su conocimiento de implementación.",
+            "C. Dirección de Evaluación y Desarrollo del Talento Humano por su expertise técnico."
+        ],
+        "respuesta_correcta": "A",
+        "explicacion": "La Dirección de Normatividad y Consultoría tiene la función específica de prestar asesoría y consultoría a entidades públicas en materia de carrera administrativa, coordinando con otras direcciones cuando se requiera expertise específico."
+    },
+    {
+        "id": 39,
+        "caso": "La CNSC debe modernizar su reglamento interno de trabajo.",
+        "enunciado": "¿Qué dirección técnica tiene la competencia para liderar este proceso de modernización?",
+        "opciones": [
+            "A. Dirección de Normatividad y Consultoría por su expertise jurídico.",
+            "B. Dirección de Planeación y Gestión Estratégica por su visión organizacional.",
+            "C. Dirección de Selección y Movilidad del Personal por su conocimiento de talento humano."
+        ],
+        "respuesta_correcta": "A",
+        "explicacion": "La Dirección de Normatividad y Consultoría tiene la competencia para liderar procesos de elaboración y actualización de normatividad interna, incluido el reglamento de trabajo, según el Decreto 2527 de 2023."
+    },
+    {
+        "id": 40,
+        "caso": "Se requiere desarrollar una estrategia de formación para servidores públicos de carrera.",
+        "enunciado": "¿Qué dirección técnica debe liderar el diseño de esta estrategia?",
+        "opciones": [
+            "A. Dirección de Evaluación y Desarrollo del Talento Humano por su especialización.",
+            "B. Dirección de Selección y Movilidad del Personal por su conocimiento de perfiles.",
+            "C. Dirección de Planeación y Gestión Estratégica por su visión estratégica."
+        ],
+        "respuesta_correcta": "A",
+        "explicacion": "La Dirección de Evaluación y Desarrollo del Talento Humano tiene dentro de sus funciones específicas el diseño e implementación de estrategias de formación y desarrollo para servidores públicos, según el Manual de Funciones de la CNSC."
+    },
+    {
+        "id": 41,
+        "caso": "La CNSC debe responder a una acción de tutela interpuesta por un concursante.",
+        "enunciado": "¿Qué dirección técnica tiene la competencia para preparar la respuesta técnica-jurídica?",
+        "opciones": [
+            "A. Dirección de Normatividad y Consultoría con apoyo de la dirección técnica involved.",
+            "B. Dirección de Inspección, Vigilancia y Control por su experiencia legal.",
+            "C. Secretaría General de la CNSC por su función de representación judicial."
+        ],
+        "respuesta_correcta": "A",
+        "explicacion": "La Dirección de Normatividad y Consultoría, con apoyo de la dirección técnica relacionada con el tema de la tutela, tiene la competencia para preparar las respuestas técnicas-jurídicas a acciones judiciales, según el Manual de Funciones."
+    },
+    {
+        "id": 42,
+        "caso": "Se requiere implementar un sistema de gestión documental electrónica en la CNSC.",
+        "enunciado": "¿Qué dirección técnica debe liderar técnicamente este proyecto?",
+        "opciones": [
+            "A. Dirección de Sistemas de Información y Tecnología por su expertise técnico.",
+            "B. Dirección de Normatividad y Consultoría por su conocimiento legal.",
+            "C. Dirección de Planeación y Gestión Estratégica por su visión de procesos."
+        ],
+        "respuesta_correcta": "A",
+        "explicacion": "La Dirección de Sistemas de Información y Tecnología tiene la competencia para liderar técnicamente proyectos de implementación de sistemas de información, incluidos sistemas de gestión documental, según el Decreto 2527 de 2023."
+    },
+    {
+        "id": 43,
+        "caso": "La CNSC debe actualizar su manual de funciones y de competencias laborales.",
+        "enunciado": "¿Qué dirección técnica tiene la competencia para coordinar este proceso?",
+        "opciones": [
+            "A. Dirección de Normatividad y Consultoría con apoyo de todas las direcciones.",
+            "B. Dirección de Planeación y Gestión Estratégica por su visión organizacional.",
+            "C. Dirección de Evaluación y Desarrollo del Talento Humano por su expertise en competencias."
+        ],
+        "respuesta_correcta": "A",
+        "explicacion": "La Dirección de Normatividad y Consultoría tiene la competencia para coordinar procesos de actualización de manuales de funciones, con el apoyo y contribución de todas las direcciones técnicas de la CNSC."
+    },
+    {
+        "id": 44,
+        "caso": "Se detecta una vulnerabilidad crítica en la plataforma SIMO que requiere acción inmediata.",
+        "enunciado": "¿Qué dirección técnica tiene la competencia para tomar acciones correctivas inmediatas?",
+        "opciones": [
+            "A. Dirección de Sistemas de Información y Tecnología por su autoridad técnica.",
+            "B. Dirección de Inspección, Vigilancia y Control por su función protectora.",
+            "C. Presidencia de la CNSC por su capacidad de decisión rápida."
+        ],
+        "respuesta_correcta": "A",
+        "explicacion": "La Dirección de Sistemas de Información y Tecnología tiene la competencia y autoridad técnica para tomar acciones correctivas inmediatas en casos de vulnerabilidades críticas en sistemas de información, según protocolos establecidos."
+    },
+    {
+        "id": 45,
+        "caso": "La CNSC debe elaborar su informe anual de gestión para presentar al Congreso de la República.",
+        "enunciado": "¿Qué dirección técnica tiene la responsabilidad de consolidar este informe?",
+        "opciones": [
+            "A. Dirección de Planeación y Gestión Estratégica con contribuciones de todas las direcciones.",
+            "B. Dirección de Normatividad y Consultoría por su capacidad de síntesis.",
+            "C. Secretaría General de la CNSC por su función de documentación."
+        ],
+        "respuesta_correcta": "A",
+        "explicacion": "La Dirección de Planeación y Gestión Estratégica tiene la responsabilidad de consolidar el informe anual de gestión con las contribuciones de todas las direcciones técnicas, según el Manual de Funciones de la CNSC."
+    },
+
+{
+  "id": 46,
+  "caso": "Te asignan analizar un trámite que implica decisiones sobre concursos de mérito, reclamaciones y listas de elegibles.",
+  "enunciado": "¿Qué dependencia tiene la competencia principal en ese proceso?",
+  "opciones": [
+    "A. Sala Plena de Comisionados.",
+    "B. Secretaría General.",
+    "C. Dirección de Administración de Carrera Administrativa."
+  ],
+  "respuesta_correcta": "C",
+  "explicacion": "La Dirección de Administración de Carrera Administrativa gestiona concursos, listas de elegibles y reclamaciones de los procesos selectivos."
+},
+{
+  "id": 47,
+  "caso": "Surge un problema legal frente a una reclamación de un aspirante en un concurso público.",
+  "enunciado": "¿Qué oficina debe brindar la asesoría especializada en este caso?",
+  "opciones": [
+    "A. Oficina Asesora Jurídica.",
+    "B. Oficina de Control Interno.",
+    "C. Comité del Sistema Integrado de Gestión."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "La asesoría legal frente a conflictos, reclamaciones y normatividad es competencia de la Oficina Asesora Jurídica."
+},
+{
+  "id": 48,
+  "caso": "Se requiere evaluar controles sobre cumplimiento de normas y auditoría interna en la CNSC.",
+  "enunciado": "¿A qué dependencia corresponde esta función?",
+  "opciones": [
+    "A. Oficina de Control Interno.",
+    "B. Despacho del Presidente.",
+    "C. Grupo de Apoyo Corporativo."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "La Oficina de Control Interno vigila y evalúa la gestión institucional y el cumplimiento normativo."
+},
+{
+  "id": 49,
+  "caso": "Para fortalecer los procesos tecnológicos y la seguridad informática, se propone una estrategia digital institucional.",
+  "enunciado": "¿Qué área lidera la implementación técnica de TIC en la CNSC?",
+  "opciones": [
+    "A. Oficina Asesora Informática.",
+    "B. Dirección de Vigilancia de Carrera Administrativa.",
+    "C. Sala Plena."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "La Oficina Asesora Informática lidera los procesos de modernización y seguridad tecnológica."
+},
+{
+  "id": 50,
+  "caso": "Se solicita modificar el organigrama institucional y redefinir funciones de varias dependencias.",
+  "enunciado": "¿Qué órgano tiene la facultad de aprobar esa reestructuración?",
+  "opciones": [
+    "A. Sala Plena de Comisionados.",
+    "B. Grupo de Apoyo Corporativo.",
+    "C. Comisión de Personal."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "La Sala Plena es el máximo órgano directivo y normativo en reformas a la estructura."
+},
+{
+  "id": 51,
+  "caso": "Un funcionario duda sobre los principios rectores de la CNSC aplicados a su trabajo cotidiano.",
+  "enunciado": "¿En cuál documento se encuentran formalizados los principios institucionales?",
+  "opciones": [
+    "A. Constitución Política de 1991 y Ley 909 de 2004.",
+    "B. Manual de Procesos SIG.",
+    "C. Reglamento Interno de Seguridad."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "La Constitución y la Ley 909 consagran los principios de mérito, igualdad y transparencia."
+},
+{
+  "id": 52,
+  "caso": "Un área requiere aprobar ajustes en metodologías de vigilancia sobre ingreso y permanencia en carrera administrativa.",
+  "enunciado": "¿Qué dependencia lidera esa vigilancia?",
+  "opciones": [
+    "A. Dirección de Vigilancia de Carrera Administrativa.",
+    "B. Oficina Asesora Jurídica.",
+    "C. Grupo de Apoyo Corporativo."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "La vigilancia sobre ingreso y permanencia es competencia directa de la Dirección de Vigilancia de Carrera Administrativa."
+},
+{
+  "id": 53,
+  "caso": "Se planea una sesión de estrategia sobre calidad y mejora continua en procesos institucionales.",
+  "enunciado": "¿Cuál órgano asesora formalmente estos temas?",
+  "opciones": [
+    "A. Comité del Sistema Integrado de Gestión SIG.",
+    "B. Comisión de Personal.",
+    "C. Jefatura del Despacho Presidencial."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "El Comité SIG asesora y orienta en temas de calidad, procesos y mejora continua."
+},
+{
+  "id": 54,
+  "caso": "Durante una auditoría, se exige la trazabilidad documental sobre el manejo de talento humano.",
+  "enunciado": "¿Qué dependencia gestiona estos procesos?",
+  "opciones": [
+    "A. Secretaría General.",
+    "B. Oficina Asesora Jurídica.",
+    "C. Dirección de Vigilancia de Carrera Administrativa."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "La Secretaría General gestiona documentación, talento humano y apoyo administrativo global."
+},
+{
+  "id": 55,
+  "caso": "La CNSC debe coordinar un proceso de selección masiva seguida de reclamaciones y auditoría pública.",
+  "enunciado": "¿Qué dependencias participan activamente en todas las fases?",
+  "opciones": [
+    "A. Dirección de Administración de Carrera, Oficina de Control Interno y Secretaría General.",
+    "B. Comisión de Personal y Grupo de Apoyo Corporativo.",
+    "C. Oficina Asesora Jurídica y Comité SIG."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "Las tres gestoras principales son el área técnica de carrera, el soporte administrativo y la auditoría interna."
+},
+{
+  "id": 56,
+  "caso": "Hay un fallo tecnológico que afecta el sistema de atención al ciudadano en procesos de méritos.",
+  "enunciado": "¿Cuál área debe gestionar la recuperación y modernización tecnológica?",
+  "opciones": [
+    "A. Oficina Asesora Informática.",
+    "B. Dirección de Administración de Carrera.",
+    "C. Despacho de los Comisionados."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "La Oficina Asesora Informática tiene la responsabilidad de recuperar y adaptar los sistemas TIC."
+},
+{
+  "id": 57,
+  "caso": "Se requiere orientación técnica y legal para interpretar normas nuevas sobre selección pública.",
+  "enunciado": "¿Cuáles dependencias trabajan coordinadamente en este contexto?",
+  "opciones": [
+    "A. Oficina Asesora Jurídica y Dirección de Administración de Carrera.",
+    "B. Comité SIG y Grupo de Apoyo Corporativo.",
+    "C. Oficina de Control Interno y Comisión de Personal."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "La coordinación jurídica-técnica es esencial en la interpretación y ejecución de normas nuevas."
+},
+{
+  "id": 58,
+  "caso": "Un comisionado solicita conocer el reporte actualizado sobre el Banco Nacional de Listas de Elegibles.",
+  "enunciado": "¿A quién corresponde la elaboración y administración de este banco?",
+  "opciones": [
+    "A. Dirección de Administración de Carrera Administrativa.",
+    "B. Grupo de Apoyo Corporativo.",
+    "C. Oficina Asesora Jurídica."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "La Dirección de Administración es responsable de formular, actualizar y gestionar el banco de listas."
+},
+{
+  "id": 59,
+  "caso": "Frente a una inspección externa, se solicita el mapa de procesos y organigrama institucional vigente.",
+  "enunciado": "¿Qué área responde por estos documentos?",
+  "opciones": [
+    "A. Oficina Asesora de Planeación.",
+    "B. Despacho del Presidente.",
+    "C. Comisión de Personal."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "La Oficina Asesora de Planeación diseñó y gestiona mapas, cartas descriptivas y organigrama institucional."
+},
+{
+  "id": 60,
+  "caso": "El área de control interno solicita implementar mecanismos adicionales de seguimiento de transparencia institucional.",
+  "enunciado": "¿Qué órgano participa en el diseño y supervisión de estos mecanismos?",
+  "opciones": [
+    "A. Comisión de Personal.",
+    "B. Comité de Coordinación de Control Interno.",
+    "C. Grupo de Apoyo Corporativo."
+  ],
+  "respuesta_correcta": "B",
+  "explicacion": "El Comité de Coordinación de Control Interno diseña y recomienda medidas de supervisión y auditoría."
+},
+{
+  "id": 61,
+  "caso": "Se busca mejorar la articulación entre dependencias jurídicas y técnicas frente a un cambio normativo sobre concursos.",
+  "enunciado": "¿Quién promueve oficialmente la coordinación interáreas?",
+  "opciones": [
+    "A. Sala Plena de Comisionados.",
+    "B. Secretaría General.",
+    "C. Comisión de Personal."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "La Sala Plena dirige y promueve la articulación entre dependencias institucionales."
+},
+{
+  "id": 62,
+  "caso": "Una reclamación elevada por un ciudadano requiere pronunciamiento institucional urgente.",
+  "enunciado": "¿A qué dependencia corresponde redactar la respuesta formal y legalmente fundamentada?",
+  "opciones": [
+    "A. Oficina Asesora Jurídica.",
+    "B. Oficina de Control Interno.",
+    "C. Sala Plena."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "Las respuestas formales a reclamaciones legales y ciudadanas son redactadas y sustentadas por el área jurídica."
+},
+{
+  "id": 63,
+  "caso": "Un proceso selectivo territorial involucra la interacción de varias sedes y equipos regionales.",
+  "enunciado": "¿Qué órgano coordina estos procesos a nivel nacional?",
+  "opciones": [
+    "A. Despacho del Presidente.",
+    "B. Dirección de Administración de Carrera Administrativa.",
+    "C. Oficina Asesora Informática."
+  ],
+  "respuesta_correcta": "B",
+  "explicacion": "La coordinación nacional de procesos territoriales es competencia técnica de la dirección de carrera."
+},
+{
+  "id": 64,
+  "caso": "Para implementar recomendaciones internacionales sobre mérito e igualdad, se requiere modificar documentos internos.",
+  "enunciado": "¿Qué dependencias gestionan cambios en reglamentos institucionales?",
+  "opciones": [
+    "A. Sala Plena y Oficina Asesora Jurídica.",
+    "B. Grupo de Apoyo Corporativo.",
+    "C. Comisión de Personal."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "La Sala Plena aprueba y el área jurídica redacta y valida ajustes normativos."
+},
+{
+  "id": 65,
+  "caso": "Se decide actualizar los protocolos para recepción de quejas y reclamos ciudadanos vía digital.",
+  "enunciado": "¿Qué áreas trabajan en conjunto para esta actualización?",
+  "opciones": [
+    "A. Oficina Asesora Informática y Secretaría General.",
+    "B. Dirección de Vigilancia de Carrera y Grupo Corporativo.",
+    "C. Oficina de Control Interno y Comité SIG."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "La infraestructura digital y las gestiones administrativas conjugan el proceso de atención ciudadana."
+},
+{
+  "id": 66,
+  "caso": "En caso de conflicto de competencias entre dos dependencias, ¿qué órgano resuelve oficialmente la controversia?",
+  "enunciado": "¿Quién tiene la última instancia decisoria?",
+  "opciones": [
+    "A. Sala Plena de Comisionados.",
+    "B. Oficina Asesora Jurídica.",
+    "C. Dirección de Administración de Carrera Administrativa."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "La Sala Plena tiene poder definitorio en controversias internas y decisiones de alto nivel."
+}
+
+
+
+]

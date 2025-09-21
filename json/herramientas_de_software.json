@@ -1,0 +1,845 @@
+[
+  {
+    "id": 1,
+    "caso": "En la formulación de un nuevo proyecto, su jefe le solicita una evaluación de las opciones técnicas disponibles. El manual de funciones del cargo especifica una directriz clara sobre qué tipo de recursos priorizar.",
+    "enunciado": "Según su manual de funciones, ¿qué tipo de herramientas debe considerar como primera opción de recursos técnicos en la formulación de proyectos?",
+    "opciones": [
+      "A. Herramientas de software propietario, por su soporte técnico garantizado.",
+      "B. Herramientas de software en la nube, por su escalabilidad inmediata.",
+      "C. Herramientas de software libre, por su flexibilidad y costo nulo de licencias."
+    ],
+    "respuesta_correcta": "C",
+    "explicacion": "Una de las funciones esenciales del cargo es 'evaluar y valorar la implementación de herramientas de software libre como primera opción de recursos técnicos a utilizar en la formulación de los proyectos' [cite: 1]."
+  },
+  {
+    "id": 2,
+    "caso": "El propósito del cargo de Profesional Especializado es orientar la incorporación de nuevas tecnologías para la construcción de soluciones innovadoras que aporten mejoras en el análisis y procesamiento de información. Su equipo le pide una recomendación de una herramienta de analítica de datos, priorizando soluciones de software libre.",
+    "enunciado": "¿Qué herramienta, de las siguientes, se ajusta a la directriz de priorizar software libre para analítica?",
+    "opciones": [
+      "A. Tableau, por su amplio uso en el sector empresarial.",
+      "B. Power BI, por su integración con productos Microsoft.",
+      "C. R, por su robusto ecosistema de bibliotecas de análisis estadístico."
+    ],
+    "respuesta_correcta": "C",
+    "explicacion": "R es un lenguaje y entorno de software libre ampliamente utilizado para la estadística y el análisis de datos, lo que se alinea con la directriz de priorizar este tipo de herramientas [cite: 1]."
+  },
+  {
+    "id": 3,
+    "caso": "En un proyecto de desarrollo, el equipo necesita una herramienta para administrar la base de datos PostgreSQL de la entidad. El manual de funciones exige conocimientos en este tipo de herramientas.",
+    "enunciado": "¿Qué herramienta de administración de bases de datos, de las siguientes, se ajusta a la descripción del cargo?",
+    "opciones": [
+      "A. PostgreSQL, como motor de base de datos.",
+      "B. pgAdmin, como herramienta de administración de bases de datos.",
+      "C. SQL Server Management Studio, por ser un estándar de la industria."
+    ],
+    "respuesta_correcta": "B",
+    "explicacion": "El cargo requiere conocimientos en 'herramientas de administración de bases de datos' [cite: 1]. PostgreSQL es el motor, mientras que pgAdmin es una herramienta de software libre, multiplataforma y oficial para administrar bases de datos PostgreSQL."
+  },
+
+  {
+  "id": 4,
+  "caso": "Un equipo de desarrollo necesita implementar un sistema de control de versiones para coordinar el trabajo de varios programadores en diferentes ramas.",
+  "enunciado": "¿Cuál herramienta es más adecuada para esta necesidad?",
+  "opciones": [
+    "A. Git, que permite control distribuido de versiones y ramas paralelas.",
+    "B. Jenkins, que se centra en la automatización de integración y despliegue.",
+    "C. SonarQube, que realiza análisis estático de código."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "Git es la herramienta estándar de control de versiones distribuido, ideal para equipos que trabajan con múltiples ramas y desarrolladores."
+},
+{
+  "id": 5,
+  "caso": "Una entidad pública requiere integrar pruebas automáticas y despliegues continuos en su flujo de trabajo.",
+  "enunciado": "¿Cuál de las siguientes herramientas responde mejor a esta necesidad?",
+  "opciones": [
+    "A. Jenkins, que permite definir pipelines como código para CI/CD.",
+    "B. Git, que gestiona control de versiones de archivos.",
+    "C. Docker, que se centra en la creación de contenedores."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "Jenkins es la herramienta más utilizada para CI/CD, soportando integración de pruebas, despliegues automáticos y orquestación."
+},
+{
+  "id": 6,
+  "caso": "El área de infraestructura busca estandarizar despliegues en diferentes entornos, asegurando consistencia.",
+  "enunciado": "¿Qué combinación es la más adecuada?",
+  "opciones": [
+    "A. Docker y Kubernetes para contenerización y orquestación.",
+    "B. Git y Jenkins para control de versiones y CI/CD.",
+    "C. SonarQube y Postman para calidad de código y pruebas de APIs."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "Docker asegura consistencia en los entornos y Kubernetes permite la orquestación y escalabilidad de los contenedores."
+},
+{
+  "id": 7,
+  "caso": "Una organización necesita validar la calidad del código fuente antes de cada despliegue.",
+  "enunciado": "¿Qué herramienta se debe integrar en el pipeline?",
+  "opciones": [
+    "A. SonarQube, para análisis estático y métricas de calidad.",
+    "B. GitHub, para control de versiones y almacenamiento.",
+    "C. Kubernetes, para orquestación de contenedores."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "SonarQube proporciona análisis estático del código y define Quality Gates que aseguran estándares antes de pasar a producción."
+},
+{
+  "id": 8,
+  "caso": "Un desarrollador debe probar de manera automática la funcionalidad de las APIs creadas.",
+  "enunciado": "¿Qué herramienta es la más apropiada?",
+  "opciones": [
+    "A. Postman, que permite pruebas de APIs con colecciones automatizables.",
+    "B. Docker, que empaqueta aplicaciones en contenedores.",
+    "C. GitLab, que gestiona repositorios y CI/CD."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "Postman es la herramienta más utilizada para pruebas de APIs y sus colecciones se pueden ejecutar automáticamente en CI/CD."
+},
+{
+  "id": 9,
+  "caso": "El área de seguridad quiere garantizar que las dependencias de código abierto no tengan vulnerabilidades críticas.",
+  "enunciado": "¿Qué herramienta puede apoyar esta labor?",
+  "opciones": [
+    "A. Snyk, que analiza vulnerabilidades en dependencias y contenedores.",
+    "B. Git, que controla versiones de archivos.",
+    "C. Jenkins, que automatiza procesos de construcción."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "Snyk es una herramienta especializada en análisis de vulnerabilidades en dependencias de software y contenedores."
+},
+{
+  "id": 10,
+  "caso": "La organización busca monitorear en tiempo real el rendimiento de aplicaciones y servicios desplegados.",
+  "enunciado": "¿Qué estándar de observabilidad debe usarse?",
+  "opciones": [
+    "A. OpenTelemetry, que recolecta trazas, métricas y logs.",
+    "B. SonarQube, que mide calidad de código.",
+    "C. GitHub Actions, que ejecuta pipelines de CI/CD."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "OpenTelemetry es el estándar abierto para observabilidad, recolectando telemetría completa en múltiples sistemas."
+},
+{
+  "id": 11,
+  "caso": "Un equipo requiere definir infraestructura en la nube de manera declarativa y repetible.",
+  "enunciado": "¿Qué herramienta es más adecuada?",
+  "opciones": [
+    "A. Terraform, que permite infraestructura como código multi-proveedor.",
+    "B. Ansible, que automatiza configuración de servidores.",
+    "C. Helm, que gestiona despliegues en Kubernetes."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "Terraform es la herramienta líder en infraestructura como código, soportando múltiples proveedores de nube y declaratividad."
+},
+{
+  "id": 12,
+  "caso": "Un pipeline necesita validar imágenes de contenedores para garantizar que no contengan vulnerabilidades conocidas.",
+  "enunciado": "¿Qué herramienta se debe usar?",
+  "opciones": [
+    "A. Trivy, que analiza imágenes, repositorios e infraestructura como código.",
+    "B. Jenkins, que automatiza pipelines.",
+    "C. Ansible, que gestiona configuraciones."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "Trivy es un escáner de seguridad universal que analiza vulnerabilidades en imágenes de contenedores e infraestructura como código."
+},
+{
+  "id": 13,
+  "caso": "El área de calidad quiere implementar pruebas automatizadas de interfaz de usuario multiplataforma.",
+  "enunciado": "¿Qué herramienta es la más adecuada?",
+  "opciones": [
+    "A. Playwright, que soporta múltiples navegadores y lenguajes.",
+    "B. Jenkins, que orquesta pipelines.",
+    "C. Git, que maneja repositorios."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "Playwright permite pruebas automatizadas de interfaces web en múltiples navegadores y entornos."
+},
+{
+  "id": 14,
+  "caso": "Un desarrollador necesita documentar y probar contratos de APIs de forma estandarizada.",
+  "enunciado": "¿Qué especificación se debe aplicar?",
+  "opciones": [
+    "A. OpenAPI 3.1, que estandariza contratos de APIs HTTP.",
+    "B. UML, que modela procesos de software.",
+    "C. BPMN, que representa flujos de negocio."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "OpenAPI 3.1 es el estándar actual para documentar y probar APIs de manera interoperable."
+},
+{
+  "id": 15,
+  "caso": "La organización busca garantizar accesibilidad en sus aplicaciones web públicas.",
+  "enunciado": "¿Qué norma internacional debe aplicarse?",
+  "opciones": [
+    "A. WCAG 2.2, que establece criterios de accesibilidad web.",
+    "B. ITIL, que regula servicios de TI.",
+    "C. ISO 9001, que regula calidad de procesos."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "Las WCAG 2.2 son la norma internacional vigente para garantizar accesibilidad digital en aplicaciones web."
+},
+{
+  "id": 16,
+  "caso": "El equipo de TI necesita gestionar configuraciones de servidores de manera automática y sin agentes.",
+  "enunciado": "¿Qué herramienta es más apropiada?",
+  "opciones": [
+    "A. Ansible, que usa playbooks YAML y no requiere agentes.",
+    "B. Terraform, que define infraestructura como código.",
+    "C. Jenkins, que automatiza integración y despliegue."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "Ansible permite automatización de configuración de servidores usando playbooks sin necesidad de instalar agentes en cada máquina."
+},
+{
+  "id": 17,
+  "caso": "Un equipo necesita gestionar despliegues versionados en Kubernetes para diferentes entornos.",
+  "enunciado": "¿Qué herramienta es más adecuada?",
+  "opciones": [
+    "A. Helm, que gestiona despliegues mediante charts versionados.",
+    "B. Git, que controla versiones de código.",
+    "C. Jenkins, que orquesta pipelines."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "Helm es el gestor de paquetes de Kubernetes que permite gestionar despliegues versionados con charts."
+},
+{
+  "id": 18,
+  "caso": "El área de pruebas quiere automatizar validaciones de seguridad en aplicaciones web en ejecución.",
+  "enunciado": "¿Qué herramienta es la más apropiada?",
+  "opciones": [
+    "A. OWASP ZAP, que ejecuta pruebas dinámicas de seguridad (DAST).",
+    "B. SonarQube, que analiza calidad estática de código.",
+    "C. Postman, que prueba APIs."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "OWASP ZAP es la herramienta estándar para pruebas dinámicas de seguridad en aplicaciones web."
+},
+{
+  "id": 19,
+  "caso": "Un pipeline necesita asegurar que las compilaciones no avancen si el código no cumple reglas de calidad.",
+  "enunciado": "¿Qué funcionalidad se debe implementar?",
+  "opciones": [
+    "A. Quality Gates en SonarQube.",
+    "B. Versionado con Git.",
+    "C. Orquestación con Kubernetes."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "Los Quality Gates en SonarQube detienen el avance de un pipeline si no se cumplen los umbrales definidos de calidad."
+},
+{
+  "id": 20,
+  "caso": "El área de datos requiere programar flujos de extracción, carga y transformación de forma orquestada.",
+  "enunciado": "¿Qué herramienta es más adecuada?",
+  "opciones": [
+    "A. Apache Airflow, que orquesta flujos ETL mediante DAGs.",
+    "B. Jenkins, que automatiza pipelines CI/CD.",
+    "C. GitHub, que controla versiones."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "Apache Airflow es la herramienta líder para orquestación de flujos ETL/ELT con DAGs definidos en Python."
+},
+{
+  "id": 21,
+  "caso": "El equipo necesita verificar automáticamente la calidad de datos en pipelines de analítica.",
+  "enunciado": "¿Qué herramienta se debe usar?",
+  "opciones": [
+    "A. Great Expectations, que valida calidad de datos mediante pruebas configurables.",
+    "B. Terraform, que define infraestructura como código.",
+    "C. Kubernetes, que orquesta contenedores."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "Great Expectations permite definir y ejecutar pruebas automáticas para validar calidad de datos en pipelines."
+},
+{
+  "id": 22,
+  "caso": "La organización necesita documentar proyectos técnicos de manera estructurada y publicable en la web.",
+  "enunciado": "¿Qué herramienta es más adecuada?",
+  "opciones": [
+    "A. MkDocs, que genera sitios estáticos de documentación a partir de Markdown.",
+    "B. Docker, que empaqueta aplicaciones.",
+    "C. Jenkins, que orquesta CI/CD."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "MkDocs permite generar documentación técnica profesional en sitios estáticos usando Markdown."
+},
+{
+  "id": 23,
+  "caso": "Una entidad pública debe alinear sus procesos de seguridad de software con políticas nacionales.",
+  "enunciado": "¿Qué modelo colombiano debe aplicar?",
+  "opciones": [
+    "A. MSPI, Modelo de Seguridad y Privacidad de la Información del MinTIC.",
+    "B. ITIL, que regula gestión de servicios TI.",
+    "C. COBIT, que regula gobierno de TI."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "El MSPI es el modelo oficial en Colombia para seguridad y privacidad de la información en entidades públicas."
+},
+{
+  "id": 24,
+  "caso": "Un proyecto debe asegurar que sus aplicaciones web cumplan con estándares internacionales de accesibilidad.",
+  "enunciado": "¿Qué criterio debe validarse?",
+  "opciones": [
+    "A. Conformidad con las WCAG 2.2 en niveles A/AA.",
+    "B. Cumplimiento de la norma ISO 9001 en procesos.",
+    "C. Adopción del marco ITIL para servicios."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "Las WCAG 2.2 establecen criterios específicos para asegurar accesibilidad en aplicaciones y sitios web."
+},
+
+
+    {
+        "id": 25,
+        "caso": "En el desarrollo de un aplicativo crítico para la entidad, se debe seleccionar una herramienta de control de versiones que garantice integridad, trazabilidad y colaboración eficiente entre múltiples equipos distribuidos.",
+        "enunciado": "¿Qué característica distintiva hace que Git sea superior a otros sistemas de control de versiones centralizados para entornos de desarrollo complejos?",
+        "opciones": [
+            "A. Arquitectura distribuida que permite trabajo offline y operaciones locales sin dependencia del servidor central.",
+            "B. Interfaz gráfica unificada que simplifica las operaciones de merge y conflict resolution para usuarios no técnicos.",
+            "C. Integración nativa con herramientas de CI/CD que automatizan el proceso de deployment desde el repositorio."
+        ],
+        "respuesta_correcta": "A",
+        "explicacion": "La arquitectura distribuida de Git permite a los desarrolladores trabajar offline, realizar commits locales y tener historial completo sin dependencia del servidor central, proporcionando mayor flexibilidad y resiliencia en comparación con sistemas centralizados como SVN."
+    },
+    {
+        "id": 26,
+        "caso": "Para el procesamiento de grandes volúmenes de datos en tiempo real, se evalúan herramientas de stream processing.",
+        "enunciado": "¿Qué ventaja crítica ofrece Apache Kafka sobre alternativas tradicionales de message brokers en escenarios de alta concurrencia?",
+        "opciones": [
+            "A. Persistencia disk-based con retention configurable que permite reprocesamiento de eventos.",
+            "B. Protocolo de comunicación HTTP/REST que facilita integración con aplicaciones web modernas.",
+            "C. Modelo pub-sub con filtrado por topics que simplifica la distribución de mensajes."
+        ],
+        "respuesta_correcta": "A",
+        "explicacion": "La persistencia disk-based con retention configurable permite a Kafka almacenar grandes volúmenes de eventos por períodos extendidos, habilitando escenarios de reprocesamiento y recovery que no son posibles con message brokers tradicionales en memoria."
+    },
+    {
+        "id": 27,
+        "caso": "En la implementación de un data warehouse, se debe seleccionar una herramienta de ETL para procesos de integración de datos complejos.",
+        "enunciado": "¿Qué capacidad distintiva de Apache Airflow lo hace particularmente adecuado para orquestación de pipelines de datos complejos?",
+        "opciones": [
+            "A. Definición de workflows como código Python que permite lógica condicional y parametrización avanzada.",
+            "B. Interfaz visual drag-and-drop que facilita el diseño de pipelines para usuarios de negocio.",
+            "C. Ejecución distribuida nativa que escala automáticamente con la carga de trabajo."
+        ],
+        "respuesta_correcta": "A",
+        "explicacion": "La definición de workflows como código Python permite implementar lógica condicional compleja, parametrización avanzada y reutilización de código, proporcionando flexibilidad superior para pipelines de datos complejos comparado con herramientas basadas únicamente en interfaces visuales."
+    },
+    {
+        "id": 28,
+        "caso": "Para garantizar la calidad del código en un proyecto de desarrollo, se debe implementar una herramienta de análisis estático.",
+        "enunciado": "¿Qué característica de SonarQube lo diferencia significativamente de linters tradicionales como ESLint o Pylint?",
+        "opciones": [
+            "A. Análisis holistico que combina detección de bugs, vulnerabilidades y code smells en una plataforma unificada.",
+            "B. Integración directa con editores de código que proporciona feedback en tiempo real durante el desarrollo.",
+            "C. Ejecución ultra-rápida en milisegundos que no interrumpe el flujo de desarrollo del programador."
+        ],
+        "respuesta_correcta": "A",
+        "explicacion": "SonarQube proporciona análisis holistico que combina detección de bugs, vulnerabilidades de seguridad, code smells y medición de technical debt en una plataforma unificada, ofreciendo una visión comprehensiva de la calidad del código que va beyond linters específicos por lenguaje."
+    },
+    {
+        "id": 29,
+        "caso": "En la selección de una base de datos para una aplicación que requiere transacciones ACID y escalabilidad vertical.",
+        "enunciado": "¿Qué ventaja fundamental ofrece PostgreSQL sobre alternativas NoSQL en escenarios que requieren consistencia fuerte?",
+        "opciones": [
+            "A. Soporte nativo para transacciones ACID con isolation levels configurables y consistencia garantizada.",
+            "B. Escalabilidad horizontal automática mediante sharding transparente across múltiples nodos.",
+            "C. Modelo de datos flexible sin schema fijo que permite evolución rápida de la estructura de datos."
+        ],
+        "respuesta_correcta": "A",
+        "explicacion": "El soporte nativo para transacciones ACID con niveles de isolación configurables permite a PostgreSQL garantizar consistencia fuerte y durability, lo cual es crítico para aplicaciones transaccionales y diferencia fundamentalmente las bases relacionales de la mayoría de bases NoSQL."
+    },
+    {
+        "id": 30,
+        "caso": "Para el monitoreo de una infraestructura cloud distribuida, se evalúan herramientas de observabilidad.",
+        "enunciado": "¿Qué capacidad única de Prometheus lo hace especialmente adecuado para monitoreo de sistemas dinámicos en cloud?",
+        "opciones": [
+            "A. Modelo de data pulling con service discovery que se adapta automáticamente a entornos dinámicos.",
+            "B. Almacenamiento de datos en formato de logs que permite búsquedas textuales complejas.",
+            "C. Interfaz de visualización integrada con dashboards arrastrables y configurables."
+        ],
+        "respuesta_correcta": "A",
+        "explicacion": "El modelo de data pulling con service discovery integrado permite a Prometheus adaptarse automáticamente a entornos cloud dinámicos donde las direcciones IP y puertos de los servicios cambian frecuentemente, unlike sistemas basados en pushing con configuraciones estáticas."
+    },
+    {
+        "id": 31,
+        "caso": "En la implementación de contenedores, se debe seleccionar una herramienta de orquestación para producción.",
+        "enunciado": "¿Qué característica de Kubernetes proporciona una ventaja decisiva sobre alternativas como Docker Swarm en entornos enterprise?",
+        "opciones": [
+            "A. API declarativa extensible con custom resources y operators para gestión de estado complejo.",
+            "B. Simplicidad de instalación y configuración con setup automático de cluster en minutos.",
+            "C. Compatibilidad total con APIs de Docker que permite migración transparente de workloads existentes."
+        ],
+        "respuesta_correcta": "A",
+        "explicacion": "La API declarativa extensible mediante custom resources definitions (CRDs) y operators permite a Kubernetes gestionar estado complejo y extender sus capacidades nativas, proporcionando flexibilidad enterprise que Docker Swarm no ofrece."
+    },
+    {
+        "id": 32,
+        "caso": "Para el procesamiento de datos a gran escala, se evalúa Apache Spark contra alternativas tradicionales.",
+        "enunciado": "¿Qué innovación arquitectural de Spark resuelve limitaciones fundamentales de Hadoop MapReduce?",
+        "opciones": [
+            "A. Procesamiento in-memory con lazy evaluation que minimiza operaciones I/O a disco.",
+            "B. Modelo de programación MapReduce simplificado con menos pasos de configuración.",
+            "C. Integración nativa con HDFS que permite acceso optimizado a datos almacenados en Hadoop."
+        ],
+        "respuesta_correcta": "A",
+        "explicacion": "El procesamiento in-memory con lazy evaluation permite a Spark minimizar operaciones I/O a disco mediante optimización de execution plans, providing órdenes de magnitud de mejora de performance sobre Hadoop MapReduce que es disk-based."
+    },
+    {
+        "id": 33,
+        "caso": "En la selección de una herramienta de virtualización para desarrollo y testing.",
+        "enunciado": "¿Qué ventaja fundamental ofrece Docker sobre máquinas virtuales tradicionales en escenarios de CI/CD?",
+        "opciones": [
+            "A. Arquitectura lightweight que comparte kernel del host y inicia en segundos versus minutos.",
+            "B. Aislamiento completo del sistema operativo que garantiza seguridad entre contenedores.",
+            "C. Compatibilidad cross-platform que permite ejecutar mismos contenedores en diferentes hypervisors."
+        ],
+        "respuesta_correcta": "A",
+        "explicacion": "La arquitectura lightweight de Docker que comparte el kernel del host permite inicio de contenedores en segundos (vs minutos de VMs) y uso eficiente de recursos, revolutionizing CI/CD con builds y tests más rápidos."
+    },
+    {
+        "id": 34,
+        "caso": "Para la gestión de configuración de infraestructura, se comparan herramientas de Infrastructure as Code.",
+        "enunciado": "¿Qué característica de Terraform lo diferencia fundamentalmente de herramientas de configuración como Ansible?",
+        "opciones": [
+            "A. Modelo declarativo con plan de ejecución y estado que permite preview de cambios antes de aplicar.",
+            "B. Agente-less architecture que utiliza SSH/WinRM para conectarse a servidores remotos.",
+            "C. Soporte para gestión de configuración de sistemas operativos y instalación de software."
+        ],
+        "respuesta_correcta": "A",
+        "explicacion": "El modelo declarativo de Terraform con plan de ejecución (terraform plan) y mantenimiento de estado permite visualizar cambios exactos antes de aplicarlos y gestionar la infraestructura como estado, unlike Ansible que es principalmente procedural y no mantiene estado."
+    },
+    {
+        "id": 35,
+        "caso": "En la implementación de un pipeline de ML, se debe seleccionar una herramienta para experiment tracking.",
+        "enunciado": "¿Qué capacidad de MLflow aborda una limitación fundamental en la reproducibilidad de experimentos de machine learning?",
+        "opciones": [
+            "A. Empaquetado completo de código, datos y environment en formatos auto-contenidos y reproducibles.",
+            "B. Interfaz web unificada para comparación visual de métricas de múltiples experimentos en tiempo real.",
+            "C. Integración automática con frameworks de ML populares como TensorFlow y PyTorch sin configuración adicional."
+        ],
+        "respuesta_correcta": "A",
+        "explicacion": "MLflow permite empaquetar código, datos, environment y modelos en formatos auto-contenidos (MLproject) que garantizan reproducibilidad exacta de experimentos, resolviendo el problema fundamental de inconsistencia entre entornos de desarrollo y producción."
+    },
+    {
+        "id": 36,
+        "caso": "Para la visualización de datos empresariales, se evalúan herramientas de Business Intelligence.",
+        "enunciado": "¿Qué innovación de Tableau transformó significativamente la exploración visual de datos para usuarios no técnicos?",
+        "opciones": [
+            "A. Lenguaje visual intuitivo con drag-and-drop que permite crear visualizaciones complejas sin coding.",
+            "B. Motor de queries in-memory que acelera el rendimiento sobre grandes volúmenes de datos.",
+            "C. Capacidad de conectividad nativa con cientos de fuentes de datos diferentes sin configuración."
+        ],
+        "respuesta_correcta": "A",
+        "explicacion": "El lenguaje visual intuitivo de Tableau con interfaz drag-and-drop democratizó el acceso al análisis de datos, permitiendo a usuarios de negocio crear visualizaciones complejas y dashboards interactivos sin necesidad de habilidades de programación o SQL."
+    },
+    {
+        "id": 37,
+        "caso": "En la gestión de dependencias de un proyecto JavaScript, se compara npm con alternativas.",
+        "enunciado": "¿Qué problema fundamental resuelve el lockfile de npm (package-lock.json) en el desarrollo de aplicaciones?",
+        "opciones": [
+            "A. Garantiza dependencias consistentes across entornos mediante versiones exactas de paquetes.",
+            "B. Optimiza el proceso de instalación caching paquetes localmente para futuras instalaciones.",
+            "C. Proporciona análisis de seguridad que detecta vulnerabilidades en dependencias directas y transitivas."
+        ],
+        "respuesta_correcta": "A",
+        "explicacion": "El lockfile de npm garantiza dependencias consistentes across diferentes entornos y momentos en el tiempo mediante el bloqueo de versiones exactas de todos los paquetes (directos y transitivos), previniendo bugs por updates inadvertidos de dependencias."
+    },
+    {
+        "id": 38,
+        "caso": "Para el procesamiento de datos en tiempo real, se evalúa Apache Flink contra Spark Streaming.",
+        "enunciado": "¿Qué capacidad arquitectural de Flink proporciona ventajas en latencia para aplicaciones de streaming true?",
+        "opciones": [
+            "A. Procesamiento nativo stream-first con low-latency pipelining y exactly-once semantics.",
+            "B. Micro-batching optimizado que balancea throughput y latencia para la mayoría de casos de uso.",
+            "C. Integración profunda con ecosistema Hadoop que permite reutilizar componentes existentes."
+        ],
+        "respuesta_correcta": "A",
+        "explicacion": "La arquitectura nativa stream-first de Flink con procesamiento pipelined proporciona latencia sub-second y exactly-once processing semantics, superando el modelo de micro-batching de Spark Streaming en escenarios de low-latency requirements."
+    },
+    {
+        "id": 39,
+        "caso": "En la selección de un framework web para aplicaciones enterprise, se compara Spring Boot con alternativas.",
+        "enunciado": "¿Qué característica de Spring Boot revolucionó el desarrollo de aplicaciones Java enterprise?",
+        "opciones": [
+            "A. Auto-configuración inteligente que reduce boilerplate code y simplifica la configuración.",
+            "B. Arquitectura modular que permite usar solo los componentes necesarios para cada aplicación.",
+            "C. Integración nativa con servidores de aplicaciones enterprise como WebSphere y JBoss."
+        ],
+        "respuesta_correcta": "A",
+        "explicacion": "La auto-configuración inteligente de Spring Boot basada en convención sobre configuración reduce dramáticamente el boilerplate code y complejidad de configuración, making Java development más productivo y accessible."
+    },
+    {
+        "id": 40,
+        "caso": "Para la gestión de secrets en aplicaciones cloud, se evalúan herramientas especializadas.",
+        "enunciado": "¿Qué capacidad de HashiCorp Vault lo diferencia fundamentalmente de soluciones básicas de secrets management?",
+        "opciones": [
+            "A. Secrets dinámicos con leasing y rotación automática que reducen riesgo de exposición.",
+            "B. Almacenamiento encryptado de secrets con acceso auditado through API RESTful.",
+            "C. Integración con proveedores cloud nativos para gestión unificada de credenciales."
+        ],
+        "respuesta_correcta": "A",
+        "explicacion": "Los secrets dinámicos de Vault con leasing automático y rotación programática reducen significativamente el riesgo de exposición al generar credenciales under-demand con tiempo de vida limitado, unlike soluciones estáticas que requieren rotación manual."
+    },
+    {
+        "id": 41,
+        "caso": "En la implementación de APIs, se evalúa GraphQL contra REST tradicional.",
+        "enunciado": "¿Qué problema fundamental de sobre-fetching resuelve GraphQL en el desarrollo de aplicaciones modernas?",
+        "opciones": [
+            "A. Query language declarativo que permite clientes solicitar exactamente los datos necesarios.",
+            "B. Schema strongly-typed que proporciona documentación automática y validación de requests.",
+            "C. Arquitectura single endpoint que simplifica la gestión y versionamiento de APIs."
+        ],
+        "respuesta_correcta": "A",
+        "explicacion": "El query language declarativo de GraphQL permite a los clientes especificar exactamente qué campos necesitan, eliminando over-fetching y under-fetching de datos que son problemas comunes en APIs REST con endpoints fixed-shape."
+    },
+    {
+        "id": 42,
+        "caso": "Para la gestión de logs en sistemas distribuidos, se evalúa ELK Stack contra alternativas.",
+        "enunciado": "¿Qué capacidad de Elasticsearch proporciona ventajas fundamentales en búsqueda y análisis de logs?",
+        "opciones": [
+            "A. Índices invertidos distribuidos con full-text search near real-time y agregaciones poderosas.",
+            "B. Almacenamiento columnar optimizado para queries analíticas sobre datasets grandes.",
+            "C. Modelo de datos document-oriented flexible que permite schemaless ingestion de logs."
+        ],
+        "respuesta_correcta": "A",
+        "explicacion": "Los índices invertidos distribuidos de Elasticsearch proporcionan capacidades de full-text search near real-time y agregaciones complejas, making it ideal para búsqueda y análisis de logs en sistemas distribuidos a escala."
+    },
+    {
+        "id": 43,
+        "caso": "En la monitorización de aplicaciones, se evalúan herramientas APM (Application Performance Monitoring).",
+        "enunciado": "¿Qué capacidad de distributed tracing resuelve el desafío de debugging en arquitecturas de microservicios?",
+        "opciones": [
+            "A. Trazabilidad de requests across servicios con context propagation y visualización de dependencies.",
+            "B. Monitorización de métricas de performance por servicio con alertas basadas en thresholds.",
+            "C. Detección automática de anomalies usando machine learning para identificar problemas proactivamente."
+        ],
+        "respuesta_correcta": "A",
+        "explicacion": "El distributed tracing permite seguir el flujo completo de requests across múltiples servicios mediante context propagation, providing visibilidad crítica para debugging y performance analysis en arquitecturas de microservicios complejas."
+    },
+    {
+        "id": 44,
+        "caso": "Para la gestión de documentación técnica, se evalúa Swagger/OpenAPI contra alternativas.",
+        "enunciado": "¿Qué ventaja fundamental ofrece el approach contract-first de OpenAPI en el desarrollo de APIs?",
+        "opciones": [
+            "A. Diseño API-driven con specification como single source of truth para clientes y servidores.",
+            "B. Generación automática de documentación interactiva con try-it-out functionality.",
+            "C. Soporte para múltiples lenguajes de programación con code generation from specification."
+        ],
+        "respuesta_correcta": "A",
+        "explicacion": "El approach contract-first de OpenAPI establece la specification como single source of truth, permitiendo diseño API-driven con coordinación paralela entre equipos de cliente y servidor, mejorando consistency y reducing integration issues."
+    },
+    {
+        "id": 45,
+        "caso": "En la implementación de CI/CD, se evalúan herramientas de orchestration.",
+        "enunciado": "¿Qué innovación de GitLab CI/CD simplificó significativamente la configuración de pipelines?",
+        "opciones": [
+            "A. Configuración como código con .gitlab-ci.yml versionado junto al application code.",
+            "B. Ejecutores auto-escalables que ajustan capacidad based on demanda de pipelines.",
+            "C. Integración nativa con repositorios Git que elimina necesidad de configuración manual de webhooks."
+        ],
+        "explicacion": "La configuración como código mediante .gitlab-ci.yml versionado en el mismo repositorio que el application code simplificó significativamente la gestión de pipelines CI/CD, providing versioning, code review y collaboration capabilities para la configuración de CI/CD."
+    },
+
+    {
+"id": 46,
+"caso": "En un proyecto de desarrollo de software, se busca automatizar el proceso de integración y entrega continua.",
+"enunciado": "¿Cuál herramienta es más adecuada para implementar CI/CD en un equipo de desarrollo?",
+"opciones": [
+"A. Jenkins, que permite automatizar pruebas y despliegues.",
+"B. Trello, para gestionar tareas y proyectos de manera visual.",
+"C. Visual Studio Code, para editar código fuente."
+],
+"respuesta_correcta": "A",
+"explicacion": "Jenkins es una herramienta especializada en integración continua y entrega continua, automatizando pruebas y despliegues."
+},
+{
+"id": 47,
+"caso": "El equipo necesita gestionar versiones del código fuente para trabajar en colaboración sin conflictos.",
+"enunciado": "¿Cuál herramienta es más adecuada para control de versiones distribuido?",
+"opciones": [
+"A. Git, que permite control distribuido y manejo de ramas.",
+"B. Jira, una plataforma para seguimiento de incidencias.",
+"C. Docker, para contenerización de aplicaciones."
+],
+"respuesta_correcta": "A",
+"explicacion": "Git es la herramienta estándar para control de versiones distribuido, facilitando la colaboración en código."
+},
+{
+"id": 48,
+"caso": "Para mejorar la organización y documentación del proyecto, se requiere una plataforma colaborativa.",
+"enunciado": "¿Qué herramienta facilita la documentación compartida entre equipos?",
+"opciones": [
+"A. Confluence, que permite documentación y colaboración en tiempo real.",
+"B. Selenium, para automatizar pruebas.",
+"C. Redis, como base de datos en memoria."
+],
+"respuesta_correcta": "A",
+"explicacion": "Confluence es una plataforma popular para crear, compartir y colaborar en documentación."
+},
+{
+"id": 49,
+"caso": "Se quiere mejorar la calidad del código mediante análisis estático automático.",
+"enunciado": "¿Cuál herramienta ayuda a detectar vulnerabilidades y errores sin ejecutar el código?",
+"opciones": [
+"A. SonarQube, que realiza análisis estático y reporta problemas de código.",
+"B. JUnit, para pruebas unitarias durante la ejecución.",
+"C. Kubernetes, para orquestar contenedores."
+],
+"respuesta_correcta": "A",
+"explicacion": "SonarQube analiza el código fuente para detectar bugs, vulnerabilidades y problemas de calidad."
+},
+{
+"id": 50,
+"caso": "En un entorno de despliegue en la nube, es necesaria la gestión automática y escalable de contenedores.",
+"enunciado": "¿Qué herramienta es la más adecuada para orquestar contenedores Docker?",
+"opciones": [
+"A. Kubernetes, que automatiza escalado y despliegue de contenedores.",
+"B. Travis CI, para integración continua en repositorios.",
+"C. Elasticsearch, para búsquedas y análisis de datos."
+],
+"respuesta_correcta": "A",
+"explicacion": "Kubernetes es la plataforma estándar para orquestación de contenedores en ambientes distribuidos."
+},
+{
+"id": 51,
+"caso": "Un equipo de desarrollo desea automatizar pruebas funcionales de interfaz de usuario en múltiples navegadores.",
+"enunciado": "¿Qué herramienta es más indicada para estas pruebas automatizadas?",
+"opciones": [
+"A. Selenium, que soporta pruebas en varios navegadores y automatización UI.",
+"B. GitLab, para repositorios y CI/CD.",
+"C. Jenkins, para integración continua y despliegue."
+],
+"respuesta_correcta": "A",
+"explicacion": "Selenium es una herramienta líder para la automatización de pruebas de interfaz en distintos navegadores."
+},
+{
+"id": 52,
+"caso": "Se requiere gestionar el monitoreo y alertas sobre el rendimiento de aplicaciones en producción.",
+"enunciado": "¿Qué herramienta es ideal para monitoreo y análisis en tiempo real?",
+"opciones": [
+"A. New Relic, que provee monitoreo de aplicaciones y alertas de rendimiento.",
+"B. Visual Studio, para desarrollo de aplicaciones.",
+"C. Maven, para gestión del ciclo de vida de proyectos Java."
+],
+"respuesta_correcta": "A",
+"explicacion": "New Relic permite observar el comportamiento de apps en producción y recibir alertas."
+},
+{
+"id": 53,
+"caso": "Un proyecto requiere almacenar estados y sesiones de usuarios con alta velocidad.",
+"enunciado": "¿Qué tipo de base de datos en memoria es recomendada?",
+"opciones": [
+"A. Redis, que proporciona almacenamiento en memoria y alta velocidad.",
+"B. MySQL, base de datos relacional tradicional.",
+"C. MongoDB, base de datos documental."
+],
+"respuesta_correcta": "A",
+"explicacion": "Redis es una base de datos en memoria de alto rendimiento ideal para almacenamiento temporal y sesiones."
+},
+{
+"id": 54,
+"caso": "Para la colaboración y gestión ágil de tareas en un equipo remoto, se busca una plataforma intuitiva y colaborativa.",
+"enunciado": "¿Qué herramienta es más recomendable?",
+"opciones": [
+"A. Trello, que permite gestión visual y colaborativa de proyectos.",
+"B. Eclipse, entorno de desarrollo para programación.",
+"C. Nagios, para monitorización de sistemas."
+],
+"respuesta_correcta": "A",
+"explicacion": "Trello es una herramienta popular para gestión ágil de proyectos y colaboración en equipos distribuidos."
+},
+{
+"id": 55,
+"caso": "Se necesita asegurar la trazabilidad de cambios en la infraestructura como código.",
+"enunciado": "¿Qué herramienta facilita esta gestión en entornos DevOps?",
+"opciones": [
+"A. Terraform, para definir y versionar infraestructura declarativa.",
+"B. Postman, para pruebas de APIs.",
+"C. Chef, para monitoreo de aplicaciones."
+],
+"respuesta_correcta": "A",
+"explicacion": "Terraform es una herramienta para gestión y versionamiento de infraestructura como código."
+},
+{
+"id": 56,
+"caso": "El equipo desea facilitar la creación rápida de prototipos de aplicaciones móviles multiplataforma.",
+"enunciado": "¿Qué framework es más adecuado?",
+"opciones": [
+"A. Flutter, que permite desarrollo rápido y nativo en iOS y Android.",
+"B. AngularJS, framework para aplicaciones web.",
+"C. React Native, que aunque permuta, no se considera para prototipos rápidos."
+],
+"respuesta_correcta": "A",
+"explicacion": "Flutter es conocido por desarrollo ágil y compilación nativa para mobile multiplataforma."
+},
+{
+"id": 57,
+"caso": "Para la gestión documental en equipos distribuidos, se desea una solución en la nube con versionado y control de accesos.",
+"enunciado": "¿Qué herramienta cumple estas funciones?",
+"opciones": [
+"A. Google Drive, que ofrece almacenamiento, colaboración y control de versiones.",
+"B. Notepad++, editor de texto sin funciones colaborativas.",
+"C. MySQL, base de datos relacional."
+],
+"respuesta_correcta": "A",
+"explicacion": "Google Drive integra almacenamiento, colaboración y versiones de archivos en la nube."
+},
+{
+"id": 58,
+"caso": "Se busca estandarizar y facilitar la comunicación entre servicios en una arquitectura distribuida.",
+"enunciado": "¿Qué tecnología permite APIs robustas y documentadas?",
+"opciones": [
+"A. Swagger/OpenAPI, para definir y documentar APIs RESTful.",
+"B. Jenkins, herramienta de integración continua.",
+"C. GitLab, plataforma para repositorios."
+],
+"respuesta_correcta": "A",
+"explicacion": "Swagger/OpenAPI es ampliamente utilizado para estandarizar y documentar APIs."
+},
+{
+"id": 59,
+"caso": "El equipo debe realizar pruebas unitarias automatizadas para validar funciones críticas antes del despliegue.",
+"enunciado": "¿Qué herramienta es la ideal para pruebas en entornos Java?",
+"opciones": [
+"A. JUnit, que permite crear pruebas unitarias integradas al ciclo de desarrollo.",
+"B. Selenium, para pruebas de interfaz.",
+"C. Chef, para configuración de sistemas."
+],
+"respuesta_correcta": "A",
+"explicacion": "JUnit es la herramienta estándar para pruebas unitarias en Java."
+},
+{
+"id": 60,
+"caso": "Para mejorar la colaboración en la gestión del código, se desea integración con plataformas de repositorios remotos y CI/CD.",
+"enunciado": "¿Qué plataforma es la más completa para esto?",
+"opciones": [
+"A. GitLab, que integra repositorios, CI/CD y gestión.",
+"B. Visual Studio, IDE para desarrollo.",
+"C. Jenkins, herramienta principalmente para CI/CD."
+],
+"respuesta_correcta": "A",
+"explicacion": "GitLab ofrece repositorios, integración continua y gestión en una plataforma unificada."
+},
+{
+"id": 61,
+"caso": "Se requiere implementar un control de acceso detallado para diferentes perfiles de usuario en una aplicación.",
+"enunciado": "¿Qué tipo de herramienta o patrón es recomendado?",
+"opciones": [
+"A. RBAC (Role-Based Access Control), para gestionar permisos según roles.",
+"B. DBMS sin políticas específicas de acceso.",
+"C. Compartir credenciales entre usuarios para facilidad."
+],
+"respuesta_correcta": "A",
+"explicacion": "RBAC es un patrón que asigna permisos basados en roles, garantizando seguridad y control."
+},
+{
+"id": 62,
+"caso": "Un equipo necesita monitorear la infraestructura, detectar fallos y recibir alertas en tiempo real.",
+"enunciado": "¿Qué herramienta es idónea para este monitoreo?",
+"opciones": [
+"A. Nagios, para monitorización y alertas en sistemas y redes.",
+"B. Git, para control de versiones.",
+"C. Maven, para gestión de proyectos Java."
+],
+"respuesta_correcta": "A",
+"explicacion": "Nagios es una popular herramienta de monitoreo y alerta para infraestructura."
+},
+{
+"id": 63,
+"caso": "Para garantizar la calidad en documentos y conocimiento institucional, se requiere documentación controlada con control de versiones.",
+"enunciado": "¿Qué herramienta es adecuada?",
+"opciones": [
+"A. Document360, que soporta creación, versionado y colaboración.",
+"B. Paint, editor gráfico sin versión ni colaboración.",
+"C. Postman, para pruebas de servicios API."
+],
+"respuesta_correcta": "A",
+"explicacion": "Document360 permite gestionar documentación con control de versiones y colaboración."
+},
+{
+"id": 64,
+"caso": "El equipo de desarrollo desea desplegar aplicaciones rápidamente con múltiples entornos configurados automáticamente.",
+"enunciado": "¿Qué herramienta soporta configuración como código y despliegue consistente?",
+"opciones": [
+"A. Ansible, para automatizar configuración y despliegue de entornos.",
+"B. Eclipse, IDE para desarrollo.",
+"C. Slack, herramienta de comunicación."
+],
+"respuesta_correcta": "A",
+"explicacion": "Ansible automatiza la configuración y despliegue consistente en múltiples entornos."
+},
+{
+"id": 65,
+"caso": "Se recomienda emplear mejores prácticas en gestión de proyectos para equipo remoto y distribuido.",
+"enunciado": "¿Qué herramienta apoya la gestión visual ágil y colaboración?",
+"opciones": [
+"A. Asana, con tableros, tareas y colaboración en línea.",
+"B. MySQL, base de datos relacional.",
+"C. Jenkins, para integración continua."
+],
+"respuesta_correcta": "A",
+"explicacion": "Asana permite gestión visual y trabajo colaborativo online."
+},
+{
+"id": 66,
+"caso": "Para realizar pruebas de API REST, se busca una herramienta fácil de usar para desarrolladores.",
+"enunciado": "¿Qué herramienta es una de las más populares para esta tarea?",
+"opciones": [
+"A. Postman, que facilita diseño, prueba y documentación de APIs.",
+"B. Swagger, para documentación pero sin pruebas directas.",
+"C. GitLab, plataforma para repositorios y CI/CD."
+],
+"respuesta_correcta": "A",
+"explicacion": "Postman es ampliamente utilizada para pruebas y diseño de APIs REST."
+},
+{
+"id": 67,
+"caso": "Para coordinar trabajo en código fuente entre varios desarrolladores, se busca una plataforma con ramas y pull requests.",
+"enunciado": "¿Qué plataforma soporta mejor estos flujos de trabajo?",
+"opciones": [
+"A. GitHub, enfocada en colaboración y control de versiones distribuidas.",
+"B. Jenkins, herramienta de integración continua sin repositorio.",
+"C. Kafka, sistema de mensajería y streaming."
+],
+"respuesta_correcta": "A",
+"explicacion": "GitHub es una plataforma líder para colaboración en desarrollo y gestión de versiones."
+},
+{
+"id": 68,
+"caso": "El equipo quiere adoptar una herramienta que soporte análisis estático, integración continua y calidad de código en un solo paquete.",
+"enunciado": "¿Cuál plataforma es recomendada para integrar estas funciones?",
+"opciones": [
+"A. SonarCloud, servicio integrado para análisis y CI/CD.",
+"B. Postman, herramienta para pruebas de API.",
+"C. Google Docs, herramienta colaborativa de texto."
+],
+"respuesta_correcta": "A",
+"explicacion": "SonarCloud combina análisis estático de código y se integra con entornos CI/CD."
+},
+{
+"id": 69,
+"caso": "Se planea usar infraestructura como código para optimizar despliegue y mantenimiento de sistemas.",
+"enunciado": "¿Qué herramienta es popular para gestionar infraestructura declarativa?",
+"opciones": [
+"A. Terraform, que facilita creación y gestión automatizada de infraestructuras.",
+"B. GitLab, para repositorios de código.",
+"C. Kubernetes, para orquestar contenedores."
+],
+"respuesta_correcta": "A",
+"explicacion": "Terraform permite definir infraestructura como código para despliegues automáticos y repetibles."
+},
+{
+"id": 70,
+"caso": "Para mejorar la comunicación en el equipo, se busca una plataforma que integre chat, video y gestión documental.",
+"enunciado": "¿Qué herramienta ofrece estas funcionalidades en un solo producto?",
+"opciones": [
+"A. Microsoft Teams, que integra mensajería, videollamadas y colaboración documental.",
+"B. Slack, que es solo chat y colaboración básica.",
+"C. Zoom, centrado en videollamadas sin gestión documental integrada."
+],
+"respuesta_correcta": "A",
+"explicacion": "Microsoft Teams ofrece funcionalidades integradas para colaboración en equipos."
+}
+]

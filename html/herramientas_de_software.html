@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Herramientas de Software | Simulacro CNSC</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.2/dist/confetti.browser.min.js"></script>
+</head>
+<body>
+
+    <header class="header">
+        <h1 class="header-title">Herramientas de Software</h1>
+        <p class="header-subtitle">Eje de la Prueba Funcional</p>
+    </header>
+
+    <main class="main-content">
+        <section class="section" id="info-section">
+            <div class="content-box">
+                <h2 class="section-title">Información del Tema</h2>
+
+                <p>El manual de funciones del cargo de Profesional Especializado, Código 2028, establece una función clave: **"Evaluar y valorar, la implementación de herramientas de software libre, como primera opción de recursos técnicos a utilizar en la formulación de los proyectos."**: 4]. Este eje se centra en el conocimiento del aspirante sobre las herramientas y tecnologías disponibles, con un énfasis particular en aquellas de código abierto.</p>
+                <p>Las herramientas de software son aplicaciones y plataformas que optimizan el desarrollo, gestión, mantenimiento, pruebas y despliegue de sistemas informáticos y procesos tecnológicos. Su conocimiento es crucial para optimizar recursos técnicos y económicos en los proyectos de la entidad: 1, 2, 3].</p>
+                
+                <h3 class="sub-section-title">Categorías y Conocimientos Clave</h3>
+                <p>Las preguntas de esta sección evaluarán tu comprensión en áreas como:</p>
+                
+                <h4>1. Herramientas de Desarrollo y DevOps:</h4>
+                <ul>
+                    <li>**Control de Versiones (VCS):** El dominio de **Git** y flujos de trabajo como `pull request` es fundamental: 1].</li>
+                    <li>**Automatización (CI/CD):** Se evalúa el uso de herramientas como **GitHub Actions**, **GitLab CI/CD** o **Jenkins** para automatizar la construcción, pruebas y despliegue: 1].</li>
+                    <li>**Contenedores y Orquestación:** El conocimiento de **Docker** para empaquetar aplicaciones y **Kubernetes** para orquestar y escalar los despliegues es clave: 1].</li>
+                    <li>**Seguridad (DevSecOps):** Se aplican herramientas como **SonarQube** para análisis de calidad estática, **Snyk** para escanear vulnerabilidades en dependencias y **Trivy** para escanear imágenes de contenedores: 1].</li>
+                </ul>
+                
+                <h4>2. Herramientas de Datos e Integración:</h4>
+                <ul>
+                    <li>**Bases de Datos:** Se prioriza el conocimiento de motores de código abierto como **PostgreSQL** y **MySQL**, junto con herramientas de gestión como **pgAdmin**: 2].</li>
+                    <li>**Análisis y BI:** Herramientas de software libre para la visualización y análisis de datos como **Metabase**, **Apache Superset**, **R** o **Python**: 1, 2].</li>
+                    <li>**Orquestación de Datos:** Herramientas como **Apache Airflow** para orquestar flujos de trabajo de datos y **dbt** (data build tool) para la transformación de datos: 1, 2].</li>
+                </ul>
+
+                <h4>3. Herramientas de Infraestructura y Cumplimiento:</h4>
+                <ul>
+                    <li>**Infraestructura como Código (IaC):** Se evalúa el uso de herramientas como **Terraform** para provisionar infraestructura y **Ansible** para automatizar la configuración: 1, 2].</li>
+                    <li>**Observabilidad:** El estándar **OpenTelemetry** es fundamental para instrumentar trazas, métricas y logs de manera neutral: 1].</li>
+                    <li>**Cumplimiento Normativo:** Se evalúa el conocimiento de estándares de accesibilidad como **WCAG 2.2** : 1] y la **Resolución MinTIC 1519 de 2020** para publicación de datos abiertos: 1]. El **MSPI** de MinTIC es el marco de seguridad nacional de referencia: 1].</li>
+                </ul>
+
+                <p>El aspirante debe demostrar su capacidad para seleccionar la herramienta adecuada para un propósito específico, priorizando soluciones de software libre en un contexto de servicio público: 4, 1, 2, 3].</p>
+            </div>
+            
+            <div class="action-box">
+                <a href="#" class="btn" id="iniciar-simulacro-btn">Iniciar Simulacro</a>
+            </div>
+        </section>
+
+        <section class="section simulacro-container" id="simulacro-container" style="display: none;">
+            <h2 class="section-title">Simulacro</h2>
+            <div id="pregunta-box">
+                </div>
+            <div id="retroalimentacion-box" class="retroalimentacion-box" style="display:none;">
+                </div>
+            <div class="button-container">
+                <button class="btn btn-primary" id="siguiente-btn" style="display:none;">Siguiente</button>
+            </div>
+            <div id="resultado-final" style="display:none;">
+                </div>
+        </section>
+        
+        <div style="text-align: center; margin-top: 2rem;">
+            <a href="../index.html" class="btn-volver">Volver al Menú Principal</a>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p>Aplicativo de estudio para el Concurso de Méritos CNSC.</p>
+    </footer>
+
+    <script src="../js/herramientas_de_software.js"></script>
+
+</body>
+</html>

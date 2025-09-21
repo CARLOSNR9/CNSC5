@@ -1,0 +1,798 @@
+[
+  {
+    "id": 1,
+    "caso": "El equipo de desarrollo está construyendo una nueva aplicación para la gestión de solicitudes. Para asegurar que la solución sea robusta y se integre sin problemas con la arquitectura de la entidad, los líderes de equipo solicitan su apoyo y orientación técnica.",
+    "enunciado": "¿Qué acción, según sus funciones, es crucial para colaborar con los líderes de desarrollo en este proyecto?",
+    "opciones": [
+      "A. Analizar los requerimientos para la estructuración de modelos de datos.",
+      "B. Trabajar con los diferentes líderes de desarrollo en la construcción de soluciones flexibles, escalables y que se encuentren bajo los lineamientos de arquitectura.",
+      "C. Realizar propuestas para la optimización de bases de datos existentes."
+    ],
+    "respuesta_correcta": "B",
+    "explicacion": "Una de las funciones esenciales es 'Trabajar con los diferentes líderes de desarrollo en la construcción de soluciones flexibles, escalables y que se encuentren bajo los lineamientos de arquitectura'."
+  },
+  {
+    "id": 2,
+    "caso": "La entidad ha identificado la necesidad de modernizar un sistema de información obsoleto para mejorar la eficiencia. Se le ha encomendado la tarea de liderar la fase de diseño para una nueva intervención.",
+    "enunciado": "¿Cuál es la acción más relevante de su rol en esta fase inicial?",
+    "opciones": [
+      "A. Gestionar los modelos de datos y sus estructuras, acordes al gobierno de datos.",
+      "B. Diseñar y estructurar modelos de datos para los requerimientos de desarrollo e intervención de los sistemas de información.",
+      "C. Evaluar la implementación de herramientas de software libre como primera opción de recursos técnicos."
+    ],
+    "respuesta_correcta": "B",
+    "explicacion": "La función 3 del manual de funciones establece 'Diseñar y estructurar modelos de datos para los requerimientos de desarrollo e intervención de los sistemas de información' como una tarea clave en la fase de diseño de una nueva intervención."
+  },
+  {
+    "id": 3,
+    "caso": "Se ha detectado una oportunidad para crear una nueva herramienta interna que optimice la gestión de recursos. Se le ha pedido que proponga una idea innovadora para el proyecto, explorando la viabilidad de nuevas tecnologías.",
+    "enunciado": "¿Qué acción, de las descritas en el manual de funciones, está alineada con este requerimiento?",
+    "opciones": [
+      "A. Construir procedimientos de transformación y extracción de datos.",
+      "B. Promover la implementación y gestión de nuevas tecnologías para innovar y proporcionar nuevas ideas de proyectos / productos.",
+      "C. Implementar y elaborar informes de analítica de datos."
+    ],
+    "respuesta_correcta": "B",
+    "explicacion": "El cargo de Profesional Especializado, código 2028, grado 18, tiene como función 'Promover la implementación y gestión de nuevas tecnologías para innovar y proporcionar nuevas ideas de proyectos / productos'."
+  },
+
+  {
+  "id": 4,
+  "caso": "Un equipo de desarrollo debe garantizar que su aplicación pueda escalar de manera independiente por módulo para soportar picos de demanda.",
+  "enunciado": "¿Qué enfoque arquitectónico es más adecuado?",
+  "opciones": [
+    "A. Utilizar una arquitectura monolítica modular con componentes internos desacoplados.",
+    "B. Adoptar microservicios con despliegue independiente y escalabilidad autónoma.",
+    "C. Implementar un patrón de tres capas estrictamente acopladas para centralizar control."
+  ],
+  "respuesta_correcta": "B",
+  "explicacion": "Los microservicios permiten escalar de manera autónoma cada módulo, respondiendo mejor a variaciones de demanda específicas."
+},
+{
+  "id": 5,
+  "caso": "La entidad debe elegir un estándar para documentar sus APIs públicas y facilitar la interoperabilidad.",
+  "enunciado": "¿Qué opción es más adecuada?",
+  "opciones": [
+    "A. Usar OpenAPI 3.1, que soporta JSON Schema 2020-12 y facilita la validación de contratos.",
+    "B. Definir manualmente la documentación en hojas de cálculo internas.",
+    "C. Emplear únicamente comentarios en el código para describir los endpoints."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "OpenAPI 3.1 es el estándar actual para describir APIs REST, interoperar y validar contratos automáticamente."
+},
+{
+  "id": 6,
+  "caso": "Un proyecto de modernización busca mejorar el despliegue continuo y la recuperación ante fallas.",
+  "enunciado": "¿Qué estrategia es más recomendada?",
+  "opciones": [
+    "A. Implementar despliegues canarios para liberar nuevas versiones de forma progresiva.",
+    "B. Realizar despliegues completos en horas de baja carga sin monitoreo.",
+    "C. Ejecutar pruebas manuales en producción antes de cada liberación."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "Los despliegues canarios permiten validar cambios gradualmente y reducir riesgos ante fallas."
+},
+{
+  "id": 7,
+  "caso": "La entidad busca mejorar la mantenibilidad de un sistema con fuerte dependencia de frameworks externos.",
+  "enunciado": "¿Qué patrón de arquitectura es más pertinente?",
+  "opciones": [
+    "A. Arquitectura hexagonal (ports & adapters) para aislar el dominio de la infraestructura.",
+    "B. Arquitectura en capas rígidas con dependencias en todas las direcciones.",
+    "C. Arquitectura orientada a procesos con lógica de negocio embebida en controladores."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "La arquitectura hexagonal desacopla la lógica de negocio de frameworks, facilitando mantenibilidad y pruebas."
+},
+{
+  "id": 8,
+  "caso": "El área de TI quiere medir la efectividad de sus prácticas DevOps en el ciclo de desarrollo.",
+  "enunciado": "¿Qué métricas son más relevantes?",
+  "opciones": [
+    "A. Los cuatro indicadores DORA: frecuencia de despliegue, lead time, tasa de fallas y tiempo de recuperación.",
+    "B. La cantidad de líneas de código escritas por cada desarrollador por sprint.",
+    "C. El número de tickets cerrados sin importar su complejidad o calidad."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "Los indicadores DORA son el estándar para medir la efectividad y desempeño de equipos DevOps."
+},
+{
+  "id": 9,
+  "caso": "En el diseño de APIs, un desarrollador debe minimizar problemas de 'over-fetching' y 'under-fetching'.",
+  "enunciado": "¿Qué tecnología resulta más apropiada?",
+  "opciones": [
+    "A. GraphQL, porque permite que el cliente defina exactamente qué datos requiere.",
+    "B. REST con múltiples endpoints fijos y datos redundantes.",
+    "C. gRPC limitado a procedimientos sin consultas flexibles."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "GraphQL da control al cliente sobre qué datos solicita, evitando exceso o carencia de información."
+},
+{
+  "id": 10,
+  "caso": "Un auditor detecta riesgos de control de acceso roto en una aplicación pública.",
+  "enunciado": "¿Qué marco se debe considerar prioritariamente?",
+  "opciones": [
+    "A. OWASP Top 10, que identifica riesgos críticos como el control de acceso roto.",
+    "B. WCAG 2.2, que define criterios de accesibilidad para usuarios con discapacidad.",
+    "C. ISO/IEC 25010, que define atributos generales de calidad de software."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "El control de acceso roto es uno de los principales riesgos identificados por OWASP Top 10."
+},
+{
+  "id": 11,
+  "caso": "La entidad debe garantizar accesibilidad digital en sus portales y aplicaciones.",
+  "enunciado": "¿Qué estándar internacional es más aplicable?",
+  "opciones": [
+    "A. WCAG 2.2, que incluye criterios adicionales sobre foco, accesibilidad móvil y entradas alternativas.",
+    "B. ISO/IEC 12207, que define procesos de ciclo de vida de software.",
+    "C. DORA Metrics, que evalúan rendimiento en DevOps."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "WCAG 2.2 es la norma vigente para accesibilidad digital y debe cumplirse en portales públicos."
+},
+{
+  "id": 12,
+  "caso": "Un proyecto requiere validar de forma sistemática que las aplicaciones cumplen requisitos de seguridad.",
+  "enunciado": "¿Qué estándar es más apropiado?",
+  "opciones": [
+    "A. OWASP ASVS, que define controles verificables de seguridad en aplicaciones.",
+    "B. ISO 9001, que asegura gestión de calidad en procesos generales.",
+    "C. PMBOK, que define procesos de gestión de proyectos."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "OWASP ASVS provee un marco detallado de requisitos de seguridad verificables para aplicaciones."
+},
+{
+  "id": 13,
+  "caso": "La aplicación debe ser fácilmente portable entre distintos sistemas operativos y entornos en la nube.",
+  "enunciado": "¿Qué práctica es más recomendable?",
+  "opciones": [
+    "A. Empaquetar la aplicación en contenedores como Docker para asegurar portabilidad.",
+    "B. Compilar binarios diferentes para cada sistema operativo y mantener repos separados.",
+    "C. Usar solo entornos virtuales de escritorio para ejecutar el software."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "Los contenedores permiten empaquetar dependencias y garantizar portabilidad en múltiples entornos."
+},
+{
+  "id": 14,
+  "caso": "Una entidad pública necesita desarrollar software siguiendo lineamientos oficiales del Estado colombiano.",
+  "enunciado": "¿Qué documento debe consultar?",
+  "opciones": [
+    "A. La Guía de Desarrollo de Software Seguro del MinTIC.",
+    "B. El OWASP Cheat Sheet Series para validación de entrada.",
+    "C. El manual WCAG para estándares de accesibilidad."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "El MinTIC provee guías oficiales de desarrollo de software seguro aplicables en entidades públicas."
+},
+{
+  "id": 15,
+  "caso": "Un sistema requiere asegurar trazabilidad completa de solicitudes en una arquitectura de microservicios.",
+  "enunciado": "¿Qué estándar o herramienta es más útil?",
+  "opciones": [
+    "A. OpenTelemetry para recolectar y correlacionar trazas distribuidas.",
+    "B. UML para modelar diagramas de casos de uso.",
+    "C. Scrum para organizar tareas en sprints."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "OpenTelemetry es el estándar abierto para trazabilidad, métricas y logs en arquitecturas distribuidas."
+},
+{
+  "id": 16,
+  "caso": "En una revisión de arquitectura, se busca garantizar que el sistema soporte mantenibilidad y portabilidad.",
+  "enunciado": "¿Qué estándar de calidad aplica?",
+  "opciones": [
+    "A. ISO/IEC 25010, que define atributos y subcaracterísticas de calidad de software.",
+    "B. WCAG 2.2, que se centra en accesibilidad web.",
+    "C. DORA Metrics, que miden desempeño de DevOps."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "ISO/IEC 25010 establece los atributos de calidad de software, incluyendo mantenibilidad y portabilidad."
+},
+{
+  "id": 17,
+  "caso": "El equipo decide emplear el patrón 12-Factor App en su aplicación.",
+  "enunciado": "¿Qué objetivo busca esta decisión?",
+  "opciones": [
+    "A. Asegurar que la aplicación sea cloud-native, portable y fácilmente escalable.",
+    "B. Garantizar que la aplicación cumpla con los requisitos de accesibilidad WCAG.",
+    "C. Validar que la aplicación tenga documentación exhaustiva de todos los casos de uso."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "El patrón 12-Factor App define principios para aplicaciones cloud-native, portables y escalables."
+},
+{
+  "id": 18,
+  "caso": "Un desarrollador observa que almacenar secretos en el repositorio representa un riesgo.",
+  "enunciado": "¿Qué práctica es más adecuada?",
+  "opciones": [
+    "A. Utilizar gestores de secretos o vaults para almacenar credenciales de forma segura.",
+    "B. Codificar los secretos en Base64 y subirlos al repositorio.",
+    "C. Documentar los secretos en comentarios internos del código."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "Los gestores de secretos garantizan almacenamiento seguro y evitan exposición de credenciales en repositorios."
+},
+{
+  "id": 19,
+  "caso": "Se requiere reducir riesgos de fallas masivas en despliegues de nuevas versiones.",
+  "enunciado": "¿Qué estrategia es más adecuada?",
+  "opciones": [
+    "A. Realizar despliegues blue-green o canary para alternar entornos y minimizar impacto.",
+    "B. Liberar todas las nuevas funciones en un único despliegue sin posibilidad de rollback.",
+    "C. Mantener una versión estable sin actualizaciones por largos periodos."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "Los despliegues blue-green o canary permiten controlar el riesgo y facilitar recuperación rápida."
+},
+{
+  "id": 20,
+  "caso": "Un proyecto debe garantizar que los usuarios autenticados solo accedan a recursos permitidos.",
+  "enunciado": "¿Qué práctica de seguridad es más adecuada?",
+  "opciones": [
+    "A. Implementar controles de autorización basados en roles (RBAC) o atributos (ABAC).",
+    "B. Permitir acceso a todos los recursos tras la autenticación inicial.",
+    "C. Usar únicamente cifrado TLS sin controles adicionales."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "Los controles RBAC o ABAC aseguran autorización granular, complementando autenticación y cifrado."
+},
+{
+  "id": 21,
+  "caso": "El área de pruebas quiere priorizar sus esfuerzos en el ciclo de desarrollo.",
+  "enunciado": "¿Qué estrategia es más adecuada según la pirámide de pruebas?",
+  "opciones": [
+    "A. Enfocar en pruebas unitarias masivas, luego de integración y pocas de extremo a extremo.",
+    "B. Invertir la pirámide y concentrarse solo en pruebas end-to-end.",
+    "C. Hacer únicamente pruebas manuales al final del ciclo."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "La pirámide de pruebas recomienda mayor número de pruebas unitarias y menos pruebas costosas end-to-end."
+},
+{
+  "id": 22,
+  "caso": "El equipo busca medir la resiliencia del sistema frente a fallas.",
+  "enunciado": "¿Qué técnica es más útil?",
+  "opciones": [
+    "A. Chaos Engineering para inyectar fallas controladas y observar el comportamiento.",
+    "B. Documentar únicamente los diagramas UML de arquitectura.",
+    "C. Reducir la cantidad de logs para evitar saturar el sistema."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "Chaos Engineering permite validar la resiliencia al simular fallas en entornos controlados."
+},
+{
+  "id": 23,
+  "caso": "La entidad necesita garantizar que las APIs expuestas no sufran abusos por exceso de solicitudes.",
+  "enunciado": "¿Qué mecanismo es más apropiado?",
+  "opciones": [
+    "A. Implementar rate limiting y throttling en las APIs.",
+    "B. Publicar documentación extensa sin controles técnicos.",
+    "C. Incrementar la cantidad de endpoints sin restricciones."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "Rate limiting controla el volumen de peticiones y previene abusos en las APIs."
+},
+{
+  "id": 24,
+  "caso": "Se busca garantizar que un nuevo sistema de trámites cumpla lineamientos de interoperabilidad en el Estado.",
+  "enunciado": "¿Qué referencia es más adecuada?",
+  "opciones": [
+    "A. El Marco de Referencia de Arquitectura Empresarial del Estado (MRAE).",
+    "B. El estándar WCAG 2.2 para accesibilidad web.",
+    "C. Los indicadores DORA para medir desempeño en DevOps."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "El MRAE es el marco oficial en Colombia para guiar la arquitectura empresarial e interoperabilidad en sistemas del Estado."
+},
+
+    {
+        "id": 25,
+        "caso": "En el desarrollo de un aplicativo crítico para la entidad, se debe elegir una arquitectura que garantice escalabilidad, mantenibilidad y desacoplamiento entre componentes.",
+        "enunciado": "¿Qué patrón arquitectónico proporcionaría el MEJOR balance entre estos requerimientos?",
+        "opciones": [
+            "A. Arquitectura monolítica con módulos bien definidos y acoplamiento estrecho controlado.",
+            "B. Arquitectura de microservicios con servicios independientes y comunicación via API.",
+            "C. Arquitectura hexagonal con puertos y adaptadores para desacoplamiento total."
+        ],
+        "respuesta_correcta": "C",
+        "explicacion": "La arquitectura hexagonal (puertos/adaptadores) proporciona el mejor desacoplamiento al separar la lógica de negocio de infraestructura, permitiendo cambios tecnológicos sin afectar el core de la aplicación y manteniendo alta mantenibilidad."
+    },
+    {
+        "id": 26,
+        "caso": "Para garantizar la calidad del código en un proyecto de desarrollo, se deben implementar prácticas de ingeniería de software robustas.",
+        "enunciado": "¿Qué práctica contribuiría MÁS significativamente a la mantenibilidad a largo plazo?",
+        "opciones": [
+            "A. Implementación exhaustiva de pruebas unitarias con alta cobertura de código.",
+            "B. Refactorización continua siguiendo principios SOLID y clean code.",
+            "C. Documentación técnica detallada de cada componente y módulo."
+        ],
+        "respuesta_correcta": "B",
+        "explicacion": "La refactorización continua basada en principios SOLID y clean code asegura que el código evolucione manteniendo su calidad, reduciendo la deuda técnica y facilitando el mantenimiento a largo plazo más que cualquier otra práctica individual."
+    },
+    {
+        "id": 27,
+        "caso": "Al diseñar un sistema distribuido para la entidad, se debe garantizar la consistencia de datos entre múltiples servicios.",
+        "enunciado": "¿Qué patrón de consistencia proporcionaría el MEJOR balance entre disponibilidad y consistencia?",
+        "opciones": [
+            "A. Consistencia fuerte transaccional con two-phase commit across servicios.",
+            "B. Consistencia eventual con patrones saga para manejo de transacciones distribuidas.",
+            "C. Consistencia secuencial mediante timestamping y conflict resolution."
+        ],
+        "respuesta_correcta": "B",
+        "explicacion": "El patrón saga con consistencia eventual proporciona el mejor balance, permitiendo alta disponibilidad mientras garantiza consistencia a través de compensación de transacciones en sistemas distribuidos."
+    },
+    {
+        "id": 28,
+        "caso": "Se debe implementar un mecanismo de caching para mejorar el rendimiento de un aplicativo con alta concurrencia.",
+        "enunciado": "¿Qué estrategia de invalidación de cache garantizaría MEJOR consistencia con el menor overhead?",
+        "opciones": [
+            "A. Invalidación por tiempo de expiración (TTL) con valores conservativos.",
+            "B. Invalidación explícita mediante eventos de actualización de datos.",
+            "C. Invalidación lazy con verificación en cada acceso al cache."
+        ],
+        "respuesta_correcta": "B",
+        "explicacion": "La invalidación explícita mediante eventos garantiza consistencia inmediata al eliminar entradas de cache solo cuando los datos subyacentes cambian, proporcionando mejor rendimiento que verificaciones lazy y mejor consistencia que TTL fijos."
+    },
+    {
+        "id": 29,
+        "caso": "Para cumplir con requisitos de seguridad, se debe implementar autenticación y autorización en un aplicativo web.",
+        "enunciado": "¿Qué estándar moderno proporcionaría la MEJOR seguridad para APIs REST?",
+        "opciones": [
+            "A. OAuth 2.0 con flujo Authorization Code y PKCE para clientes públicos.",
+            "B. JWT tokens con firmas RSA256 y claims extensibles.",
+            "C. OpenID Connect con identity provider federado y scope validation."
+        ],
+        "respuesta_correcta": "A",
+        "explicacion": "OAuth 2.0 con Authorization Code y PKCE proporciona la mejor seguridad para aplicaciones web, previniendo ataques como code interception y providing robust authorization framework para APIs."
+    },
+    {
+        "id": 30,
+        "caso": "Al desarrollar un aplicativo con requisitos críticos de performance, se debe optimizar el rendimiento de base de datos.",
+        "enunciado": "¿Qué técnica de optimización proporcionaría el MAYOR impacto en rendimiento para consultas complejas?",
+        "opciones": [
+            "A. Implementación de índices compuestos covering para queries frecuentes.",
+            "B. Denormalización estratégica de tablas para reducir joins.",
+            "C. Particionamiento horizontal por rangos de datos frecuentemente accedidos."
+        ],
+        "respuesta_correcta": "A",
+        "explicacion": "Los índices compuestos covering proporcionan el mayor impacto al permitir que las consultas se resuelvan completamente desde el índice, evitando acceso a datos y mejorando dramáticamente el rendimiento."
+    },
+    {
+        "id": 31,
+        "caso": "Se debe implementar un sistema de procesamiento de datos en tiempo real para alertas tempranas.",
+        "enunciado": "¿Qué arquitectura proporcionaría MENOR latencia para procesamiento de streams?",
+        "opciones": [
+            "A. Arquitectura lambda con batch y speed layers separados.",
+            "B. Arquitectura kappa con processing en stream único.",
+            "C. Arquitectura microservices con message brokers intermedios."
+        ],
+        "respuesta_correcta": "B",
+        "explicacion": "La arquitectura kappa elimina la capa batch y procesa todo como stream, reduciendo latencia al evitar la complejidad de mantener y sincronizar múltiples capas de procesamiento."
+    },
+    {
+        "id": 32,
+        "caso": "Para garantizar la resiliencia en un sistema distribuido, se deben implementar patrones de tolerancia a fallos.",
+        "enunciado": "¿Qué patrón proporcionaría MEJOR protección contra fallos en cascada?",
+        "opciones": [
+            "A. Circuit breaker con estados abierto/cerrado/semiabierto.",
+            "B. Bulkhead isolation con pools de recursos separados.",
+            "C. Retry patterns con backoff exponencial y jitter."
+        ],
+        "respuesta_correcta": "A",
+        "explicacion": "El circuit breaker previene fallos en cascada al detener temporalmente las llamadas a servicios fallidos, dando tiempo a su recuperación y evitando la propagación de fallos through el sistema."
+    },
+    {
+        "id": 33,
+        "caso": "Al diseñar un sistema con alta disponibilidad, se debe planificar la estrategia de deployment.",
+        "enunciado": "¿Qué estrategia de deployment proporcionaría MENOR downtime durante actualizaciones?",
+        "opciones": [
+            "A. Blue-green deployment con switch rápido entre environments.",
+            "B. Canary releases con rollout gradual a subset de usuarios.",
+            "C. Rolling deployment con actualización incremental de instancias."
+        ],
+        "respuesta_correcta": "A",
+        "explicacion": "Blue-green deployment proporciona el menor downtime al permitir un switch instantáneo entre la versión actual y la nueva, con capacidad de rollback inmediato si se detectan problemas."
+    },
+    {
+        "id": 34,
+        "caso": "Se debe implementar un sistema de monitoreo para un aplicativo en producción.",
+        "enunciado": "¿Qué métrica sería MÁS crítica para detectar problemas de performance temprano?",
+        "opciones": [
+            "A. Latencia percentil 99 (p99) para detectar outliers extremos.",
+            "B. Error rate con alertas basadas en aumento porcentual.",
+            "C. Throughput medido en requests por segundo por instancia."
+        ],
+        "respuesta_correcta": "A",
+        "explicacion": "La latencia p99 es más sensible para detectar problemas incipientes de performance, ya que captura los outliers que afectan la experiencia de usuario antes de que impacten métricas agregadas."
+    },
+    {
+        "id": 35,
+        "caso": "Para cumplir con requisitos de compliance, se debe implementar logging y auditoría comprehensivos.",
+        "enunciado": "¿Qué práctica garantizaría MEJOR trazabilidad de acciones de usuario?",
+        "opciones": [
+            "A. Logging estructurado con correlation IDs across servicios.",
+            "B. Audit trails inmutables almacenados en base de datos dedicada.",
+            "C. User activity tracking con session recording completo."
+        ],
+        "respuesta_correcta": "A",
+        "explicacion": "El logging estructurado con correlation IDs permite seguir el flujo completo de una transacción through múltiples servicios, proporcionando la mejor trazabilidad para debugging y auditoría."
+    },
+    {
+        "id": 36,
+        "caso": "Al desarrollar una aplicación con requisitos de internacionalización, se debe implementar localización.",
+        "enunciado": "¿Qué enfoque proporcionaría MEJOR mantenibilidad para múltiples idiomas?",
+        "opciones": [
+            "A. Externalización de strings en resource bundles con fallback jerárquico.",
+            "B. Database-driven localization con caching agresivo de traducciones.",
+            "C. API-based localization con servicio externo de traducciones."
+        ],
+        "respuesta_correcta": "A",
+        "explicacion": "Los resource bundles externos proporcionan la mejor mantenibilidad al separar completamente el código de las traducciones, permitiendo updates sin redeploy y supporting fallback jerárquico para idiomas."
+    },
+    {
+        "id": 37,
+        "caso": "Se debe implementar una estrategia de testing para un aplicativo complejo.",
+        "enunciado": "¿Qué tipo de testing proporcionaría MEJOR ROI en detección temprana de defects?",
+        "opciones": [
+            "A. Unit testing con alta cobertura y testing de integración limitado.",
+            "B. Contract testing entre servicios con consumer-driven contracts.",
+            "C. End-to-end testing covering los flujos críticos de negocio."
+        ],
+        "respuesta_correcta": "B",
+        "explicacion": "El contract testing detecta incompatibilidades entre servicios early en el ciclo de desarrollo, providing mejor ROI al prevenir defects de integración antes de que lleguen a producción."
+    },
+    {
+        "id": 38,
+        "caso": "Para mejorar la seguridad de un aplicativo, se debe implementar protección contra vulnerabilidades OWASP.",
+        "enunciado": "¿Qué control sería MÁS efectivo contra injection attacks?",
+        "opciones": [
+            "A. Prepared statements parametrizados con query separation.",
+            "B. Input validation con whitelisting de caracteres permitidos.",
+            "C. Output encoding contextual para prevenir execution."
+        ],
+        "respuesta_correcta": "A",
+        "explicacion": "Los prepared statements parametrizados previenen efectivamente SQL injection al separar completamente los datos del código SQL, providing protección robusta contra este tipo de ataques."
+    },
+    {
+        "id": 39,
+        "caso": "Al diseñar un sistema con alta escalabilidad, se debe planificar la estrategia de escalamiento.",
+        "enunciado": "¿Qué enfoque proporcionaría MEJOR escalabilidad para cargas variables?",
+        "opciones": [
+            "A. Auto-scaling horizontal basado en métricas de carga con cool-down periods.",
+            "B. Scaling vertical con upgrade de instancias durante peaks predecibles.",
+            "C. Load balancing con round-robin y health checks continuos."
+        ],
+        "respuesta_correcta": "A",
+        "explicacion": "El auto-scaling horizontal proporciona mejor escalabilidad para cargas variables al agregar/remover instancias automáticamente based on demanda real, optimizing costos y performance."
+    },
+    {
+        "id": 40,
+        "caso": "Se debe implementar CI/CD para un proyecto con múltiples equipos de desarrollo.",
+        "enunciado": "¿Qué práctica garantizaría MEJOR calidad en el pipeline de delivery?",
+        "opciones": [
+            "A. Branch protection rules con required reviews y status checks.",
+            "B. Deployment automation con rollback automático en failures.",
+            "C. Environment isolation con staging identical a producción."
+        ],
+        "respuesta_correcta": "A",
+        "explicacion": "Las branch protection rules con code reviews requeridas garantizan que solo código validado entre al pipeline, improving calidad más efectivamente que prácticas técnicas de deployment."
+    },
+    {
+        "id": 41,
+        "caso": "Para mejorar la experiencia de usuario, se debe optimizar el performance frontend.",
+        "enunciado": "¿Qué técnica proporcionaría MAYOR impacto en perceived performance?",
+        "opciones": [
+            "A. Lazy loading de componentes con skeleton screens.",
+            "B. Bundle optimization con code splitting y tree shaking.",
+            "C. CDN deployment con caching agresivo de assets estáticos."
+        ],
+        "respuesta_correcta": "A",
+        "explicacion": "El lazy loading con skeleton screens mejora dramáticamente la perceived performance al mostrar contenido inmediatamente mientras se carga el resto, providing mejor experiencia de usuario que optimizaciones técnicas."
+    },
+    {
+        "id": 42,
+        "caso": "Se debe implementar una estrategia de manejo de secrets para aplicativos en cloud.",
+        "enunciado": "¿Qué enfoque proporcionaría MEJOR seguridad para credenciales?",
+        "opciones": [
+            "A. Secret rotation automático con temporary credentials de corta duración.",
+            "B. Encryption en reposo y tránsito con hardware security modules.",
+            "C. Centralized secret management con access control granular."
+        ],
+        "respuesta_correcta": "A",
+        "explicacion": "La rotación automática de secrets con credenciales temporales reduce la ventana de exposición, providing mejor seguridad que el almacenamiento seguro o management centralizado de credenciales estáticas."
+    },
+    {
+        "id": 43,
+        "caso": "Al desarrollar una API pública, se debe implementar gestión de versionamiento.",
+        "enunciado": "¿Qué estrategia proporcionaría MEJOR balance entre backward compatibility y evolvability?",
+        "opciones": [
+            "A. Versionamiento en URL con soporte simultáneo de múltiples versiones.",
+            "B. Versionamiento semántico con deprecation policies claras.",
+            "C. Versionless APIs con evolvable schemas y content negotiation."
+        ],
+        "respuesta_correcta": "C",
+        "explicacion": "Las APIs versionless con content negotiation proporcionan el mejor balance, permitiendo evolución sin breaking changes mientras mantienen compatibilidad through negotation de versiones."
+    },
+    {
+        "id": 44,
+        "caso": "Para garantizar la calidad de datos en un aplicativo, se debe implementar validación.",
+        "enunciado": "¿Qué enfoque proporcionaría MEJOR validación para datos complejos?",
+        "opciones": [
+            "A. Schema validation con JSON Schema en boundaries de entrada.",
+            "B. Business rule validation en la capa de aplicación.",
+            "C. Database constraints con validación a nivel de persistencia."
+        ],
+        "respuesta_correcta": "A",
+        "explicacion": "JSON Schema validation en boundaries de entrada proporciona validación temprana y consistente para datos complejos, preventing invalid data from entering el sistema más efectivamente que validación posterior."
+    },
+    {
+        "id": 45,
+        "caso": "Se debe implementar una estrategia de observability para un sistema distribuido.",
+        "enunciado": "¿Qué pillar de observability sería MÁS útil para debugging issues complejos?",
+        "opciones": [
+            "A. Traces distribuidos con context propagation across servicios.",
+            "B. Metrics dimensionales con aggregations en tiempo real.",
+            "C. Logs estructurados con metadata contextual enrichida."
+        ],
+        "respuesta_correcta": "A",
+        "explicacion": "Los distributed traces permiten seguir el flujo completo de una request through múltiples servicios, providing visibilidad indispensable para debugging issues complejos en sistemas distribuidos."
+    },
+
+    {
+  "id": 46,
+  "caso": "Se requiere desarrollar un sistema web para atención ciudadana en múltiples municipios, con gran variabilidad de solicitudes y usuarios.",
+  "enunciado": "¿Qué arquitectura facilita mayor escalabilidad y adaptación?",
+  "opciones": [
+    "A. Aplicación monolítica con una sola base de código.",
+    "B. Microservicios independientes integrados por API.",
+    "C. Aplicación de escritorio instalada en cada municipio."
+  ],
+  "respuesta_correcta": "B",
+  "explicacion": "La arquitectura de microservicios permite ajustar y escalar módulos según demanda, facilitando mantenimiento y flexibilidad ante distintas realidades."
+},
+{
+  "id": 47,
+  "caso": "Una aplicación móvil exige alta seguridad en el manejo de datos personales según normativa estatal.",
+  "enunciado": "¿Qué práctica es esencial implementar en el desarrollo?",
+  "opciones": [
+    "A. Cifrado de datos tanto en almacenamiento como durante su transmisión.",
+    "B. Compartir datos sensibles solo con usuarios administradores.",
+    "C. Guardar las credenciales en texto plano dentro del dispositivo."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "El cifrado protege los datos de accesos no autorizados y cumple requisitos legales de confidencialidad."
+},
+{
+  "id": 48,
+  "caso": "Se busca entregar funcionalidades nuevas sin interrumpir el servicio a los ciudadanos.",
+  "enunciado": "¿Qué metodología recomienda esta práctica?",
+  "opciones": [
+    "A. Integración continua y entregas continuas (CI/CD).",
+    "B. Publicaciones manuales solo en horarios de menor tráfico de usuarios.",
+    "C. La compilación y despliegue manual cada vez que se hace un cambio."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "El CI/CD agiliza el ciclo de vida, automatiza pruebas y despliegue, minimizando riesgos y tiempos de inactividad."
+},
+{
+  "id": 49,
+  "caso": "El equipo debate entre usar Flutter, React Native o Kotlin para una app pública multiplataforma.",
+  "enunciado": "¿Qué criterio es clave para la decisión?",
+  "opciones": [
+    "A. La facilidad para mantener una sola base de código y lanzar en múltiples plataformas.",
+    "B. La posibilidad de programar interfaces usando HTML únicamente.",
+    "C. El soporte exclusivo para dispositivos Android de última generación."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "Frameworks multiplataforma disminuyen costos y tiempos, facilitando mantenimiento y lanzamientos en Android y iOS."
+},
+{
+  "id": 50,
+  "caso": "Al desplegar una nueva versión, se detectan incompatibilidades con sistemas antiguos usados en municipios pequeños.",
+  "enunciado": "¿Cómo se aborda ese reto en desarrollo de aplicativos?",
+  "opciones": [
+    "A. Diseñar la app con retrocompatibilidad y pruebas en versiones previas de los sistemas operativos.",
+    "B. Exigir actualización inmediata de dispositivo y software en todos los municipios.",
+    "C. Omitir la verificación en sistemas antiguos por razones de tiempo."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "La retrocompatibilidad reduce exclusiones y facilita adopción en diferentes contextos institucionales."
+},
+{
+  "id": 51,
+  "caso": "El sistema debe responder en tiempo real a más de mil solicitudes simultáneas en trámites ciudadanos.",
+  "enunciado": "¿Cuál técnica es más relevante en la arquitectura del aplicativo?",
+  "opciones": [
+    "A. Programación asíncrona y colas de procesos.",
+    "B. Procesamiento secuencial de cada solicitud.",
+    "C. Limitación estricta del número de solicitudes por usuario."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "La programación asíncrona permite gestionar múltiples solicitudes rápidamente y evita cuellos de botella."
+},
+{
+  "id": 52,
+  "caso": "Para desarrollar una plataforma accesible, se requiere que todas las interfaces sean utilizables por personas con discapacidad.",
+  "enunciado": "¿Cuál acción es prioritaria?",
+  "opciones": [
+    "A. Seguir estándares internacionales de accesibilidad (WCAG, ARIA).",
+    "B. Aplicar estilos personalizados para cada usuario por separado.",
+    "C. Permitir solo el uso de la aplicación mediante voz."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "Los estándares de accesibilidad aseguran inclusión y cumplimiento legal en aplicaciones públicas."
+},
+{
+  "id": 53,
+  "caso": "El cliente solicita integración con sistemas de bases de datos ya existentes en la entidad.",
+  "enunciado": "¿Qué estrategia sostiene una integración eficiente?",
+  "opciones": [
+    "A. Uso de APIs normalizadas y conectores estándar.",
+    "B. Re-escritura manual de todos los registros para la nueva aplicación.",
+    "C. Importación de los datos mediante hojas de cálculo sin validación."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "Las APIs garantizan modularidad y compatibilidad, simplificando la integración con distintas fuentes."
+},
+{
+  "id": 54,
+  "caso": "Un aplicativo debe permitir la actualización automática a nuevas versiones sin intervención del usuario.",
+  "enunciado": "¿Cómo se suele lograr esa funcionalidad?",
+  "opciones": [
+    "A. Implementando mecanismos de actualizaciones silenciosas desde el servidor.",
+    "B. Requiriendo reinstalación manual por parte de cada usuario.",
+    "C. Bloqueando la aplicación hasta que el usuario actualice."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "Las actualizaciones automáticas facilitan la seguridad y mejoras continuas en gran escala."
+},
+{
+  "id": 55,
+  "caso": "Durante la fase de pruebas funcionales, se detecta que el rendimiento varía mucho en distintos dispositivos.",
+  "enunciado": "¿Qué metodología ayuda a mitigar este inconveniente?",
+  "opciones": [
+    "A. Pruebas en dispositivos reales, emuladores y diferentes versiones.",
+    "B. Pruebas limitadas solo en los dispositivos de última generación.",
+    "C. Pruebas manuales en ambiente de desarrollo."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "Las pruebas en diferentes ambientes permiten identificar y corregir problemas de rendimiento y compatibilidad."
+},
+{
+  "id": 56,
+  "caso": "Para garantizar robustez en aplicaciones críticas, se busca minimizar caídas inesperadas y pérdida de datos.",
+  "enunciado": "¿Qué estrategia se considera eficaz?",
+  "opciones": [
+    "A. Implementar recuperación de errores y persistencia automática local.",
+    "B. Ignorar errores menores por rapidez de desarrollo.",
+    "C. Omitir almacenamiento local para simplificar el código."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "La recuperación de errores y persistencia local aseguran continuidad del servicio y protegen los datos de los usuarios."
+},
+{
+  "id": 57,
+  "caso": "El tiempo de desarrollo es limitado y se necesita lanzar una app funcional rápidamente.",
+  "enunciado": "¿Qué enfoque tecnológico puede acelerar este proceso?",
+  "opciones": [
+    "A. Plataformas low-code/no-code para prototipado y MVP.",
+    "B. Desarrollo manual con frameworks especializados únicamente.",
+    "C. Codificación exclusiva desde cero, sin herramientas adicionales."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "Las plataformas low-code/no-code permiten lanzar soluciones resueltas en menor tiempo y con menos recursos."
+},
+{
+  "id": 58,
+  "caso": "Para mejorar la experiencia del usuario, se quiere personalizar las respuestas dentro del aplicativo según preferencias y contexto.",
+  "enunciado": "¿Qué tecnología es apropiada en 2025?",
+  "opciones": [
+    "A. Integración de IA generativa y análisis de contexto en tiempo real.",
+    "B. Programación exclusiva con reglas fijas.",
+    "C. Configuración manual de cada perfil de usuario."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "La IA generativa permite adaptar dinámicamente la experiencia a cada usuario, mejorando satisfacción y engagement."
+},
+{
+  "id": 59,
+  "caso": "Hay necesidad de escalar rápidamente el aplicativo ante cambios imprevisibles de demanda institucional.",
+  "enunciado": "¿Cuál solución técnica resuelve este reto?",
+  "opciones": [
+    "A. Despliegue en infraestructura cloud con autoescalado.",
+    "B. Migración exclusiva a servidores locales.",
+    "C. Limitación del número de usuarios concurrentes sin aviso."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "El autoescalado permite ajustar recursos ante picos de uso, garantizando continuidad y rendimiento."
+},
+{
+  "id": 60,
+  "caso": "Una app pública debe registrar, almacenar y consultar eventos de usuario a gran escala en tiempo real.",
+  "enunciado": "¿Qué patrón de arquitectura facilita esto?",
+  "opciones": [
+    "A. Patrones orientados a eventos y procesamiento en pipelines.",
+    "B. Procesamiento por lotes y escritura secuencial.",
+    "C. Procesamiento en caliente solo durante mantenimientos."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "Los patrones orientados a eventos permiten capturar y procesar acciones rápidamente y a gran escala."
+},
+{
+  "id": 61,
+  "caso": "El equipo requiere documentar el desarrollo de la aplicación para su mantenimiento futuro.",
+  "enunciado": "¿Qué práctica profesional es indispensable?",
+  "opciones": [
+    "A. Documentar código, flujos, dependencias y procesos de despliegue.",
+    "B. Mantener solo documentación oral entre los desarrolladores.",
+    "C. Escribir comentarios únicamente en los archivos principales."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "Una documentación clara y estructurada facilita el mantenimiento y escalabilidad del aplicativo."
+},
+{
+  "id": 62,
+  "caso": "Por requerimiento legal, la app debe permitir auditoría y trazabilidad de acciones críticas.",
+  "enunciado": "¿Cuál técnica funcional lo garantiza?",
+  "opciones": [
+    "A. Implementar registros de auditoría y log de eventos.",
+    "B. Eliminar automáticamente los logs cada semana.",
+    "C. Registrar sólo los accesos y no las acciones críticas."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "El log de auditoría asegura trazabilidad y permite revisiones legales y técnicas ante incidentes."
+},
+{
+  "id": 63,
+  "caso": "Durante el diseño, se requiere seleccionar una metodología ágil para el equipo multiárea.",
+  "enunciado": "¿Cuál enfoque se considera óptimo?",
+  "opciones": [
+    "A. Scrum, por sus ciclos iterativos y colaborativos.",
+    "B. Cascada, por su estructura secuencial rígida.",
+    "C. Producción orientada solo por entregas únicas finales."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "Scrum estructura ciclos cortos y mejora colaboración entre equipos multidisciplinarios."
+},
+{
+  "id": 64,
+  "caso": "El aplicativo debe ser compatible con distintos sistemas operativos y dispositivos.",
+  "enunciado": "¿Qué prueba es indispensable?",
+  "opciones": [
+    "A. Pruebas de compatibilidad y cross-browser/device.",
+    "B. Testeo solo en el sistema más utilizado.",
+    "C. Pruebas manuales en ambiente controlado."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "Las pruebas de compatibilidad aseguran que el aplicativo funcione adecuadamente en todos los entornos requeridos."
+},
+{
+  "id": 65,
+  "caso": "Para aplicaciones con acceso institucional, se exige autenticación robusta.",
+  "enunciado": "¿Qué mecanismo moderno se utiliza?",
+  "opciones": [
+    "A. Autenticación multifactor y federada (OAuth, SAML).",
+    "B. Contraseñas simples sin validación adicional.",
+    "C. Ingreso único con información pública sin cifrado."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "La autenticación multifactor y federada asegura accesos confiables en sistemas críticos y públicos."
+},
+{
+  "id": 66,
+  "caso": "El área desea implementar analítica avanzada dentro del aplicativo para mejorar procesos internos.",
+  "enunciado": "¿Cómo puede realizarse esto de forma integrada?",
+  "opciones": [
+    "A. Integrando motores de análisis de datos y dashboards dentro del aplicativo.",
+    "B. Exportando la información a hojas de cálculo externas semanalmente.",
+    "C. Recopilando únicamente datos anónimos y sin procesarlos."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "Integrar motores de analítica agiliza procesos y permite tomar decisiones basadas en datos dentro de la aplicación."
+}
+
+]

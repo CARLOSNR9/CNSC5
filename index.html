@@ -26,8 +26,8 @@
                     <h3 class="card-title">Funcional</h3>
                     <ul class="subtema-list" id="funcional-list">
                         <li><a href="html/analitica_de_datos.html">ANALÍTICA DE DATOS</a><span id="analitica-de-datos-resultado" class="resultado-simulacro"></span></li>
-                        <li><a href="html/bases_de_datos.html">BASES DE DATOS</a></li>
-                        <li><a href="html/desarrollo_de_aplicativos.html">DESARROLLO DE APLICATIVOS</a></li>
+                        <li><a href="html/bases_de_datos.html">BASES DE DATOS</a><span id="bases-de-datos-resultado" class="resultado-simulacro"></span></li>
+                        <li><a href="html/desarrollo_de_aplicativos.html">DESARROLLO DE APLICATIVOS</a><span id="desarrollo-de-aplicativos-resultado" class="resultado-simulacro"></span></li>
                         <li><a href="html/estructura_organica.html">ESTRUCTURA ORGÁNICA DE LA CNSC</a></li>
                         <li><a href="html/gobierno_de_datos.html">GOBIERNO DE DATOS</a></li>
                         <li><a href="html/herramientas_de_software.html">HERRAMIENTAS DE SOFTWARE</a></li>
@@ -77,17 +77,25 @@
 
     <script>
         document.addEventListener('DOMContentLoaded', () => {
-            const resultadosRaw = localStorage.getItem('analitica_de_datos_resultados');
-            const resultados = resultadosRaw ? JSON.parse(resultadosRaw) : [];
+            const ejes = [
+                { id: 'analitica-de-datos', key: 'analitica_de_datos_resultados' },
+                { id: 'bases-de-datos', key: 'bases_de_datos_resultados' },
+                { id: 'desarrollo-de-aplicativos', key: 'desarrollo_de_aplicativos_resultados' }
+            ];
 
-            if (resultados.length > 0) {
-                const ultimoResultado = resultados[resultados.length - 1];
-                const spanResultado = document.getElementById('analitica-de-datos-resultado');
+            ejes.forEach(eje => {
+                const resultadosRaw = localStorage.getItem(eje.key);
+                const resultados = resultadosRaw ? JSON.parse(resultadosRaw) : [];
 
-                if (spanResultado) {
-                    spanResultado.innerHTML = `Intento ${resultados.length}: ${ultimoResultado.puntaje} de 100`;
+                if (resultados.length > 0) {
+                    const ultimoResultado = resultados[resultados.length - 1];
+                    const spanResultado = document.getElementById(eje.id + '-resultado');
+
+                    if (spanResultado) {
+                        spanResultado.innerHTML = `Intento ${resultados.length}: ${ultimoResultado.puntaje} de 100`;
+                    }
                 }
-            }
+            });
         });
     </script>
 </body>

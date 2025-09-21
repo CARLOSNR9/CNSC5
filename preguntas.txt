@@ -1,5 +1,5 @@
 Ahora, me vas a ayudar en lo siguiente. Del tipo de prueba funcional, hay un tema en especial que se llama: 
-analítica de datos. 
+Desarrollo de Aplicativos
 Por favor, investiga en Internet. Investiga en todo lo que tienes. Con información actualizada hasta hoy, septiembre del 2025, 
 todo lo que tenga que ver con este tema, 
 para yo poder prepararme de la mejor manera y afrontar las preguntas que hace la Comisión Nacional del Servicio Civil con respecto a mi cargo postulado, 
@@ -10,7 +10,7 @@ pruebas con respecto a este tema.
 ------------------------
 
 Ahora, del tema anterior llamado 
-Analítica de Datos
+bases de datos
 me  vas a hacer un simulacro de 20 preguntas, las más difíciles que puedas conseguir, 
 con tres opciones de respuesta, que no se note una respuesta que es la correcta, sino que las tres respuestas sean casi parecidas, 
 para que el desafío de acertar sea más complicado. Pero estas 20 preguntas me las vas a dar en formato o código JSON, 

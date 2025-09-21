@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bases de Datos | Simulacro CNSC</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.2/dist/confetti.browser.min.js"></script>
+</head>
+<body>
+
+    <header class="header">
+        <h1 class="header-title">Bases de Datos</h1>
+        <p class="header-subtitle">Eje de la Prueba Funcional</p>
+    </header>
+
+    <main class="main-content">
+        <section class="section" id="info-section">
+            <div class="content-box">
+                <h2 class="section-title">Información del Tema</h2>
+                
+                <p>El propósito principal del cargo de Profesional Especializado es orientar la incorporación de nuevas tecnologías, para la construcción de soluciones innovadoras, que aporten mejoras en el análisis y procesamiento de información. Esto se logra, en parte, a través de la gestión y optimización de las **bases de datos**: 3].</p>
+                <p>El manual de funciones especifica una serie de conocimientos y habilidades clave para este tema, como la **metodología para el modelamiento de base de datos** y el manejo de **herramientas de administración de bases de datos**: 219].</p>
+
+                <h3 class="sub-section-title">Conceptos Fundamentales y Tipos</h3>
+                <p>Una **base de datos** es un sistema organizado para almacenar, gestionar y recuperar información de manera eficiente y segura: 3]. El **SGBD** (Sistema Gestor de Bases de Datos) es el software que controla el acceso y garantiza la integridad de los datos: 3].</p>
+                
+                <h4>Tipos de Bases de Datos:</h4>
+                <ul>
+                    <li>**Relacionales (SQL):** Organizan la información en tablas. Son ideales para datos estructurados y transaccionales, ya que garantizan las propiedades **ACID** (Atomicidad, Consistencia, Aislamiento, Durabilidad): 2, 3]. Ejemplos: PostgreSQL, MySQL.</li>
+                    <li>**No Relacionales (NoSQL):** Son más flexibles y escalables, adaptándose a estructuras no rígidas. Se usan para datos semiestructurados o no estructurados: 2]. Ejemplos: MongoDB, Redis.</li>
+                </ul>
+
+                <h3 class="sub-section-title">Modelado, Diseño y SQL</h3>
+                <h4>Modelado Relacional:</h4>
+                <ul>
+                    <li>**Normalización:** Proceso para eliminar redundancias y anomalías de actualización, y se recomienda ir hasta la 3FN o BCNF: 1, 2].</li>
+                    <li>**Claves:** Se usan claves primarias (PK), únicas (UK) y foráneas (FK) para definir restricciones e integridad: 1].</li>
+                </ul>
+                
+                <h4>SQL Avanzado:</h4>
+                <p>El dominio del lenguaje SQL es fundamental: 3]. Las pruebas suelen incluir:</p>
+                <ul>
+                    <li>**Joins:** Conocer y usar diferentes tipos como `INNER`, `LEFT`, `RIGHT` y `FULL JOIN`: 1].</li>
+                    <li>**Funciones de Ventana:** Permiten realizar cálculos sobre un conjunto de filas relacionadas con la fila actual (`PARTITION BY`, `ORDER BY`, `lag/lead`): 1, 2].</li>
+                    <li>**CTEs (Common Table Expressions):** Consultas complejas que se definen en una estructura temporal y facilitan la lectura del código: 2].</li>
+                    <li>**Vistas y Vistas Materializadas:** Las vistas materializadas persisten el resultado de una consulta y deben ser actualizadas (`REFRESH`) para tener datos recientes: 1].</li>
+                </ul>
+
+                <h3 class="sub-section-title">Rendimiento y Mantenimiento</h3>
+                <p>Para mejorar el rendimiento y la escalabilidad, se usan diversas técnicas:</p>
+                <ul>
+                    <li>**Índices:** Aceleran las búsquedas y consultas. Los tipos más comunes son B-tree, GIN y BRIN, cada uno con un uso específico: 1, 2].</li>
+                    <li>**Análisis y Optimización:** El comando `EXPLAIN ANALYZE` permite ver el plan de ejecución de una consulta para optimizarla: 1, 2].</li>
+                    <li>**Particionamiento:** Divide tablas grandes en partes más pequeñas para mejorar la velocidad: 1].</li>
+                    <li>**Mantenimiento:** Herramientas como `VACUUM/ANALYZE` en PostgreSQL son esenciales para limpiar datos obsoletos y mantener la integridad: 1].</li>
+                </ul>
+                
+                <h3 class="sub-section-title">Seguridad y Normativa en Colombia</h3>
+                <p>La seguridad y el cumplimiento normativo son críticos en el sector público: 3].</p>
+                <ul>
+                    <li>**Seguridad:** Incluye el control de acceso, el cifrado de datos (en tránsito y en reposo) y el uso de roles y privilegios granulares: 1, 3].</li>
+                    <li>**Normativa:** Es vital conocer la **Ley 1581 de 2012** (Habeas Data) para la protección de datos personales y el **Decreto 1008 de 2018** sobre gobierno de datos en entidades públicas: 2, 3].</li>
+                </ul>
+
+                <h3 class="sub-section-title">Tips de Examen:</h3>
+                <p>Enfócate en software libre como **PostgreSQL**, su relación con el **Gobierno de Datos** y la aplicabilidad de los conceptos a escenarios prácticos del sector público. Repasa la normativa colombiana y las diferencias entre sistemas relacionales y NoSQL. Presta atención a las trampas de los valores `NULL` en SQL y a la lógica de tres valores (TRUE/FALSE/UNKNOWN): 1].</p>
+            </div>
+            
+            <div class="action-box">
+                <a href="#" class="btn" id="iniciar-simulacro-btn">Iniciar Simulacro</a>
+            </div>
+        </section>
+
+        <section class="section simulacro-container" id="simulacro-container" style="display: none;">
+            <h2 class="section-title">Simulacro</h2>
+            <div id="pregunta-box">
+                </div>
+            <div id="retroalimentacion-box" class="retroalimentacion-box" style="display:none;">
+                </div>
+            <div class="button-container">
+                <button class="btn btn-primary" id="siguiente-btn" style="display:none;">Siguiente</button>
+            </div>
+            <div id="resultado-final" style="display:none;">
+                </div>
+        </section>
+        
+        <div style="text-align: center; margin-top: 2rem;">
+            <a href="../index.html" class="btn-volver">Volver al Menú Principal</a>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p>Aplicativo de estudio para el Concurso de Méritos CNSC.</p>
+    </footer>
+
+    <script src="../js/bases_de_datos.js"></script>
+
+</body>
+</html>

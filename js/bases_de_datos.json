@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "caso": "El equipo de la Dirección de Tecnologías de la Información está planificando el desarrollo de un nuevo sistema de gestión de la información. Su rol como Profesional Especializado es fundamental en la etapa inicial para garantizar una estructura de datos sólida.",
+    "enunciado": "¿Qué acción, según sus funciones, es prioritaria en esta etapa de planificación?",
+    "opciones": [
+      "A. Implementar un plan de gobierno de datos para el sistema ya desarrollado.",
+      "B. Analizar los requerimientos para la estructuración de modelos de datos en la integración de los sistemas de información.",
+      "C. Construir procedimientos de transformación y extracción de datos para análisis."
+    ],
+    "respuesta_correcta": "B",
+    "explicacion": "Una de las funciones esenciales del cargo es 'Analizar los requerimientos para la estructuración de modelos de datos en la integración de los sistemas de información'. Esta acción es crítica en la fase inicial de un proyecto para definir la arquitectura de la base de datos."
+  },
+  {
+    "id": 2,
+    "caso": "Un sistema de información existente está experimentando un bajo rendimiento en sus consultas, lo que afecta la eficiencia de los procesos internos. Se te ha pedido que revises el diseño de la base de datos y propongas soluciones para mejorar su desempeño.",
+    "enunciado": "De acuerdo con el manual de funciones, ¿qué propuesta específica debe realizar para solucionar este problema?",
+    "opciones": [
+      "A. Recomendar la adquisición de un nuevo hardware de servidor para el sistema.",
+      "B. Realizar propuestas que permitan la optimización de los modelos de base de datos y el código de consultas.",
+      "C. Sugerir un rediseño completo del sistema de información desde cero."
+    ],
+    "respuesta_correcta": "B",
+    "explicacion": "La función 9 del cargo establece explícitamente que se debe 'Realizar propuestas que permitan la optimización de los modelos de base de datos, código de consultas y de aquellas funcionalidades que muestren un bajo rendimiento en los sistemas de información'."
+  },
+  {
+    "id": 3,
+    "caso": "El departamento necesita diseñar un modelo de datos para una nueva aplicación que recolectará información de diversas fuentes. El diseño debe ser flexible y escalable para futuros requerimientos.",
+    "enunciado": "¿Qué función esencial se relaciona directamente con esta tarea?",
+    "opciones": [
+      "A. Trabajar con líderes de desarrollo en la construcción de soluciones flexibles y escalables.",
+      "B. Promover la implementación y gestión de nuevas tecnologías para innovar en proyectos.",
+      "C. Diseñar y estructurar modelos de datos para los requerimientos de desarrollo e intervención de los sistemas de información."
+    ],
+    "respuesta_correcta": "C",
+    "explicacion": "La función 3 del manual de funciones indica que el cargo debe 'Diseñar y estructurar modelos de datos para los requerimientos de desarrollo e intervención de los sistemas de información'."
+  }
+]

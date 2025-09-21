@@ -1,0 +1,797 @@
+[
+  {
+    "id": 1,
+    "caso": "El equipo de la Dirección de Tecnologías de la Información está planificando el desarrollo de un nuevo sistema de gestión de la información. Su rol como Profesional Especializado es fundamental en la etapa inicial para garantizar una estructura de datos sólida.",
+    "enunciado": "¿Qué acción, según sus funciones, es prioritaria en esta etapa de planificación?",
+    "opciones": [
+      "A. Implementar un plan de gobierno de datos para el sistema ya desarrollado.",
+      "B. Analizar los requerimientos para la estructuración de modelos de datos en la integración de los sistemas de información.",
+      "C. Construir procedimientos de transformación y extracción de datos para análisis."
+    ],
+    "respuesta_correcta": "B",
+    "explicacion": "Una de las funciones esenciales del cargo es 'Analizar los requerimientos para la estructuración de modelos de datos en la integración de los sistemas de información'. Esta acción es crítica en la fase inicial de un proyecto para definir la arquitectura de la base de datos."
+  },
+  {
+    "id": 2,
+    "caso": "Un sistema de información existente está experimentando un bajo rendimiento en sus consultas, lo que afecta la eficiencia de los procesos internos. Se te ha pedido que revises el diseño de la base de datos y propongas soluciones para mejorar su desempeño.",
+    "enunciado": "De acuerdo con el manual de funciones, ¿qué propuesta específica debe realizar para solucionar este problema?",
+    "opciones": [
+      "A. Recomendar la adquisición de un nuevo hardware de servidor para el sistema.",
+      "B. Realizar propuestas que permitan la optimización de los modelos de base de datos y el código de consultas.",
+      "C. Sugerir un rediseño completo del sistema de información desde cero."
+    ],
+    "respuesta_correcta": "B",
+    "explicacion": "La función 9 del cargo establece explícitamente que se debe 'Realizar propuestas que permitan la optimización de los modelos de base de datos, código de consultas y de aquellas funcionalidades que muestren un bajo rendimiento en los sistemas de información'."
+  },
+  {
+    "id": 3,
+    "caso": "El departamento necesita diseñar un modelo de datos para una nueva aplicación que recolectará información de diversas fuentes. El diseño debe ser flexible y escalable para futuros requerimientos.",
+    "enunciado": "¿Qué función esencial se relaciona directamente con esta tarea?",
+    "opciones": [
+      "A. Trabajar con líderes de desarrollo en la construcción de soluciones flexibles y escalables.",
+      "B. Promover la implementación y gestión de nuevas tecnologías para innovar en proyectos.",
+      "C. Diseñar y estructurar modelos de datos para los requerimientos de desarrollo e intervención de los sistemas de información."
+    ],
+    "respuesta_correcta": "C",
+    "explicacion": "La función 3 del manual de funciones indica que el cargo debe 'Diseñar y estructurar modelos de datos para los requerimientos de desarrollo e intervención de los sistemas de información'."
+  },
+{
+  "id": 4,
+  "caso": "Durante una auditoría, se detecta que los informes financieros presentan inconsistencias debido a duplicidad de registros en la base de datos.",
+  "enunciado": "¿Qué enfoque sería más efectivo para evitar este problema en el diseño de la base?",
+  "opciones": [
+    "A. Implementar claves primarias y restricciones de unicidad en las columnas críticas.",
+    "B. Crear índices no únicos en todas las tablas para acelerar la búsqueda de duplicados.",
+    "C. Desnormalizar las tablas para reducir la redundancia en el almacenamiento."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "Las claves primarias y restricciones de unicidad garantizan que no existan registros duplicados, manteniendo la integridad de los datos."
+},
+{
+  "id": 5,
+  "caso": "Un sistema de gestión documental requiere almacenar archivos en formatos JSON y consultarlos con rapidez.",
+  "enunciado": "¿Qué opción es la más apropiada en PostgreSQL?",
+  "opciones": [
+    "A. Usar columnas de tipo JSONB con índices GIN para optimizar consultas por contenido.",
+    "B. Guardar los documentos en columnas TEXT y aplicar búsquedas con LIKE.",
+    "C. Transformar los documentos en tablas normalizadas para eliminar redundancia."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "JSONB junto con índices GIN permiten búsquedas rápidas y eficientes sobre documentos semiestructurados."
+},
+{
+  "id": 6,
+  "caso": "Una consulta compleja se ejecuta lentamente sobre una tabla con 200 millones de filas.",
+  "enunciado": "¿Cuál estrategia es más eficaz para mejorar el rendimiento?",
+  "opciones": [
+    "A. Implementar un índice BRIN aprovechando el orden natural de los datos.",
+    "B. Duplicar las filas más consultadas en una tabla temporal.",
+    "C. Reducir el número de columnas en la tabla para disminuir la carga."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "Los índices BRIN son ideales para tablas muy grandes con datos correlacionados con el orden físico."
+},
+{
+  "id": 7,
+  "caso": "Un analista observa que las consultas de unión entre varias tablas devuelven resultados inesperados por presencia de valores NULL.",
+  "enunciado": "¿Qué aspecto debe revisar primero?",
+  "opciones": [
+    "A. La lógica de tres valores en SQL, ya que NULL genera resultados UNKNOWN en comparaciones.",
+    "B. El orden de las columnas en las cláusulas SELECT, porque puede cambiar el resultado.",
+    "C. La cantidad de índices en las tablas, ya que afectan el resultado de las uniones."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "En SQL, los NULL siguen la lógica de tres valores, lo que puede generar resultados UNKNOWN en uniones y condiciones."
+},
+{
+  "id": 8,
+  "caso": "Se requiere diseñar un esquema para un sistema transaccional de gran concurrencia.",
+  "enunciado": "¿Qué enfoque es más adecuado?",
+  "opciones": [
+    "A. Normalizar hasta la tercera forma normal para minimizar redundancias y anomalías.",
+    "B. Desnormalizar la base para reducir la cantidad de uniones en las consultas.",
+    "C. Usar vistas materializadas para representar todas las transacciones en tiempo real."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "La normalización en sistemas OLTP ayuda a mantener la integridad y reducir inconsistencias en escenarios de alta concurrencia."
+},
+{
+  "id": 9,
+  "caso": "Un equipo quiere prevenir inconsistencias en las referencias entre las tablas de clientes y pedidos.",
+  "enunciado": "¿Qué medida asegura mejor esta integridad?",
+  "opciones": [
+    "A. Definir claves foráneas con reglas de actualización y eliminación en cascada.",
+    "B. Crear índices adicionales en todas las columnas de texto de ambas tablas.",
+    "C. Replicar manualmente los identificadores de clientes en cada pedido."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "Las claves foráneas garantizan que las referencias entre tablas sean válidas y gestionen cambios de forma automática."
+},
+{
+  "id": 10,
+  "caso": "La entidad necesita recuperar información de una base a un estado exacto de hace 24 horas.",
+  "enunciado": "¿Qué técnica de respaldo es más apropiada?",
+  "opciones": [
+    "A. Implementar recuperación punto en el tiempo (PITR) mediante archivos WAL.",
+    "B. Ejecutar un volcado lógico completo cada hora con pg_dump.",
+    "C. Restaurar un backup físico realizado hace más de una semana."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "PITR permite restaurar la base de datos a un instante preciso utilizando WAL y un backup base."
+},
+{
+  "id": 11,
+  "caso": "Durante el análisis de rendimiento se observa que las consultas realizan escaneos completos de tabla.",
+  "enunciado": "¿Cuál es la acción más apropiada?",
+  "opciones": [
+    "A. Crear índices en las columnas filtradas frecuentemente en las cláusulas WHERE.",
+    "B. Eliminar las restricciones de integridad para simplificar las consultas.",
+    "C. Reducir el número de columnas para que las tablas sean más livianas."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "Los índices permiten que las búsquedas sean más rápidas, evitando escaneos completos en tablas grandes."
+},
+{
+  "id": 12,
+  "caso": "Un proyecto requiere que diferentes usuarios tengan acceso restringido a solo algunas filas de una tabla.",
+  "enunciado": "¿Qué característica de PostgreSQL satisface esta necesidad?",
+  "opciones": [
+    "A. Políticas de seguridad a nivel de fila (Row Level Security).",
+    "B. Vistas materializadas con filtros predefinidos.",
+    "C. Índices únicos que bloquean accesos indebidos."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "RLS permite aplicar políticas que filtran qué filas puede consultar o modificar cada usuario."
+},
+{
+  "id": 13,
+  "caso": "Una consulta devuelve resultados inconsistentes cuando se ejecuta simultáneamente por varios usuarios.",
+  "enunciado": "¿Qué nivel de aislamiento debe considerarse?",
+  "opciones": [
+    "A. Repeatable Read para garantizar que las filas leídas no cambien durante la transacción.",
+    "B. Read Committed para aceptar lecturas de datos confirmados por otros usuarios.",
+    "C. Serializable para permitir lecturas no repetibles y optimizar concurrencia."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "Repeatable Read evita anomalías de lectura no repetible, asegurando consistencia durante la transacción."
+},
+{
+  "id": 14,
+  "caso": "El área de innovación necesita optimizar consultas sobre texto en grandes volúmenes de datos.",
+  "enunciado": "¿Qué solución es más efectiva?",
+  "opciones": [
+    "A. Usar búsqueda de texto completo (FTS) con índices GIN en columnas tsvector.",
+    "B. Crear múltiples índices B-tree sobre todas las columnas de texto.",
+    "C. Ejecutar comparaciones con operadores LIKE en consultas sin índice."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "FTS con GIN es eficiente para búsquedas complejas de texto en grandes volúmenes de información."
+},
+{
+  "id": 15,
+  "caso": "Un desarrollador necesita mantener la consistencia de datos durante operaciones masivas de inserción.",
+  "enunciado": "¿Qué estrategia es más recomendable?",
+  "opciones": [
+    "A. Ejecutar las operaciones dentro de una única transacción controlada.",
+    "B. Insertar fila por fila sin transacciones para evitar bloqueos.",
+    "C. Crear múltiples índices temporales y luego eliminarlos."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "Las transacciones aseguran la atomicidad y la integridad de los datos en operaciones masivas."
+},
+{
+  "id": 16,
+  "caso": "Se requiere replicar solo ciertas tablas hacia una base de datos secundaria para informes.",
+  "enunciado": "¿Qué modalidad de replicación es adecuada?",
+  "opciones": [
+    "A. Replicación lógica, porque permite seleccionar tablas específicas.",
+    "B. Replicación física, que replica todo el cluster completo.",
+    "C. Replicación en caliente, que solo aplica a backups diferenciales."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "La replicación lógica permite replicar tablas seleccionadas con filtros, a diferencia de la física."
+},
+{
+  "id": 17,
+  "caso": "Una entidad pública debe asegurar que los datos sensibles estén cifrados dentro de la base.",
+  "enunciado": "¿Qué herramienta de PostgreSQL lo permite?",
+  "opciones": [
+    "A. pgcrypto para cifrado a nivel de columna.",
+    "B. Autovacuum para mantener la base optimizada.",
+    "C. Vistas materializadas para encapsular datos sensibles."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "pgcrypto ofrece funciones de cifrado y hashing para proteger datos sensibles en columnas específicas."
+},
+{
+  "id": 18,
+  "caso": "Un sistema requiere consultar datos en un estado específico sin permitir lecturas sucias.",
+  "enunciado": "¿Qué nivel de aislamiento corresponde por defecto en PostgreSQL?",
+  "opciones": [
+    "A. Read Committed, que garantiza no leer datos no confirmados.",
+    "B. Serializable, que evita todas las anomalías posibles.",
+    "C. Read Uncommitted, que permite lecturas sucias controladas."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "Read Committed es el nivel por defecto en PostgreSQL y evita lecturas de datos no confirmados."
+},
+{
+  "id": 19,
+  "caso": "Un analista necesita acelerar la ejecución de agregaciones frecuentes sobre una vista.",
+  "enunciado": "¿Qué opción es más adecuada?",
+  "opciones": [
+    "A. Convertir la vista en una vista materializada e indexarla.",
+    "B. Dividir la vista en múltiples tablas físicas sin índices.",
+    "C. Eliminar la vista y consultar directamente las tablas subyacentes."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "Las vistas materializadas almacenan resultados persistentes que se pueden indexar para mejorar el rendimiento."
+},
+{
+  "id": 20,
+  "caso": "En una tabla de gran tamaño, las estadísticas desactualizadas producen planes de consulta ineficientes.",
+  "enunciado": "¿Qué medida resuelve este problema?",
+  "opciones": [
+    "A. Ejecutar ANALYZE para actualizar estadísticas utilizadas por el optimizador.",
+    "B. Crear más índices únicos para aumentar la precisión de los planes.",
+    "C. Ejecutar VACUUM FULL para reconstruir las tablas desde cero."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "ANALYZE actualiza las estadísticas de la tabla, fundamentales para que el optimizador elija buenos planes."
+},
+{
+  "id": 21,
+  "caso": "La entidad debe segmentar grandes volúmenes de datos históricos por rangos de fecha.",
+  "enunciado": "¿Qué técnica de PostgreSQL es más adecuada?",
+  "opciones": [
+    "A. Particionamiento declarativo por rango.",
+    "B. Normalización hasta la quinta forma normal.",
+    "C. Implementar triggers de auditoría en cada inserción."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "El particionamiento por rango divide la tabla en segmentos que optimizan consultas y almacenamiento."
+},
+{
+  "id": 22,
+  "caso": "Se requiere analizar el plan de ejecución de una consulta para identificar cuellos de botella.",
+  "enunciado": "¿Qué comando se debe utilizar?",
+  "opciones": [
+    "A. EXPLAIN ANALYZE para obtener el plan real y sus tiempos.",
+    "B. VACUUM para limpiar registros muertos y mejorar la ejecución.",
+    "C. ROLLBACK para revertir consultas costosas."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "EXPLAIN ANALYZE devuelve el plan real con tiempos de ejecución, útil para detectar problemas de rendimiento."
+},
+{
+  "id": 23,
+  "caso": "Un sistema de consulta intensiva en datos históricos requiere minimizar el almacenamiento y acelerar las búsquedas.",
+  "enunciado": "¿Qué tipo de índice es más apropiado?",
+  "opciones": [
+    "A. Índices BRIN porque optimizan consultas en datos naturalmente ordenados.",
+    "B. Índices GIN porque almacenan todos los valores posibles de las columnas.",
+    "C. Índices Hash porque reducen el tamaño total de las tablas."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "BRIN es ideal para tablas enormes cuyos datos están correlacionados con el orden físico."
+},
+{
+  "id": 24,
+  "caso": "Un administrador debe garantizar que solo usuarios autorizados accedan a datos cifrados en tránsito.",
+  "enunciado": "¿Qué mecanismo debe aplicarse?",
+  "opciones": [
+    "A. Configurar conexiones SSL/TLS obligatorias entre clientes y servidor.",
+    "B. Definir claves foráneas con reglas de seguridad adicionales.",
+    "C. Crear índices únicos para validar accesos por usuario."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "SSL/TLS asegura la confidencialidad y autenticidad de los datos transmitidos entre cliente y servidor."
+},
+
+    {
+        "id": 25,
+        "caso": "En una entidad gubernamental, se está diseñando una base de datos para gestionar trámites ciudadanos que requiere manejar relaciones complejas entre ciudadanos, dependencias, trámites y documentos.",
+        "enunciado": "¿Qué tipo de base de datos sería MÁS adecuada para modelar estas relaciones complejas y realizar consultas transversales eficientes?",
+        "opciones": [
+            "A. Base de datos documental NoSQL como MongoDB para almacenar cada trámite como documento JSON.",
+            "B. Base de datos de grafos como Neo4j para representar las relaciones como entidades de primera clase.",
+            "C. Base de datos relacional tradicional con múltiples tablas y joins complejos."
+        ],
+        "respuesta_correcta": "B",
+        "explicacion": "Las bases de datos de grafos están específicamente diseñadas para representar y consultar relaciones complejas entre entidades, donde las conexiones son tan importantes como los datos mismos, permitiendo consultas transversales eficientes que serían muy complejas en otros modelos."
+    },
+    {
+        "id": 26,
+        "caso": "Se necesita garantizar la máxima consistencia en una base de datos distribuida que maneja transacciones financieras críticas.",
+        "enunciado": "¿Qué propiedad de las bases de datos distribuidas debería priorizarse para asegurar la integridad de las transacciones?",
+        "opciones": [
+            "A. Alta disponibilidad con replicación asíncrona entre nodos.",
+            "B. Consistencia fuerte bajo el teorema CAP, sacrificando disponibilidad si es necesario.",
+            "C. Tolerancia a particiones con consistencia eventual para mejor rendimiento."
+        ],
+        "respuesta_correcta": "B",
+        "explicacion": "Para transacciones financieras críticas, la consistencia fuerte es esencial para garantizar la integridad de los datos, incluso si esto significa sacrificar disponibilidad temporalmente bajo el teorema CAP."
+    },
+    {
+        "id": 27,
+        "caso": "Al migrar una base de datos heredada a un nuevo sistema, se detectan problemas de rendimiento en consultas que involucran múltiples joins.",
+        "enunciado": "¿Qué técnica de optimización proporcionaría la MEJOR mejora de rendimiento sin alterar el esquema lógico?",
+        "opciones": [
+            "A. Implementación de índices compuestos en las columnas frecuentemente usadas en los joins.",
+            "B. Desnormalización controlada de tablas para reducir la necesidad de joins.",
+            "C. Particionamiento horizontal de las tablas más grandes por rangos de fechas."
+        ],
+        "respuesta_correcta": "A",
+        "explicacion": "Los índices compuestos en columnas usadas frecuentemente en joins mejoran significativamente el rendimiento de las consultas al reducir el tiempo de búsqueda, sin necesidad de alterar el esquema lógico de la base de datos."
+    },
+    {
+        "id": 28,
+        "caso": "En una base de datos PostgreSQL, se requiere almacenar y consultar eficientemente datos semi-estructurados de formularios variables.",
+        "enunciado": "¿Qué tipo de dato sería MÁS apropiado para este escenario?",
+        "opciones": [
+            "A. Tipo JSONB con indexación GIN para búsquedas eficientes.",
+            "B. Tipo TEXT con parsing application-level para cada consulta.",
+            "C. Múltiples columnas relacionales con valores NULL para campos opcionales."
+        ],
+        "riposta_correcta": "A",
+        "explicacion": "El tipo JSONB en PostgreSQL permite almacenar datos semi-estructurados con indexación GIN, proporcionando búsquedas eficientes y flexibilidad para esquemas variables, ideal para formularios con estructura dinámica."
+    },
+    {
+        "id": 29,
+        "caso": "Se debe implementar un mecanismo de backup para una base de datos crítica con ventana de mantenimiento mínima.",
+        "enunciado": "¿Qué estrategia de backup proporcionaría el MENOR tiempo de recuperación (RTO)?",
+        "opciones": [
+            "A. Backups completos diarios combinados con logs de transacciones en modo FULL.",
+            "B. Backups diferenciales cada 6 horas con logs de transacciones.",
+            "C. Replicación sincrónica en tiempo real a un standby con failover automático."
+        ],
+        "respuesta_correcta": "C",
+        "explicacion": "La replicación sincrónica en tiempo real con standby y failover automático proporciona el menor RTO, ya que el sistema puede cambiar casi instantáneamente al servidor secundario en caso de fallo."
+    },
+    {
+        "id": 30,
+        "caso": "En un entorno de alta concurrencia, se presentan deadlocks frecuentes en transacciones que actualizan múltiples tablas.",
+        "enunciado": "¿Qué estrategia de manejo de transacciones reduciría MÁS efectivamente los deadlocks?",
+        "opciones": [
+            "A. Implementar un orden consistente de acceso a tablas en todas las transacciones.",
+            "B. Reducir el nivel de aislamiento a READ COMMITTED para disminuir locking.",
+            "C. Aumentar el timeout de las transacciones para permitir más intentos de resolución."
+        ],
+        "respuesta_correcta": "A",
+        "explicacion": "Mantener un orden consistente en el acceso a tablas across todas las transacciones previene circular wait conditions, que son la causa principal de deadlocks en bases de datos."
+    },
+    {
+        "id": 31,
+        "caso": "Para cumplir con la Ley 1581 de protección de datos, se necesita enmascarar información personal en entornos de testing.",
+        "enunciado": "¿Qué técnica de enmascaramiento preservaría MEJOR la utilidad de los datos para testing?",
+        "opciones": [
+            "A. Enmascaramiento determinístico que mantenga relaciones referenciales.",
+            "B. Sustitución por valores NULL en todas las columnas sensibles.",
+            "C. Generación aleatoria de datos sin preservar formatos originales."
+        ],
+        "respuesta_correcta": "A",
+        "explicacion": "El enmascaramiento determinístico preserva las relaciones referenciales y formatos de datos, manteniendo la utilidad para testing mientras cumple con los requisitos de protección de datos."
+    },
+    {
+        "id": 32,
+        "caso": "Se requiere implementar una solución de búsqueda full-text eficiente sobre documentos almacenados en una base de datos.",
+        "enunciado": "¿Qué aproximación proporcionaría el MEJOR desempeño para búsquedas complejas?",
+        "opciones": [
+            "A. Implementar índices full-text nativos del SGBD con diccionarios personalizados.",
+            "B. Usar LIKE con wildcards sobre columnas TEXT indexadas convencionalmente.",
+            "C. Exportar datos a un motor de búsqueda externo como Elasticsearch periódicamente."
+        ],
+        "respuesta_correcta": "A",
+        "explicacion": "Los índices full-text nativos del SGBD (como TSVECTOR en PostgreSQL) están optimizados específicamente para búsquedas textuales complejas, offering mejor desempeño que soluciones externas o LIKE con wildcards."
+    },
+    {
+        "id": 33,
+        "caso": "En un data warehouse, se necesita optimizar el rendimiento de consultas analíticas sobre grandes volúmenes históricos.",
+        "enunciado": "¿Qué estrategia de modelado sería MÁS efectiva?",
+        "opciones": [
+            "A. Esquema estrella con tablas de hechos y dimensiones desnormalizadas.",
+            "B. Esquema copo de nieve con dimensiones normalizadas para ahorrar espacio.",
+            "C. Modelo Third Normal Form (3NF) para mantener integridad referencial."
+        ],
+        "respuesta_correcta": "A",
+        "explicacion": "El esquema estrella con desnormalización controlada optimiza el rendimiento de consultas analíticas al reducir el número de joins necesarios, which es crítico en entornos de data warehousing."
+    },
+    {
+        "id": 34,
+        "caso": "Para una aplicación que requiere escalabilidad masiva de lecturas, se evalúan estrategias de replicación.",
+        "enunciado": "¿Qué configuración proporcionaría la MEJOR escalabilidad para cargas de trabajo read-intensive?",
+        "opciones": [
+            "A. Replicación maestro-esclavo con múltiples réplicas de solo lectura.",
+            "B. Configuración multi-master con escrituras distribuidas.",
+            "C. Sharding horizontal con particionamiento por rangos de claves."
+        ],
+        "respuesta_correcta": "A",
+        "explicacion": "La replicación maestro-esclavo con múltiples réplicas de solo lectura escala excelentemente para cargas read-intensive, distribuyendo las consultas entre múltiples instancias mientras mantiene consistencia eventual."
+    },
+    {
+        "id": 35,
+        "caso": "Se detecta que una tabla con millones de registros tiene un índice que ocupa más espacio que los datos mismos.",
+        "enunciado": "¿Qué tipo de índice alternativo reduciría MÁS el uso de espacio manteniendo buen rendimiento?",
+        "opciones": [
+            "A. Índice BRIN (Block Range INdex) para datos correlacionados físicamente.",
+            "B. Índice hash para igualdad exacta en lugar de rangos.",
+            "C. Índice GiST para datos multidimensionales o geospatiales."
+        ],
+        "respuesta_correcta": "A",
+        "explicacion": "Los índices BRIN son extremadamente compactos y eficientes para datos correlacionados físicamente (como timestamps), ocupando significativamente menos espacio que los índices B-tree tradicionales."
+    },
+    {
+        "id": 36,
+        "caso": "En una base de datos distribuida, se requiere garantizar que las transacciones que span múltiples nodos sean atómicas.",
+        "enunciado": "¿Qué protocolo garantizaría la atomicidad en transacciones distribuidas?",
+        "opciones": [
+            "A. Two-Phase Commit (2PC) con coordinador y participantes.",
+            "B. Protocolo de consenso Raft para decision-making distribuido.",
+            "C. Replicación multi-master con detección y resolución de conflictos."
+        ],
+        "respuesta_correcta": "A",
+        "explicacion": "El protocolo Two-Phase Commit (2PC) garantiza atomicidad en transacciones distribuidas mediante un proceso de preparación y commit coordinado across todos los participantes."
+    },
+    {
+        "id": 37,
+        "caso": "Para una aplicación que maneja datos geospatiales, se necesitan consultas eficientes de proximidad.",
+        "enunciado": "¿Qué tipo de índice y consulta proporcionaría el MEJOR rendimiento?",
+        "opciones": [
+            "A. Índice GiST con el operador ST_DWithin para búsquedas por radio.",
+            "B. Índice B-tree sobre coordenadas lat/lon con cálculo manual de distancias.",
+            "C. Índice SP-GiST para patrones de datos más especializados."
+        ],
+        "respuesta_correcta": "A",
+        "explicacion": "Los índices GiST (Generalized Search Tree) están optimizados específicamente para datos geospatiales y el operador ST_DWithin permite búsquedas eficientes por radio de proximidad."
+    },
+    {
+        "id": 38,
+        "caso": "Se debe implementar auditoría completa de cambios en tablas críticas sin impactar el rendimiento.",
+        "enunciado": "¿Qué método proporcionaría la solución MÁS eficiente?",
+        "opciones": [
+            "A. Triggers AFTER INSERT/UPDATE/DELETE que registren cambios en tablas de auditoría.",
+            "B. Temporal tables con system-versioning para tracking automático de cambios.",
+            "C. CDC (Change Data Capture) basado en logs de transacciones."
+        ],
+        "respuesta_correcta": "C",
+        "explicacion": "CDC basado en logs de transacciones captura cambios con mínimo impacto en rendimiento, ya que lee directamente los logs en lugar de agregar overhead con triggers o versioning."
+    },
+    {
+        "id": 39,
+        "caso": "En una base de datos con crecimiento exponencial, se necesita manejar el archivado histórico eficientemente.",
+        "enunciado": "¿Qué estrategia de gestión de datos históricos sería MÁS adecuada?",
+        "opciones": [
+            "A. Particionamiento por rangos de tiempo con tablespaces separados para datos históricos.",
+            "B. Políticas de retención con purga automática de datos beyond cierto período.",
+            "C. Migración de datos históricos a almacenamiento más económico con acceso restringido."
+        ],
+        "respuesta_correcta": "A",
+        "explicacion": "El particionamiento por rangos de tiempo permite gestionar eficientemente datos históricos mediante la separación física, facilitando el archivado y mejorando el rendimiento de consultas sobre datos recientes."
+    },
+    {
+        "id": 40,
+        "caso": "Para garantizar la continuidad operativa, se diseña una estrategia de disaster recovery.",
+        "enunciado": "¿Qué métrica es CRÍTICA para determinar el objetivo de recovery?",
+        "opciones": [
+            "A. RTO (Recovery Time Objective) que define el tiempo máximo aceptable de interrupción.",
+            "B. RPO (Recovery Point Objective) que define la pérdida de datos máxima aceptable.",
+            "C. MTTR (Mean Time To Recovery) que mide el tiempo promedio de recuperación."
+        ],
+        "respuesta_correcta": "B",
+        "explicacion": "El RPO (Recovery Point Objective) es crítico para disaster recovery ya que define la cantidad máxima de pérdida de datos aceptable, determinando la frecuencia de backups o replicación needed."
+    },
+    {
+        "id": 41,
+        "caso": "Se requiere implementar seguridad a nivel de fila donde diferentes usuarios vean diferentes subconjuntos de datos.",
+        "enunciado": "¿Qué característica del SGBD proporcionaría la implementación MÁS robusta?",
+        "opciones": [
+            "A. Row-Level Security (RLS) con políticas dinámicas basadas en contextos de ejecución.",
+            "B. Vistas personalizadas para cada tipo de usuario con permisos específicos.",
+            "C. Application-level filtering con lógica business en la capa middle."
+        ],
+        "respuesta_correcta": "A",
+        "explicacion": "Row-Level Security (RLS) nativo del SGBD proporciona la implementación más robusta y segura, ya que las políticas se aplican a nivel de database independientemente de cómo se acceda a los datos."
+    },
+    {
+        "id": 42,
+        "caso": "En un entorno cloud, se necesita diseñar una arquitectura de base de datos altamente escalable y gestionada.",
+        "enunciado": "¿Qué servicio cloud proporcionaría MEJOR balance entre escalabilidad y management overhead?",
+        "opciones": [
+            "A. Instancias managed de PostgreSQL con auto-scaling vertical y horizontal.",
+            "B. Database-as-a-Service completamente gestionado con escalado automático.",
+            "C. Kubernetes self-managed con operadores de bases de datos para control fino."
+        ],
+        "respuesta_correcta": "B",
+        "explicacion": "Los servicios completamente gestionados (DBaaS) como Amazon Aurora o Azure SQL Database proporcionan el mejor balance, offering escalado automático con mínimo management overhead compared to soluciones self-managed."
+    },
+    {
+        "id": 43,
+        "caso": "Para mejorar el rendimiento de ETLs, se evalúan técnicas de carga masiva.",
+        "enunciado": "¿Qué método proporcionaría la MAYOR velocidad de carga?",
+        "opciones": [
+            "A. Inserciones individuales con prepared statements y batching.",
+            "B. Carga masiva nativa usando COPY o bulk insert utilities.",
+            "C. Inserciones paralelas desde múltiples clientes con connection pooling."
+        ],
+        "respuesta_correcta": "B",
+        "explicacion": "Las utilidades nativas de carga masiva (COPY en PostgreSQL, BULK INSERT en SQL Server) son significativamente más rápidas que otros métodos, ya que están optimizadas para minimizar overhead de transacciones y logging."
+    },
+    {
+        "id": 44,
+        "caso": "Se necesita implementar búsqueda por similitud en textos largos almacenados en la base de datos.",
+        "enunciado": "¿Qué técnica proporcionaría los resultados MÁS precisos?",
+        "opciones": [
+            "A. Distance de Levenshtein con umbrales configurados para similitud.",
+            "B. Embeddings vectoriales con búsqueda por similitud coseno.",
+            "C. Full-text search con stemming y ranking de relevancia."
+        ],
+        "respuesta_correcta": "B",
+        "explicacion": "Los embeddings vectoriales capturan semántica profunda y permiten búsqueda por similitud coseno, proporcionando resultados mucho más precisos para búsqueda semántica que técnicas basadas en distancia de edición o full-text tradicional."
+    },
+    {
+        "id": 45,
+        "caso": "En una migración de base de datos, se debe garantizar la consistencia durante el proceso de cutover.",
+        "enunciado": "¿Qué estrategia minimizaría MÁS el downtime y riesgo de pérdida de datos?",
+        "opciones": [
+            "A. Replicación bidirectional durante la migración con sincronización continua.",
+            "B. Downtime controlado con export/import completo y verificación.",
+            "C. Cambio gradual con routing de tráfico por funcionalidad."
+        ],
+        "respuesta_correcta": "A",
+        "explicacion": "La replicación bidirectional con sincronización continua permite migrar con mínimo downtime y riesgo, manteniendo ambos sistemas sincronizados hasta el cutover final con verificación de consistencia."
+    },
+
+    {
+  "id": 46,
+  "caso": "Una entidad necesita garantizar la integridad de los registros de ciudadanos tras realizar múltiples actualizaciones simultáneas en su base de datos relacional.",
+  "enunciado": "¿Qué propiedad del modelo relacional es fundamental en este contexto?",
+  "opciones": [
+    "A. Atomicidad, para asegurar que las transacciones se ejecuten totalmente o no se ejecuten.",
+    "B. Redundancia, para facilitar la recuperación de información ante pérdida.",
+    "C. Indexación, para optimizar la búsqueda de registros específicos."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "La atomicidad garantiza que las transacciones múltiples no dejen la base de datos en estado inconsistente."
+},
+{
+  "id": 47,
+  "caso": "La autoridad requiere implementar una solución que permita escalar horizontalmente y soportar millones de registros sin afectar rapidez.",
+  "enunciado": "¿Qué tipo de base de datos debería considerar?",
+  "opciones": [
+    "A. Relacional tradicional con estricta normalización.",
+    "B. NoSQL orientada a documentos o clave-valor.",
+    "C. Tablas dinámicas en hojas de cálculo distribuidas."
+  ],
+  "respuesta_correcta": "B",
+  "explicacion": "Las NoSQL, especialmente documentales o de clave-valor, se utilizan para escalabilidad horizontal y altas tasas de consulta."
+},
+{
+  "id": 48,
+  "caso": "En la integración de sistemas, los formatos de fechas de distintas fuentes de datos no son compatibles.",
+  "enunciado": "¿Qué proceso debe realizar el equipo antes de analizar los datos?",
+  "opciones": [
+    "A. Migración física de los datos a otro sistema.",
+    "B. Normalización de los formatos de fecha antes de la integración.",
+    "C. División de las fuentes en múltiples bases secundarias."
+  ],
+  "respuesta_correcta": "B",
+  "explicacion": "Se debe normalizar el formato de fecha para asegurar consistencia en el procesamiento y análisis."
+},
+{
+  "id": 49,
+  "caso": "Un sistema de salud almacena datos críticos y sensibles en su base de datos.",
+  "enunciado": "¿Qué medida técnica es central para proteger esa información?",
+  "opciones": [
+    "A. Encriptación de los datos almacenados y de las comunicaciones.",
+    "B. Replicación constante de datos sin restricción de acceso.",
+    "C. Disminución del tamaño de los datos para facilitar la transferencia."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "La encriptación es vital para proteger la privacidad y cumplir con normativas de seguridad en la administración pública."
+},
+{
+  "id": 50,
+  "caso": "Una consulta SQL arroja resultados inconsistentes tras modificar simultáneamente varias tablas relacionadas.",
+  "enunciado": "¿Cuál principio explica el fenómeno?",
+  "opciones": [
+    "A. Aislamiento, para que cada transacción sea independiente.",
+    "B. Redundancia, por duplicar información en distintas tablas.",
+    "C. Anonimización, por ocultar datos sensibles en las transacciones."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "El aislamiento permite que cada transacción no afecte ni sea afectada por otras hasta su finalización."
+},
+{
+  "id": 51,
+  "caso": "Durante el análisis de datos, una tabla presenta altos niveles de repetición en ciertos campos.",
+  "enunciado": "¿Cuál técnica puede aplicarse para mejorar la eficiencia y calidad del modelo?",
+  "opciones": [
+    "A. Desnormalización para simplificar consultas.",
+    "B. Normalización para eliminar redundancias e inconsistencias.",
+    "C. Indexación masiva de todos los campos repetidos."
+  ],
+  "respuesta_correcta": "B",
+  "explicacion": "La normalización elimina redundancia y mejora la calidad e integridad de la base de datos."
+},
+{
+  "id": 52,
+  "caso": "Un área requiere definir la estructura lógica de su base de datos relacional.",
+  "enunciado": "¿Qué herramienta es más apropiada en esta etapa?",
+  "opciones": [
+    "A. Diagrama entidad-relación (ERD) que representa entidades y relaciones.",
+    "B. Hoja de cálculo con un listado de datos generales.",
+    "C. Documentación informal de procesos internos sin estandarización."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "El ERD es la herramienta estándar para diseñar bases relacionales, facilitando análisis y desarrollo."
+},
+{
+  "id": 53,
+  "caso": "El equipo técnico detecta que las búsquedas de ciudadanos por apellido son lentas en una base de datos muy grande.",
+  "enunciado": "¿Qué solución técnica optimiza esta tarea?",
+  "opciones": [
+    "A. Crear un índice sobre el campo apellido.",
+    "B. Generar una copia completa del registro en cada consulta.",
+    "C. Reducir el tamaño del campo a solo dos caracteres."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "Los índices agilizan la recuperación de información específica con mayor eficiencia."
+},
+{
+  "id": 54,
+  "caso": "Un gobierno quiere publicar información anonimizada para transparencia pública.",
+  "enunciado": "¿Qué método preserva mejor la privacidad de los ciudadanos?",
+  "opciones": [
+    "A. Encriptar todo el contenido antes de publicarlo.",
+    "B. Eliminar o modificar datos personales identificables.",
+    "C. Ampliar el acceso sin restricciones ni filtros."
+  ],
+  "respuesta_correcta": "B",
+  "explicacion": "La anonimización implica suprimir o modificar datos sensibles antes de compartir la información."
+},
+{
+  "id": 55,
+  "caso": "Se detecta un problema de rendimiento al ejecutar consultas que involucran múltiples tablas.",
+  "enunciado": "¿Cuál técnica puede contribuir a resolver este inconveniente?",
+  "opciones": [
+    "A. Implementar JOINs con índices bien planeados.",
+    "B. Duplicar los registros en todas las tablas involucradas.",
+    "C. Limitar las consultas solo a una tabla principal."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "Los JOINs eficientes con índices adecuados permiten consultas complejas con mejor rendimiento."
+},
+{
+  "id": 56,
+  "caso": "Una entidad requiere alta disponibilidad y respaldo inmediato de su base de datos.",
+  "enunciado": "¿Qué estrategia es más adecuada?",
+  "opciones": [
+    "A. Replicación y backups automáticos en sistemas geográficamente distribuidos.",
+    "B. Utilizar copias manuales puntuales esporádicamente.",
+    "C. Mantener todas las bases en un solo servidor centralizado."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "La replicación y backups automáticos garantizan continuidad y protección ante desastres."
+},
+{
+  "id": 57,
+  "caso": "El diseño de la base de datos exige flexibilidad para almacenar distintos formatos de documentos.",
+  "enunciado": "¿Cuál es la mejor opción tecnológica?",
+  "opciones": [
+    "A. Base de datos documental tipo NoSQL.",
+    "B. Sistema relacional tradicional con tablas estrictamente definidas.",
+    "C. Hoja de cálculo extensible con celdas ilimitadas."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "Las bases de datos documentales NoSQL permiten almacenar registros heterogéneos y flexibles."
+},
+{
+  "id": 58,
+  "caso": "Un análisis requiere cruzar información entre bases de datos relacionales y NoSQL.",
+  "enunciado": "¿Qué técnica facilita la integración?",
+  "opciones": [
+    "A. ETL (Extract, Transform, Load) para estandarizar datos y cargar en destino.",
+    "B. Exclusión de las fuentes NoSQL del análisis.",
+    "C. Comparación manual de registros usando hojas de cálculo."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "Las herramientas ETL permiten extraer, transformar y cargar datos entre sistemas heterogéneos."
+},
+{
+  "id": 59,
+  "caso": "Un dato crítico es alterado accidentalmente por un usuario con acceso limitado.",
+  "enunciado": "¿Qué medida administrativa previene esta situación?",
+  "opciones": [
+    "A. Definir roles y privilegios granulares para cada usuario.",
+    "B. Permitir acceso libre a todos los registros en la base.",
+    "C. Eliminar todos los registros modificados."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "Asignar roles y privilegios restringe la posibilidad de modificaciones inapropiadas."
+},
+{
+  "id": 60,
+  "caso": "Una consulta compleja presenta resultados inconsistentes en diferentes horarios.",
+  "enunciado": "¿Cuál factor puede estar afectando la consistencia?",
+  "opciones": [
+    "A. Operación concurrente sin control transaccional adecuado.",
+    "B. Indexación redundante en todas las tablas.",
+    "C. Segmentación geográfica en el acceso a registros."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "El acceso concurrente mal gestionado puede originar situaciones de inconsistencia."
+},
+{
+  "id": 61,
+  "caso": "El área solicita auditar todas las modificaciones hechas en los datos.",
+  "enunciado": "¿Qué mecanismo es más apropiado?",
+  "opciones": [
+    "A. Implementar registros de auditoría y log de transacciones.",
+    "B. Permitir modificaciones anónimas sin registro.",
+    "C. Eliminar todos los datos modificados periódicamente."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "El log y la auditoría permiten revisar y rastrear todo cambio realizado sobre la base."
+},
+{
+  "id": 62,
+  "caso": "El gobierno busca implementar blockchain para gestión documental.",
+  "enunciado": "¿Qué ventaja específica aporta este enfoque?",
+  "opciones": [
+    "A. Trazabilidad y transparencia en el registro de cada modificación.",
+    "B. Reducción obligatoria de todos los tamaños de archivo.",
+    "C. Exclusión de todos los usuarios externos del sistema."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "Blockchain mejora la trazabilidad y garantiza transparencia en registros críticos."
+},
+{
+  "id": 63,
+  "caso": "Al modelar una base relacional, surge la duda entre normalizar completamente o dejar ciertas redundancias por rapidez.",
+  "enunciado": "¿Cuál consideración prioriza el sector público?",
+  "opciones": [
+    "A. Integridad y consistencia sobre eficiencia puntual.",
+    "B. Velocidad en consultas aunque se pierda precisión.",
+    "C. Disposición exclusiva para datos estáticos."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "La administración pública prioriza la integridad y consistencia para asegurar la confiabilidad legal del sistema."
+},
+{
+  "id": 64,
+  "caso": "Un nuevo sistema de información usará bases de datos en la nube.",
+  "enunciado": "¿Qué aspecto debe monitorearse constantemente?",
+  "opciones": [
+    "A. Seguridad y gestión de accesos.",
+    "B. Exclusividad de uso solo por el área TI.",
+    "C. Eliminación automática de respaldos periódicos."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "La seguridad y gestión de accesos son centrales en la operativa de bases en la nube."
+},
+{
+  "id": 65,
+  "caso": "El equipo de la entidad necesita un sistema que combine operaciones transaccionales y analíticas en tiempo real.",
+  "enunciado": "¿Qué tendencia tecnológica responde mejor a esa necesidad?",
+  "opciones": [
+    "A. HTAP (Hybrid Transactional/Analytical Processing).",
+    "B. Sistemas FIle-Based con acceso secuencial.",
+    "C. Almacenamiento exclusivo en dispositivos locales sin procesar."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "HTAP enlaza procesamiento transaccional y analítico, clave para servidores públicos modernos."
+},
+{
+  "id": 66,
+  "caso": "En la administración de datos institucional, se busca optimizar los tiempos de respuesta en consultas complejas.",
+  "enunciado": "¿Qué opción es más efectiva?",
+  "opciones": [
+    "A. Diseñar consultas con uso de índices y particiones.",
+    "B. Eliminar todas las claves externas de las tablas.",
+    "C. Deshabilitar la normalización para agilizar la escritura."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "El uso adecuado de índices y particionamiento eleva la eficiencia en consultas de alto volumen."
+}
+  
+]

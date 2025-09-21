@@ -1,0 +1,846 @@
+[
+  {
+    "id": 1,
+    "caso": "Usted está revisando los fundamentos legales del proceso de selección de la CNSC. Los documentos indican que el ingreso a la carrera administrativa solo es posible mediante concursos de mérito, de conformidad con la Constitución y ciertas leyes.",
+    "enunciado": "¿Cuál de las siguientes leyes establece las normas que regulan el Empleo Público y la Carrera Administrativa, siendo un pilar fundamental para el proceso?",
+    "opciones": [
+      "A. Ley 1437 de 2011, que expide el Código de Procedimiento Administrativo.",
+      "B. Ley 1960 de 2019, que modifica la Ley 909 de 2004.",
+      "C. Ley 909 de 2004, que regula el Empleo Público y la Carrera Administrativa."
+    ],
+    "respuesta_correcta": "C",
+    "explicacion": "La Ley 909 de 2004 es la principal norma que regula el Empleo Público y la Carrera Administrativa en Colombia. La Ley 1960 de 2019 es una modificación de la misma."
+  },
+  {
+    "id": 2,
+    "caso": "Los lineamientos de las pruebas escritas hacen referencia a un decreto específico que establece las competencias laborales generales para los empleos públicos de los distintos niveles jerárquicos.",
+    "enunciado": "¿Qué decreto es el que establece las competencias laborales generales, como las competencias comportamentales, para los empleos públicos?",
+    "opciones": [
+      "A. Decreto 1083 de 2015, Decreto Único Reglamentario del Sector de Función Pública.",
+      "B. Decreto 815 de 2018, que modifica el Decreto 1083 de 2015.",
+      "C. Decreto 760 de 2005, que establece el procedimiento ante la CNSC."
+    ],
+    "respuesta_correcta": "B",
+    "explicacion": "El Decreto 815 de 2018 modifica el Decreto 1083 de 2015 en lo relacionado con las competencias laborales generales para los distintos niveles jerárquicos."
+  },
+  {
+    "id": 3,
+    "caso": "El Manual Específico de Funciones y Competencias Laborales (MEFCL) es un documento clave en el proceso de selección. Este documento es el que detalla los requisitos del cargo y sus funciones.",
+    "enunciado": "¿Cuál es la norma principal que rige las equivalencias para los requisitos de formación académica y experiencia del empleo?",
+    "opciones": [
+      "A. Ley 909 de 2004, por ser la norma principal de carrera administrativa.",
+      "B. Decreto 1083 de 2015, por ser el Decreto Único Reglamentario del Sector de Función Pública.",
+      "C. Ley 1960 de 2019, por ser la modificación más reciente de la Ley de carrera."
+    ],
+    "respuesta_correcta": "B",
+    "explicacion": "Los documentos establecen que, para todos los efectos legales, se aplicarán las equivalencias del Decreto 1083 de 2015 y/o las normas que lo modifiquen o sustituyan."
+  },
+
+  {
+  "id": 4,
+  "caso": "Un servidor público cuestiona la legalidad de un nombramiento en provisionalidad cuando existen funcionarios de carrera que cumplen requisitos.",
+  "enunciado": "Según la normatividad, ¿qué debe prevalecer?",
+  "opciones": [
+    "A. El derecho del servidor de carrera a ser encargado si cumple requisitos.",
+    "B. La discrecionalidad de la entidad para nombrar en provisionalidad.",
+    "C. La posibilidad de la CNSC de autorizar provisionalidad sin considerar encargos."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "La Ley 1960 de 2019 establece que el encargo es un derecho de los servidores de carrera que cumplan requisitos, antes que acudir a la provisionalidad."
+},
+{
+  "id": 5,
+  "caso": "En un concurso de méritos se formula una entrevista como fase decisoria.",
+  "enunciado": "De acuerdo con la jurisprudencia del Consejo de Estado, ¿qué condiciones debe cumplir esta entrevista?",
+  "opciones": [
+    "A. Ser objetiva, estructurada y con criterios previamente definidos.",
+    "B. Ser discrecional para evaluar la confianza del aspirante.",
+    "C. Ser flexible y aplicada sin parámetros de calificación preestablecidos."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "El Consejo de Estado ha precisado que la entrevista en un concurso debe ser objetiva y con criterios verificables, evitando subjetividad."
+},
+{
+  "id": 6,
+  "caso": "Una lista de elegibles vigente tiene un solo cargo, pero luego surgen vacantes equivalentes en la misma entidad.",
+  "enunciado": "¿Qué procede jurídicamente?",
+  "opciones": [
+    "A. Utilizar la lista para proveer las nuevas vacantes equivalentes durante su vigencia.",
+    "B. Convocar un nuevo concurso para cada nueva vacante.",
+    "C. Realizar nombramientos en provisionalidad sin agotar la lista."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "La Ley 1960 de 2019 permite usar listas de elegibles para cubrir vacantes equivalentes en la misma entidad mientras estén vigentes."
+},
+{
+  "id": 7,
+  "caso": "Se consulta si la CNSC administra la carrera de jueces y fiscales.",
+  "enunciado": "¿Cuál es la respuesta correcta?",
+  "opciones": [
+    "A. No, porque esas son carreras especiales fuera de la órbita de la CNSC.",
+    "B. Sí, porque la CNSC administra todas las carreras públicas.",
+    "C. Depende de si el acto administrativo de la convocatoria lo establece."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "La CNSC administra la carrera general, pero las carreras especiales como la judicial y la de fiscales se rigen por sus propios regímenes."
+},
+{
+  "id": 8,
+  "caso": "Un aspirante a cargo de carrera superó las pruebas y fue nombrado en periodo de prueba.",
+  "enunciado": "¿En qué momento adquiere derechos de carrera?",
+  "opciones": [
+    "A. Una vez aprueba satisfactoriamente la evaluación de desempeño en el periodo de prueba.",
+    "B. En el momento de la posesión en el cargo.",
+    "C. Desde la publicación de la lista de elegibles."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "El servidor adquiere derechos de carrera tras superar satisfactoriamente el periodo de prueba con evaluación positiva."
+},
+{
+  "id": 9,
+  "caso": "Una entidad desea nombrar a un funcionario en encargo.",
+  "enunciado": "¿Cuál es la condición esencial?",
+  "opciones": [
+    "A. Que el funcionario sea de carrera, cumpla requisitos y condiciones.",
+    "B. Que el nominador tenga discrecionalidad absoluta.",
+    "C. Que la CNSC autorice previamente el nombramiento."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "El encargo es un derecho de los servidores de carrera que cumplan los requisitos del cargo vacante."
+},
+{
+  "id": 10,
+  "caso": "Un nombramiento provisional en cargo de carrera es cuestionado.",
+  "enunciado": "¿Qué característica lo define?",
+  "opciones": [
+    "A. Es excepcional y no otorga derechos de carrera.",
+    "B. Genera automáticamente derechos de carrera si se cumplen requisitos.",
+    "C. Se convierte en definitivo después de dos años."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "El nombramiento provisional es excepcional y no confiere derechos de carrera administrativa."
+},
+{
+  "id": 11,
+  "caso": "Una entidad busca regular situaciones administrativas de sus servidores de carrera.",
+  "enunciado": "¿Qué norma reglamentaria compila estos aspectos?",
+  "opciones": [
+    "A. Decreto 1083 de 2015.",
+    "B. Decreto 430 de 2016.",
+    "C. Decreto 1078 de 2015."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "El Decreto 1083 de 2015 compila la reglamentación de empleo público y carrera administrativa en el sector Función Pública."
+},
+{
+  "id": 12,
+  "caso": "Se plantea si un servidor en periodo de prueba puede ser retirado por calificación no satisfactoria.",
+  "enunciado": "¿Qué establece la normatividad?",
+  "opciones": [
+    "A. Sí, pues la evaluación insatisfactoria impide adquirir derechos de carrera.",
+    "B. No, porque la inclusión en lista ya consolidó la situación jurídica.",
+    "C. Solo si la CNSC lo aprueba expresamente."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "El periodo de prueba exige calificación satisfactoria para consolidar los derechos de carrera; de lo contrario, procede el retiro."
+},
+{
+  "id": 13,
+  "caso": "Se requiere identificar el fundamento constitucional de la carrera administrativa.",
+  "enunciado": "¿Dónde se encuentra?",
+  "opciones": [
+    "A. Artículo 125 de la Constitución Política.",
+    "B. Artículo 90 de la Constitución Política.",
+    "C. Artículo 209 de la Constitución Política."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "El artículo 125 establece que los empleos públicos son de carrera y el ingreso debe hacerse por concurso."
+},
+{
+  "id": 14,
+  "caso": "Un ciudadano quiere saber quién administra y vigila la carrera administrativa general.",
+  "enunciado": "¿Cuál es la respuesta correcta?",
+  "opciones": [
+    "A. La Comisión Nacional del Servicio Civil (CNSC).",
+    "B. El Departamento Administrativo de la Función Pública.",
+    "C. La Procuraduría General de la Nación."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "El artículo 130 de la Constitución establece que la CNSC administra y vigila la carrera administrativa general."
+},
+{
+  "id": 15,
+  "caso": "Una convocatoria CNSC incluye pruebas eliminatorias y clasificatorias.",
+  "enunciado": "¿Qué principio garantiza este diseño?",
+  "opciones": [
+    "A. El mérito como criterio fundamental de ingreso y permanencia.",
+    "B. La discrecionalidad de la autoridad nominadora.",
+    "C. La igualdad únicamente entre quienes ya son servidores públicos."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "El principio de mérito garantiza que las pruebas seleccionen a los aspirantes más competentes para ingresar a la carrera."
+},
+{
+  "id": 16,
+  "caso": "En un concurso se conforma lista de elegibles, pero no hay suficientes para todas las vacantes.",
+  "enunciado": "¿Qué procede?",
+  "opciones": [
+    "A. Agotar la lista y convocar nuevo concurso para las vacantes restantes.",
+    "B. Nombrar provisionalmente a los demás sin límite temporal.",
+    "C. Extender automáticamente la lista hasta completarlas."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "Cuando la lista de elegibles no cubre todas las vacantes, se agota con los disponibles y se debe convocar a nuevo concurso."
+},
+{
+  "id": 17,
+  "caso": "Se debate si un cargo de libre nombramiento y remoción puede adquirir derechos de carrera.",
+  "enunciado": "¿Qué establece la Constitución?",
+  "opciones": [
+    "A. No, porque esos empleos no son de carrera.",
+    "B. Sí, siempre que haya concurso de méritos.",
+    "C. Sí, si el nominador lo decide."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "Los empleos de libre nombramiento y remoción son excepción a la carrera y no generan derechos de estabilidad por mérito."
+},
+{
+  "id": 18,
+  "caso": "Un aspirante a la carrera cuestiona si los trabajadores oficiales ingresan por concurso CNSC.",
+  "enunciado": "¿Cuál es la respuesta correcta?",
+  "opciones": [
+    "A. No, porque los trabajadores oficiales tienen régimen contractual laboral distinto.",
+    "B. Sí, porque todos los empleados públicos ingresan por CNSC.",
+    "C. Sí, pero únicamente si trabajan en el nivel territorial."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "Los trabajadores oficiales no ingresan por concurso de carrera, ya que su vínculo se rige por el derecho laboral."
+},
+{
+  "id": 19,
+  "caso": "En un concurso de méritos se fija un puntaje mínimo eliminatorio.",
+  "enunciado": "¿Qué busca garantizar esta medida?",
+  "opciones": [
+    "A. Que solo los aspirantes con desempeño adecuado avancen.",
+    "B. Que todos los inscritos tengan oportunidad de nombramiento.",
+    "C. Que la autoridad nominadora tenga amplia discrecionalidad."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "Los puntajes mínimos eliminatorios garantizan que los aspirantes seleccionados tengan un nivel de idoneidad adecuado."
+},
+{
+  "id": 20,
+  "caso": "Un servidor nombrado en provisionalidad alega que ya consolidó derechos de carrera por el tiempo desempeñado.",
+  "enunciado": "¿Qué establece la ley?",
+  "opciones": [
+    "A. Que la provisionalidad no confiere derechos de carrera sin concurso.",
+    "B. Que la provisionalidad se convierte en definitiva tras dos años.",
+    "C. Que la provisionalidad confiere derechos de carrera si hay evaluación satisfactoria."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "La provisionalidad no genera derechos de carrera; el ingreso debe hacerse exclusivamente por concurso de méritos."
+},
+{
+  "id": 21,
+  "caso": "Se pregunta por la vigencia de una lista de elegibles en el tiempo.",
+  "enunciado": "¿Cómo se determina?",
+  "opciones": [
+    "A. Según lo dispuesto en la convocatoria y la normatividad vigente.",
+    "B. Siempre es de dos años independientemente de la convocatoria.",
+    "C. Es indefinida hasta agotar todos los elegibles."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "La vigencia de una lista depende de lo establecido en la convocatoria y en la normativa, no es indefinida."
+},
+{
+  "id": 22,
+  "caso": "Un funcionario de carrera considera que su retiro debe estar motivado.",
+  "enunciado": "¿Qué establece la normatividad?",
+  "opciones": [
+    "A. Sí, el retiro de un servidor de carrera requiere causal legal y motivación.",
+    "B. No, puede retirarse discrecionalmente.",
+    "C. Solo se motiva si es por supresión del cargo."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "El retiro de un servidor de carrera exige motivación en causal legal, garantizando el principio de estabilidad relativa."
+},
+{
+  "id": 23,
+  "caso": "En un proceso de encargo, la entidad prefiere a un servidor provisional sobre uno de carrera que cumple requisitos.",
+  "enunciado": "¿Qué corresponde jurídicamente?",
+  "opciones": [
+    "A. Priorizar al servidor de carrera que cumpla los requisitos.",
+    "B. Nombrar discrecionalmente al servidor provisional.",
+    "C. Escoger a cualquiera de los dos sin criterio legal."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "La ley otorga prioridad a los servidores de carrera en los encargos frente a otros, si cumplen requisitos."
+},
+{
+  "id": 24,
+  "caso": "Se cuestiona si la CNSC puede vigilar una universidad pública con régimen especial.",
+  "enunciado": "¿Qué establece la Constitución?",
+  "opciones": [
+    "A. No, porque esas universidades tienen autonomía y carrera especial.",
+    "B. Sí, porque la CNSC vigila todas las carreras.",
+    "C. Depende de la decisión del Ministerio de Educación."
+  ],
+  "respuesta_correcta": "A",
+  "explicacion": "La CNSC no administra ni vigila las carreras especiales, como la de universidades públicas con autonomía."
+},
+
+    {
+        "id": 25,
+        "caso": "Un servidor público que se encuentra en período de prueba en un cargo de carrera administrativa ha recibido una oferta para otro cargo de mayor remuneración en la misma entidad.",
+        "enunciado": "¿Qué procedimiento debe seguir el servidor según la Ley 909 de 2004 y sus decretos reglamentarios?",
+        "opciones": [
+            "A. Solicitar la terminación del período de prueba y participar en el nuevo concurso, ya que el período de prueba no genera derechos de carrera.",
+            "B. Continuar en el período de prueba y esperar a su culminación para participar en otros concursos, pues durante este período tiene restricciones para movilidad.",
+            "C. Renunciar al cargo actual y participar inmediatamente en el nuevo proceso de selección, dado que la remuneración es mayor y beneficia su desarrollo profesional."
+        ],
+        "respuesta_correcta": "B",
+        "explicacion": "Durante el período de prueba (3 meses), el servidor no puede participar en otros concursos hasta que se culmine dicho período y se posesione definitivamente, según el artículo 28 de la Ley 909 de 2004 y el Decreto 1083 de 2015."
+    },
+    {
+        "id": 26,
+        "caso": "Una entidad pública requiere llenar una vacante temporal por un período no mayor a 6 meses, debido a una licencia de maternidad de la titular.",
+        "enunciado": "¿Qué tipo de vinculación es la más apropiada según la normativa de carrera administrativa?",
+        "opciones": [
+            "A. Contratación por prestación de servicios, por ser un período definido y corto.",
+            "B. Nombramiento en provisionalidad, cumpliendo con los requisitos del cargo y mediante convocatoria interna.",
+            "C. Encargo del funciones a otro servidor de la misma área, sin modificación de salario ni responsabilidades adicionales."
+        ],
+        "respuesta_correcta": "B",
+        "explicacion": "Para cubrir vacantes temporales por períodos menores a un año, la normativa permite el nombramiento en provisionalidad mediante convocatoria interna, garantizando que se cumplan los requisitos del cargo, según el artículo 32 de la Ley 909 de 2004."
+    },
+    {
+        "id": 27,
+        "caso": "Un servidor público en cargo de carrera ha sido evaluado con desempeño bajo por segundo año consecutivo.",
+        "enunciado": "¿Qué consecuencia inmediata establece la Ley 909 de 2004 para este caso?",
+        "opciones": [
+            "A. Destitución inmediata del cargo, por incumplimiento reiterado de las funciones.",
+            "B. Suspensión temporal por 30 días para realizar capacitación obligatoria.",
+            "C. Elaboración de un plan de mejora con seguimiento estricto por 6 meses, previo a posible destitución."
+        ],
+        "respuesta_correcta": "C",
+        "explicacion": "La Ley 909 establece que ante dos evaluaciones consecutivas de desempeño bajo, se debe elaborar un plan de mejora con seguimiento por 6 meses. Solo si persiste el bajo desempeño se procede a la destitución, según artículo 45."
+    },
+    {
+        "id": 28,
+        "caso": "Una entidad territorial desea crear un nuevo cargo de nivel directivo que no está previsto en el manual de funciones.",
+        "enunciado": "¿Qué requisito previo es indispensable según la normativa de carrera administrativa?",
+        "opciones": [
+            "A. Aprobación por parte de la Asamblea Departamental o Concejo Municipal, según corresponda.",
+            "B. Autorización expresa del Departamento Administrativo de la Función Pública.",
+            "C. Modificación previa del manual de funciones y estructura de cargos de la entidad."
+        ],
+        "respuesta_correcta": "C",
+        "explicacion": "La creación de cualquier cargo en la administración pública requiere primero la modificación del manual de funciones y la estructura de cargos, de acuerdo con lo establecido en el artículo 15 de la Ley 909 de 2004."
+    },
+    {
+        "id": 29,
+        "caso": "Un servidor público en cargo de carrera ha sido suspendido preventivamente por un proceso disciplinario.",
+        "enunciado": "¿Qué derechos mantiene el servidor durante la suspensión preventiva?",
+        "opciones": [
+            "A. Derecho al pago de salarios durante los primeros 30 días de suspensión.",
+            "B. Derecho a la seguridad social y al pago de aportes parafiscales.",
+            "C. Derecho a participar en concursos de ascenso durante el período de suspensión."
+        ],
+        "respuesta_correcta": "B",
+        "explicacion": "Durante la suspensión preventiva, el servidor mantiene el derecho a la seguridad social y al pago de aportes parafiscales, aunque se suspende el pago de salarios, según el artículo 43 de la Ley 909 de 2004."
+    },
+    {
+        "id": 30,
+        "caso": "Una entidad pública requiere ascender a un servidor que lleva 3 años en el mismo grado, pero su evaluación de desempeño del último año fue 'regular'.",
+        "enunciado": "¿Qué impide el ascenso según la normativa vigente?",
+        "opciones": [
+            "A. El tiempo mínimo en el grado, que debe ser de 4 años para ascensos.",
+            "B. La evaluación de desempeño 'regular', que no cumple con el mínimo requerido para ascenso.",
+            "C. La necesidad de convocatoria pública incluso para ascensos internos."
+        ],
+        "respuesta_correcta": "B",
+        "explicacion": "Para optar por ascenso, el servidor debe tener evaluación de desempeño de por lo menos 'sobresaliente' o 'satisfactorio', según el artículo 37 de la Ley 909 de 2004. La evaluación 'regular' no cumple este requisito."
+    },
+    {
+        "id": 31,
+        "caso": "Un servidor público en cargo de carrera desea renunciar para aceptar una oferta laboral en el sector privado.",
+        "enunciado": "¿Qué plazo máximo tiene la entidad para aceptar la renuncia según la normativa?",
+        "opciones": [
+            "A. 15 días hábiles contados desde la presentación de la renuncia.",
+            "B. 30 días calendario, prorrogables por 15 días más si hay justa causa.",
+            "C. 10 días hábiles, con posibilidad de reducción a 5 días por mutuo acuerdo."
+        ],
+        "respuesta_correcta": "A",
+        "explicacion": "La entidad tiene un plazo máximo de 15 días hábiles para aceptar la renuncia de un servidor público, según lo establecido en el artículo 41 de la Ley 909 de 2004 y el Decreto 1083 de 2015."
+    },
+    {
+        "id": 32,
+        "caso": "Una entidad pública ha sido reconducida por 6 meses adicionales luego de su liquidación.",
+        "enunciado": "¿Qué sucede con los servidores de carrera durante la reconducción?",
+        "opciones": [
+            "A. Mantienen su vinculación pero con suspensión de derechos de ascenso y movilidad.",
+            "B. Conservan todos sus derechos de carrera durante el período de reconducción.",
+            "C. Son considerados en comisión de servicios y pueden ser reasignados a otras entidades."
+        ],
+        "respuesta_correcta": "B",
+        "explicacion": "Durante la reconducción de una entidad, los servidores de carrera conservan todos sus derechos y garantías, incluyendo ascensos y movilidad, según lo establecido en el artículo 50 de la Ley 909 de 2004."
+    },
+    {
+        "id": 33,
+        "caso": "Un servidor de carrera ha sido incapacitado por enfermedad general por 8 meses continuos.",
+        "enunciado": "¿Qué procede respecto a su vinculación laboral?",
+        "opciones": [
+            "A. Terminación de la vinculación por incapacidad prolongada que impide el cumplimiento de funciones.",
+            "B. Reserva del cargo por hasta 12 meses, manteniendo los derechos de seguridad social.",
+            "C. Reubicación en cargo compatible con su condición de salud, previa evaluación médica."
+        ],
+        "respuesta_correcta": "B",
+        "explicacion": "En caso de incapacidad prolongada, se reserva el cargo por hasta 12 meses, manteniendo los derechos de seguridad social del servidor, según el artículo 44 de la Ley 909 de 2004."
+    },
+    {
+        "id": 34,
+        "caso": "Una entidad pública requiere contratar un profesional para un proyecto específico de 18 meses de duración.",
+        "enunciado": "¿Qué tipo de vinculación es la más adecuada según la normativa?",
+        "opciones": [
+            "A. Contratación por prestación de servicios, por ser un proyecto temporal específico.",
+            "B. Nombramiento en período de prueba, por ser menor a 2 años.",
+            "C. Vinculación como empleado público de carrera, por superar el año de duración."
+        ],
+        "respuesta_correcta": "A",
+        "explicacion": "Para proyectos temporales específicos con duración determinada, la figura adecuada es la contratación por prestación de servicios, según lo establecido en el artículo 6 de la Ley 80 de 1993 y la jurisprudencia constitucional."
+    },
+    {
+        "id": 35,
+        "caso": "Un servidor de carrera ha sido sancionado con destitución por falta disciplinaria grave.",
+        "enunciado": "¿Después de cuánto tiempo puede participar en nuevos concursos?",
+        "opciones": [
+            "A. 2 años, contados desde la ejecutoria del acto sancionatorio.",
+            "B. 5 años, por tratarse de una sanción de destitución.",
+            "C. 3 años, siempre y cuando haya realizado cursos de actualización."
+        ],
+        "respuesta_correcta": "B",
+        "explicacion": "Un servidor destituido por falta grave debe esperar 5 años para poder participar en nuevos concursos, según lo establecido en el artículo 47 de la Ley 909 de 2004 y el Código Disciplinario Único."
+    },
+    {
+        "id": 36,
+        "caso": "Una entidad pública desea realizar un concurso exclusivo para personas con discapacidad.",
+        "enunciado": "¿Qué requiere para implementar esta medida afirmativa?",
+        "opciones": [
+            "A. Autorización previa del Ministerio del Trabajo y certificación de cupos disponibles.",
+            "B. Aprobación de la CNSC mediante acto administrativo motivado.",
+            "C. Concepto previo favorable del Departamento Administrativo de la Función Pública."
+        ],
+        "respuesta_correcta": "B",
+        "explicacion": "Las medidas afirmativas, como concursos exclusivos para personas con discapacidad, requieren aprobación previa de la CNSC mediante acto administrativo motivado, según el artículo 13 de la Ley 909 de 2004."
+    },
+    {
+        "id": 37,
+        "caso": "Un servidor de carrera ha completado el tiempo mínimo requerido para ascenso pero no ha podido participar en concursos por estar en comisión de servicios en el exterior.",
+        "enunciado": "¿Qué mecanismo protege sus derechos de ascenso?",
+        "opciones": [
+            "A. La convalidación automática del tiempo de servicio para efectos de ascenso.",
+            "B. La reserva de cupo en concursos de ascenso durante su comisión.",
+            "C. La participación virtual en concursos desde su lugar de comisión."
+        ],
+        "respuesta_correcta": "A",
+        "explicacion": "El tiempo en comisión de servicios se convalida automáticamente para efectos de ascenso, según lo establecido en el artículo 40 de la Ley 909 de 2004 y el Decreto 1083 de 2015."
+    },
+    {
+        "id": 38,
+        "caso": "Una entidad pública ha sido integrada a otra mediante fusión.",
+        "enunciado": "¿Qué sucede con los servidores de carrera de la entidad fusionada?",
+        "opciones": [
+            "A. Deben participar en un nuevo concurso para optar por los cargos de la nueva entidad.",
+            "B. Conservan sus cargos y derechos en la nueva entidad resultante de la fusión.",
+            "C. Son reubicados en cargos equivalentes en otras entidades del mismo sector."
+        ],
+        "respuesta_correcta": "B",
+        "explicacion": "En procesos de fusión de entidades, los servidores de carrera conservan sus cargos y todos sus derechos en la nueva entidad resultante, según el artículo 49 de la Ley 909 de 2004."
+    },
+    {
+        "id": 39,
+        "caso": "Un servidor de carrera desea realizar estudios de posgrado en el exterior con beca propia.",
+        "enunciado": "¿Qué tipo de permiso debe solicitar?",
+        "opciones": [
+            "A. Licencia no remunerada por hasta 2 años para estudios.",
+            "B. Comisión de estudios con preservación del cargo y derechos.",
+            "C. Permiso especial sin remuneración pero con conservación de la vinculación."
+        ],
+        "respuesta_correcta": "A",
+        "explicacion": "Para estudios de posgrado en el exterior con recursos propios, el servidor puede solicitar licencia no remunerada por hasta 2 años, conservando el cargo, según el artículo 42 de la Ley 909 de 2004."
+    },
+    {
+        "id": 40,
+        "caso": "Un servidor de carrera ha sido elegido para un cargo de elección popular.",
+        "enunciado": "¿Qué sucede con su vinculación en la administración pública?",
+        "opciones": [
+            "A. Se suspende la vinculación durante el ejercicio del cargo de elección popular.",
+            "B. Termina la vinculación por incompatibilidad con el cargo de elección popular.",
+            "C. Se traslada a comisión de servicios durante el período para el que fue elegido."
+        ],
+        "respuesta_correcta": "B",
+        "explicacion": "La elección para cargo de elección popular termina la vinculación en la administración pública por incompatibilidad, según lo establecido en el artículo 46 de la Ley 909 de 2004."
+    },
+    {
+        "id": 41,
+        "caso": "Una entidad pública requiere modificar el manual de funciones para actualizar las competencias requeridas.",
+        "enunciado": "¿Qué instancia debe aprobar esta modificación?",
+        "opciones": [
+            "A. El Comité de Carrera Administrativa de la entidad.",
+            "B. La máxima autoridad de la entidad mediante resolución motivada.",
+            "C. La Comisión Nacional del Servicio Civil mediante concepto previo."
+        ],
+        "respuesta_correcta": "C",
+        "explicacion": "Toda modificación al manual de funciones requiere concepto previo favorable de la CNSC, según lo establecido en el artículo 15 de la Ley 909 de 2004 y el Decreto 1083 de 2015."
+    },
+    {
+        "id": 42,
+        "caso": "Un servidor de carrera ha alcanzado la edad de jubilación pero desea continuar working.",
+        "enunciado": "¿Qué opciones tiene según la normativa vigente?",
+        "opciones": [
+            "A. Puede solicitar prórroga por hasta 2 años, previa evaluación de desempeño.",
+            "B. Debe retirarse obligatoriamente al cumplir la edad de jubilación.",
+            "C. Puede continuar working indefinidamente mientras mantenga evaluación satisfactoria."
+        ],
+        "respuesta_correcta": "A",
+        "explicacion": "El servidor puede solicitar prórroga por hasta 2 años después de alcanzar la edad de jubilación, previa evaluación de desempeño satisfactoria, según el artículo 48 de la Ley 909 de 2004."
+    },
+    {
+        "id": 43,
+        "caso": "Una entidad pública ha sido liquidada y sus servidores de carrera no han sido reubicados.",
+        "enunciado": "¿Qué derecho tienen estos servidores?",
+        "opciones": [
+            "A. Indemnización por terminación de la vinculación por liquidación de la entidad.",
+            "B. Preferencia en concursos de otras entidades del mismo sector o nivel.",
+            "C. Pensión anticipada independientemente de la edad y tiempo de servicio."
+        ],
+        "respuesta_correcta": "B",
+        "explicacion": "Los servidores de carrera de entidades liquidadas tienen preferencia en concursos de otras entidades del mismo sector o nivel, según el artículo 50 de la Ley 909 de 2004."
+    },
+    {
+        "id": 44,
+        "caso": "Un servidor de carrera ha sido sometido a proceso disciplinario y absuelto en primera instancia.",
+        "enunciado": "¿Tiene derecho a reparación económica por el tiempo de suspensión preventiva?",
+        "opciones": [
+            "A. Sí, tiene derecho al pago de salarios caídos durante toda la suspensión preventiva.",
+            "B. No, porque la suspensión preventiva es una medida cautelar legítima.",
+            "C. Solo si se demuestra que la investigación fue arbitraria o maliciosa."
+        ],
+        "respuesta_correcta": "A",
+        "explicacion": "Si el servidor es absuelto, tiene derecho al pago de salarios caídos durante toda la suspensión preventiva, según lo establecido en el artículo 43 de la Ley 909 de 2004 y la jurisprudencia constitucional."
+    },
+    {
+        "id": 45,
+        "caso": "Una entidad pública desea implementar un programa de incentivos por productividad.",
+        "enunciado": "¿Qué requiere para implementar este programa?",
+        "opciones": [
+            "A. Aprobación del Ministerio de Hacienda y Crédito Público para la asignación presupuestal.",
+            "B. Concepto previo favorable del Departamento Administrativo de la Función Pública.",
+            "C. Reglamentación específica mediante decreto del Presidente de la República."
+        ],
+        "respuesta_correcta": "B",
+        "explicacion": "Los programas de incentivos por productividad requieren concepto previo favorable del Departamento Administrativo de la Función Pública, según el artículo 38 de la Ley 909 de 2004."
+    },
+{
+"id": 46,
+"caso": "Un servidor público participa en un concurso para ingreso a carrera administrativa.",
+"enunciado": "¿Cuál es el principio fundamental regulador en estos procesos?",
+"opciones": [
+"A. Igualdad de oportunidades, mérito y transparencia.",
+"B. Exclusividad de acceso para empleados de más de 5 años.",
+"C. Preferencia según antigüedad y pertenencia regional."
+],
+"respuesta_correcta": "A",
+"explicacion": "La Ley 909 de 2004 establece que el acceso se regirá por mérito, igualdad y transparencia para asegurar justicia y competencia."
+},
+{
+"id": 47,
+"caso": "Se evalúa a un servidor por su desempeño para ascenso en carrera administrativa.",
+"enunciado": "¿Qué instrumento es obligatorio para esta evaluación?",
+"opciones": [
+"A. Evaluación del desempeño con parámetros técnicos y objetivos.",
+"B. Autoevaluación sin supervisión externa.",
+"C. Evaluación informal realizada por su jefe inmediato."
+],
+"respuesta_correcta": "A",
+"explicacion": "La normatividad exige evaluación objetiva y sistemática para ascensos, asegurando idoneidad y mérito."
+},
+{
+"id": 48,
+"caso": "Un empleado quiere saber qué ley regula el régimen especial para carrera administrativa.",
+"enunciado": "¿Cuál norma responde a esta consulta?",
+"opciones": [
+"A. Ley 909 de 2004 y sus modificaciones posteriores.",
+"B. Estatuto del trabajador privado sin modificaciones.",
+"C. Normas internas administrativas no legisladas."
+],
+"respuesta_correcta": "A",
+"explicacion": "La Ley 909 de 2004 y leyes complementarias regulan el sistema especial de carrera administrativa."
+},
+{
+"id": 49,
+"caso": "Se presenta un retraso en la publicación de listas de elegibles en un proceso selectivo.",
+"enunciado": "¿Qué entidad regula la publicidad y vigencia de estas listas?",
+"opciones": [
+"A. Comisión Nacional del Servicio Civil (CNSC).",
+"B. Ministerio de Trabajo sin participación directa.",
+"C. Juntas de personal locales exclusivamente."
+],
+"respuesta_correcta": "A",
+"explicacion": "La CNSC es responsable de administrar, actualizar y publicar las listas de elegibles con transparencia."
+},
+{
+"id": 50,
+"caso": "Un funcionario tiene un cargo provisional por orden de la administración.",
+"enunciado": "¿Qué caracterización normativa corresponde a este encargo?",
+"opciones": [
+"A. Nombramiento temporal sin concurso público.",
+"B. Cargo definitivo que requiere concurso abierto.",
+"C. Contratación directa sin limitaciones."
+],
+"respuesta_correcta": "A",
+"explicacion": "Los encargos temporales son nombramientos provisionales regulados para suplir vacantes momentáneas."
+},
+{
+"id": 51,
+"caso": "Un servidor público solicita licencia de estudio durante su periodo laboral.",
+"enunciado": "¿Qué regulación aplica para su trámite?",
+"opciones": [
+"A. Ley 909 de 2004 determinando requisitos y condiciones.",
+"B. Libre disposición sin normas específicas.",
+"C. Regulación exclusiva por convenio colectivo privado."
+],
+"respuesta_correcta": "A",
+"explicacion": "La licencia de estudio es reconocida y regulada dentro del régimen de carrera administrativa según normativa vigente."
+},
+{
+"id": 52,
+"caso": "Se revisan causales para la terminación del servicio en carrera administrativa.",
+"enunciado": "¿Cuál situación es causa justificada de retiro?",
+"opciones": [
+"A. Incapacidad física comprobada y sanciones disciplinarias graves.",
+"B. Retraso ocasional en la entrega de informes.",
+"C. Cambios de horario no notificados."
+],
+"respuesta_correcta": "A",
+"explicacion": "Las causales de retiro están claras en la ley e incluyen incapacidades y faltas disciplinarias graves."
+},
+{
+"id": 53,
+"caso": "Se analizan los efectos del periodo de prueba para un recién nombrado en carrera administrativa.",
+"enunciado": "Según la normativa, ¿qué derecho se garantiza tras superarlo?",
+"opciones": [
+"A. Estabilidad laboral reforzada y reconocimiento como empleado de planta.",
+"B. Contrato temporal con posibilidad de terminación inmediata.",
+"C. Exclusión del sistema de carrera para continuar en el cargo."
+],
+"respuesta_correcta": "A",
+"explicacion": "Superar el periodo de prueba garantiza estabilidad y derechos propios del empleo de planta."
+},
+{
+"id": 54,
+"caso": "Se discuten los requisitos para participar en concursos internos para ascenso.",
+"enunciado": "¿Qué criterio es fundamental según la Ley 909?",
+"opciones": [
+"A. Tener experiencia previa relacionada y cumplimiento satisfactorio del desempeño.",
+"B. Solo antigüedad sin evaluación de desempeño.",
+"C. Asignación directa sin concurso."
+],
+"respuesta_correcta": "A",
+"explicacion": "La ley enfatiza experiencia y evaluación como requisitos para ascensos mediante concurso."
+},
+{
+"id": 55,
+"caso": "Una entidad implementa un sistema de evaluación disciplinaria interna para empleados de carrera administrativa.",
+"enunciado": "¿Qué norma regula este procedimiento?",
+"opciones": [
+"A. Ley 909 de 2004 y su reglamento complementario.",
+"B. Código Civil sin aplicaciones específicas.",
+"C. Código Penal exclusivamente."
+],
+"respuesta_correcta": "A",
+"explicacion": "La Ley 909 regula procedimientos disciplinarios para servidores públicos en carrera administrativa."
+},
+{
+"id": 56,
+"caso": "Un servidor público cambia de dependencia dentro de la administración pública.",
+"enunciado": "¿Qué procedimiento establece la normativa para este traslado?",
+"opciones": [
+"A. Proceso formal de movilidad o traslado con requisitos y registros establecidos.",
+"B. Cambio irrestricto sin autorizaciones ni formalidades.",
+"C. Transferencia automática sin impacto en su carrera."
+],
+"respuesta_correcta": "A",
+"explicacion": "La movilidad en carrera administrativa requiere procesos formales para garantizar derechos y continuidad."
+},
+{
+"id": 57,
+"caso": "Una entidad pública publica un plan anual de vacantes para carrera administrativa.",
+"enunciado": "¿Qué entidad valida y supervisa este plan?",
+"opciones": [
+"A. Comisión Nacional del Servicio Civil (CNSC).",
+"B. Ministerio de Educación.",
+"C. Juntas de acción comunal."
+],
+"respuesta_correcta": "A",
+"explicacion": "La CNSC es la entidad responsable de validar y supervisar planes anuales de vacantes para carrera administrativa."
+},
+{
+"id": 58,
+"caso": "Se revisan las clases de nombramientos que contempla la Ley 909.",
+"enunciado": "¿Cuál es una de las modalidades reconocidas para proveer cargos en carrera administrativa?",
+"opciones": [
+"A. Nombramiento de carrera mediante concurso de méritos.",
+"B. Nombramiento directo sin concurso ni requisitos.",
+"C. Provisión exclusiva por orden presidencial."
+],
+"respuesta_correcta": "A",
+"explicacion": "La norma prioriza el nombramiento mediante concurso público basado en méritos."
+},
+{
+"id": 59,
+"caso": "Una entidad debe garantizar el derecho al debido proceso para empleados públicos en carrera administrativa.",
+"enunciado": "¿Qué establece la normatividad al respecto?",
+"opciones": [
+"A. Derecho a un proceso justo, con audiencia y defensa antes de imponer sanciones.",
+"B. Sanciones de oficio sin posibilidad de defensa.",
+"C. Aplicación inmediata de sanciones sin procedimientos."
+],
+"respuesta_correcta": "A",
+"explicacion": "El derecho al debido proceso es un principio fundamental en la normatividad para servidores públicos."
+},
+{
+"id": 60,
+"caso": "Un servidor público está en periodo de incapacidad médica prolongada.",
+"enunciado": "Según la ley, ¿qué se garantiza durante este período?",
+"opciones": [
+"A. Protección de la estabilidad laboral y mantenimiento del cargo.",
+"B. Suspensión inmediata del nombramiento.",
+"C. Terminación automática del contrato."
+],
+"respuesta_correcta": "A",
+"explicacion": "La ley protege la estabilidad y derechos laborales durante incapacidades médicas legalmente justificadas."
+},
+{
+"id": 61,
+"caso": "Se evalúa la aplicación de sanciones disciplinarias a un empleado.",
+"enunciado": "¿Cuál es el principio rector para estas medidas?",
+"opciones": [
+"A. Gradualidad, proporcionalidad y respeto al debido proceso.",
+"B. Sanciones arbitrarias según criterio del jefe inmediato.",
+"C. Eliminación sin derecho a apelación."
+],
+"respuesta_correcta": "A",
+"explicacion": "La normatividad exige respeto a principios disciplinarios y garantías procesales."
+},
+{
+"id": 62,
+"caso": "Se analiza la naturaleza del empleo temporal en carrera administrativa.",
+"enunciado": "¿Cuál característica lo diferencia de empleos de planta permanente?",
+"opciones": [
+"A. Duración limitada y sujeta a necesidades temporales de la entidad.",
+"B. Igualdad de estabilidad que puestos permanentes.",
+"C. Derechos laborales idénticos a empleos indefinidos."
+],
+"respuesta_correcta": "A",
+"explicacion": "Los empleos temporales son provisionales, para atender necesidades excepcionales o transitorias."
+},
+{
+"id": 63,
+"caso": "Un servidor público en carrera administra participa en un ascenso con concurso interno.",
+"enunciado": "¿Qué requisitos son usualmente exigidos legalmente?",
+"opciones": [
+"A. Desempeño satisfactorio y tiempo mínimo en el cargo actual.",
+"B. Inscripción libre sin requisitos previos.",
+"C. Ascenso directo por antigüedad sin pruebas técnicas."
+],
+"respuesta_correcta": "A",
+"explicacion": "La ley contempla desempeño y tiempo mínimo para garantizar idoneidad en ascensos."
+},
+{
+"id": 64,
+"caso": "Se evalúa la participación en programas de capacitación para servidores públicos en carrera administrativa.",
+"enunciado": "¿Qué rol tiene la capacitación según las normas?",
+"opciones": [
+"A. Fortalecer competencias para el desempeño eficiente y el desarrollo profesional.",
+"B. Es opcional y sin impacto en evaluación.",
+"C. Exclusiva para cargos directivos y gerenciales."
+],
+"respuesta_correcta": "A",
+"explicacion": "La capacitación es un derecho y deber para mejorar desempeño y crecimiento profesional."
+},
+{
+"id": 65,
+"caso": "Un empleado quiere conocer qué tipo de reforma se puede hacer a la planta de personal.",
+"enunciado": "¿Qué norma regula esta materia?",
+"opciones": [
+"A. Reforma prevista en el artículo 46 de la Ley 909 de 2004.",
+"B. Reforma libre sin regulación específica.",
+"C. No está regulado, depende del empleador."
+],
+"respuesta_correcta": "A",
+"explicacion": "La Ley 909 establece mecanismos formales para reformas a planta de personal de entidades públicas."
+},
+{
+"id": 66,
+"caso": "Se estudia la regulación sobre el registro público de carrera administrativa.",
+"enunciado": "¿Cuál es la función principal de este registro?",
+"opciones": [
+"A. Registrar y publicar empleos, nominación y movimientos dentro de la carrera administrativa.",
+"B. Publicar solo empleados de alto rango.",
+"C. Mantener registro interno sin acceso público."
+],
+"respuesta_correcta": "A",
+"explicacion": "Este registro garantiza transparencia y control sobre la provisión y nombramientos en carrera administrativa."
+},
+{
+"id": 67,
+"caso": "Una entidad pública requiere publicar procedimientos de selección y criterios para ascenso.",
+"enunciado": "¿Qué requisito normativo debe cumplir?",
+"opciones": [
+"A. Publicación efectiva, transparente y accesible para todos los interesados.",
+"B. Publicación sólo para empleados internos.",
+"C. No es obligatorio publicar procedimientos."
+],
+"respuesta_correcta": "A",
+"explicacion": "La Ley 909 y normatividad complementaria exigen publicidad y transparencia en procesos de carrera."
+},
+{
+"id": 68,
+"caso": "Se analiza el régimen especial para personal científico y tecnológico en entidades públicas.",
+"enunciado": "¿Qué característica los diferencia normativamente?",
+"opciones": [
+"A. Regímenes especiales con normativas propias adaptadas a sus funciones y carrera.",
+"B. Igual régimen general que resto de servidores sin excepciones.",
+"C. Están excluidos de carrera administrativa."
+],
+"respuesta_correcta": "A",
+"explicacion": "Estos sistemas poseen regulaciones específicas, adaptando carrera a su perfil singulares."
+},
+{
+"id": 69,
+"caso": "Un aspirante busca saber sobre la modalidad de empleo temporal en carrera administrativa.",
+"enunciado": "¿Qué implica esta modalidad?",
+"opciones": [
+"A. Contratación por tiempo limitado para atender necesidades excepcionales o transitorias.",
+"B. Contratación indefinida sin requisitos.",
+"C. Contratación exclusiva mediante concurso abierto."
+],
+"respuesta_correcta": "A",
+"explicacion": "El empleo temporal es para atender necesidades específicas temporales y está regulado como tal."
+},
+{
+"id": 70,
+"caso": "Se evalúa la competencia legal para aplicar sanciones adminstrativas a servidores de carrera.",
+"enunciado": "¿Qué autoridad tiene competencia en esta materia?",
+"opciones": [
+"A. La Comisión Nacional del Servicio Civil en ejercicio de sus funciones legales.",
+"B. Solo la Fiscalía General de la Nación.",
+"C. No existe competencia disciplinaria formal."
+],
+"respuesta_correcta": "A",
+"explicacion": "La CNSC tiene facultades legales para sancionar y regular actuaciones en carrera administrativa."
+}
+
+
+]
